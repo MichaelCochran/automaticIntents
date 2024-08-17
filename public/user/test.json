@@ -1,0 +1,42 @@
+{
+  "pages": [
+    {
+      "id": "page1",
+      "type": "story",
+      "text": "Howdy",
+      "timer": 5
+    },
+    {
+      "id": "someInfo",
+      "type": "options",
+      "text": "You now must choose. Which path do you take?",
+      "options": [
+        {
+          "option": "Left path toward the the ocean",
+          "nextSlideId": "seaPage"
+        },
+        {
+          "option": "Right path into the jungle",
+          "nextSlideId": "junglePage"
+        }
+      ]
+    },
+    {
+      "id": "seaPage",
+      "type": "story",
+      "text": "Seas are fun.",
+      "nextSlideId": "endPage"
+    },
+    {
+      "id": "junglePage",
+      "type": "story",
+      "text": "Jungles are fun.",
+      "nextSlideId": "endPage"
+    },
+    {
+      "id": "endPage",
+      "type": "end",
+      "text": "Do Something"
+    }
+  ]
+}

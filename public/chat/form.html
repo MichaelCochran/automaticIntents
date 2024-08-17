@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Form</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+
+</head>
+<body>
+
+
+
+<form id="fileForm">
+    <label for="fileName">File Name:</label>
+    <input type="text" id="fileName" name="fileName" required><br><br>
+
+    <label for="fileContents">Contents:</label><br>
+    <textarea id="fileContents" name="fileContents" rows="4" cols="50" required></textarea><br><br>
+
+    <button type="button" onclick="createFile()">Create File</button>
+</form>
+
+<script>
+    async function createFile() {
+        const fileName = document.getElementById('fileName').value;
+        const fileContents = document.getElementById('fileContents').value;
+
+        const response = await fetch('/create-file', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ fileName, fileContents }),
+        });
+
+        if (response.ok) {
+            alert("File created successfully!");
+        } else {
+            alert("Error creating file.");
+        }
+        makeUrl();
+    }
+</script>
+
+<div id="note"></div>
+
+
+<!--button onclick="saveFormData()">Save Data</button-->
+<script>
+
+
+</script>
+<script>
+    // Your JavaScript code (loadFormData, saveFormData) goes here
+    async function loadFormData() {
+        // ... (same as provided code, but add the input field creation logic)
+        const response = await fetch('/data');
+        const jsonData = await response.json();
+
+        const form = document.getElementById('jsonForm');
+        jsonData.forEach(item => {
+            const div = document.createElement('div');
+
+            // Example: Create input fields dynamically (adjust as needed)
+            for (const key in item) {
+                const label = document.createElement('label');
+                label.textContent = key + ': ';
+                div.appendChild(label);
+
+                const input = document.createElement('input');
+                input.type = 'text'; // Or other appropriate types
+                input.name = key;
+                input.value = item[key];
+                div.appendChild(input);
+            }
+
+            form.appendChild(div);
+        });
+    }
+
+    async function saveFormData() {
+        const jsonData = [];
+        const form = document.getElementById('jsonForm');
+        const inputs = form.querySelectorAll('input');
+
+        inputs.forEach(input => {
+            jsonData.push({ [input.name]: input.value });
+        });
+
+        // ... (rest of saveFormData function, same as provided code)
+        const response = await fetch('/data', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(jsonData),
+        });
+
+        if (response.ok) {
+            alert("Data saved successfully!");
+        } else {
+            alert("Error saving data.");
+        }
+    }
+
+    loadFormData();
+
+
+
+    function makeUrl() {
+        document.getElementById('note').style.display = "block";
+        console.log("--------d-dd--d-d-", document.getElementById('fileName').value);
+        let fileName = document.getElementById('fileName').value;
+        let url = "/user/" + fileName;
+        console.log(fileName, '---', url);
+
+        const note = document.getElementById("note");
+        note.innerHTML = `<div><a href="#" onclick="loadDeck('${url}'); return false;">${url}</a></div>`;
+    }
+</script>
+</body>
+</html>
