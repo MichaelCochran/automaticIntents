@@ -3,8 +3,8 @@
     {
       "id": "page1",
       "type": "story",
-      "text": "Howdy",
-      "timer": 5
+      "text": "Howdy Dude",
+      "timer": 2
     },
     {
       "id": "someInfo",
@@ -24,13 +24,13 @@
     {
       "id": "seaPage",
       "type": "story",
-      "text": "Good choice. Seas are fun.",
+      "text": "Seas are fun.",
       "timer": 3
     },
     {
       "id": "junglePage",
       "type": "story",
-      "text": "Good choice. Jungles are fun.",
+      "text": "Jungles are fun.",
       "timer": 3
     },
     {

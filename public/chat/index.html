@@ -176,6 +176,7 @@
         }
         async function getFile(event) {
              let fileName = document.getElementById('fileName').value;
+             console.log(fileName)
             fileName = (fileName  === "example.json") ?  "/chat/"+fileName : "/user/"+fileName;
 ""
             if (fileName) {

@@ -3,12 +3,10 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import fs from 'fs';
 // importing modules for each API example
-//import speak from "./src/modules/tts.js";
-//import listen from "./src/modules/stt.js";
 import runConversation from "./src/modules/functions.js";
 
 // Setting up local environment
-const port = 3001;
+const port = 3000;
 const host = 'localhost';
 
 // Setting up middleware
