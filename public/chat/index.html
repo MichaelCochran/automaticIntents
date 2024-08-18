@@ -11,7 +11,7 @@
           rel="stylesheet">
 </head>
 <body class="nolisten">
-<div id="main" style="width:700px">
+<div id="main" >
 
     <header>
         <span class="header-text"><a id='egg' style="text-decoration: none;text-decoration:none" href="#">Demo</a>: Automatic Intents</span>
@@ -41,7 +41,7 @@
         <div></div>
         <div>
             <div class="right-bubble" model="Gemma">
-                <textarea id="input-text" class="output" placeholder=""></textarea>
+                <textarea id="input-text" class="output" placeholder="" ></textarea>
             </div>
             <!--<button id="send-button">Send</button> -->
         </div>
@@ -60,11 +60,13 @@
             <span class="close-button">&times;</span>
             <h2>Try It </h2>
             <p>Create/Edit JSON</p>
-            <form id="fileForm">
+            <form id="fileForm" style="max-width: 500px">
                 <label for="fileName">File Name:</label>
-                <input type="text" id="fileName" name="fileName" required><br><br>
+                <input type="text" id="fileName" name="fileName" value="example.json" required>
+                <button id="fetch-button" class="optional-button">fetch</button><br><br>
 
-                <label for="fileContents">Contents:</label><br>
+      <label for="fileContents">Contents:</label>  <br>
+                <br>
                 <textarea id="fileContents" name="fileContents" rows="4" cols="50" required></textarea><br><br>
 <div id="note"></div>
                 <button type="button" onclick="createFile()">Create File</button>
@@ -118,6 +120,9 @@
         function setListeners() {
             const infoButton = document.getElementById('info-button');
             const settingsButton = document.getElementById('settings-button');
+            const fetchButton = document.getElementById('fetch-button');
+            fetchButton.addEventListener('click', () => getFile());
+
 
             const modal = document.getElementById('dialog');
             const settingsModal = document.getElementById('dialog1');
@@ -169,6 +174,22 @@
                 event.target.closest('.modal').style.display = 'none';
             }
         }
+        async function getFile(event) {
+             let fileName = document.getElementById('fileName').value;
+            fileName = (fileName  === "example.json") ?  "/chat/"+fileName : "/user/"+fileName;
+""
+            if (fileName) {
+          //  const response = await fetch(fileName);
+                const response = await fetch(fileName, {
+                    method: 'GET',
+                    headers: {'Content-Type': 'application/json'}// Stringify for sending
+                });
+
+            const fileData = await response.json();
+                const formattedJson = JSON.stringify(fileData, null, 2); // 2 spaces for indentation
+                document.getElementById("fileContents").value = formattedJson;
+            }
+        }
      //   const closeModalEvent = new CustomEvent('closeModal');
 
        function runUserDemo(fileName) {
@@ -204,7 +225,7 @@
             deckData = null;
             optionData = [];
 
-            const response = await fetch(storyLink);clearDebug();
+            const response = await fetch(storyLink); clearDebug();
             deckData = await response.json();
             document.getElementById("content").innerHTML = "<div>" + JSON.stringify(deckData) + "</div>"
             displayPage(currentSlideIndex); // Use index directly

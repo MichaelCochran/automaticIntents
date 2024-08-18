@@ -8,7 +8,7 @@ import fs from 'fs';
 import runConversation from "./src/modules/functions.js";
 
 // Setting up local environment
-const port = 3000;
+const port = 3001;
 const host = 'localhost';
 
 // Setting up middleware
@@ -52,8 +52,25 @@ app.post('/create-file', (req, res) => {
     });
 });
 
+//Reads files from /user/<fileName>
+app.get('/file', (req, res) => {
+    const fileName = req.query.fileName;
+    const filePath = path.join('/user', fileName);
 
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            if (err.code === 'ENOENT') { // Check for "File not found" error
+                res.send('missing');
+            } else {
+                console.error(`Error reading file: ${err}`);
+                res.status(500).send('Internal Server Error');
+            }
+            return;
+        }
 
+        res.send(data);
+    });
+});
 
 
 // Using LLM's APIs to create and run intents

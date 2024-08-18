@@ -49,6 +49,16 @@ header {
     font-size: 18px;
 }
 
+#fileContents {
+    max-width: 95%;
+    min-width:500px;
+    min-height:300px;
+    font-size: 11px;
+    white-space: pre;
+    font-family: monospace; /* Use a monospace font for better alignment */
+
+
+}
 #listen-button .symbol {
     background: linear-gradient(to bottom, #ffd, #fff);
     -webkit-background-clip: text;
@@ -456,7 +466,7 @@ body {
 }
 
 #send-button {margin:6px;}
-
+#template {float:right;}
 .switch {
     position: relative;
     display: inline-block;
@@ -507,6 +517,23 @@ input:checked + .slider:before {
     transform: translateX(26px); /* Move thumb to the right on checked */
 }
 
+.optional-button {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+    border: none;
+    padding: 5px 10px; /* Smaller padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px; /* Slightly smaller font */
+    border-radius: 3px; /* Even more subtle rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.optional-button:hover {
+    background-color: #e0e0e0; /* Slightly darker gray on hover */
+}
 
 #log, #sent {padding: 4px;
     background-color: #ddd;
