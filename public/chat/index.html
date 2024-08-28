@@ -58,7 +58,7 @@
     <div id="dialog2" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <h2>Try It </h2>
+            <h2>Try It: Build a Chat</h2>
             <p>Create/Edit JSON</p>
             <form id="fileForm" style="max-width: 500px">
                 <label for="fileName">File Name:</label>
@@ -118,31 +118,26 @@
 
         // Setup : listeners for buttons & dialogs
         function setListeners() {
-            const infoButton = document.getElementById('info-button');
-            const settingsButton = document.getElementById('settings-button');
-            const fetchButton = document.getElementById('fetch-button');
-            fetchButton.addEventListener('click', () => getFile());
+            //function attachEventListeners() {
+
+
+                document.getElementById('info-button').addEventListener('click', () => showModal('dialog2'));
+                document.getElementById('settings-button').addEventListener('click', () => showModal('dialog1'));
+                document.getElementById('fetch-button').addEventListener('click', getFile);
+                document.getElementById('egg').addEventListener('click', () => showModal('dialog2'));
+                document.querySelectorAll('.close-button').forEach(button => button.addEventListener('click', closeModal));
+                document.getElementById("model").addEventListener("change", handleModelChange);
+                document.getElementById("toggle").addEventListener('change', handleToggleChange);
+                document.getElementById('input-text').addEventListener('keydown', handleInputKeyDown);
+
+          //  fetchButton.addEventListener('click', () => getFile());
 
 
             const modal = document.getElementById('dialog');
-            const settingsModal = document.getElementById('dialog1');
-            const closeButtons = document.querySelectorAll('.close-button');
-            //assignListener();
 
             document.getElementById("model").value = "gpt-3.5-turbo-1106";
-
             document.getElementById('log').style.display = "none"
             document.getElementById('sent').style.display = "none"
-           //infoButton.addEventListener('click', () => showModal('dialog'));
-            infoButton.addEventListener('click', () => showModal('dialog2'));
-
-            settingsButton.addEventListener('click', () => showModal('dialog1'));
-            closeButtons.forEach(button => button.addEventListener('click', closeModal));
-            const eggLink = document.getElementById('egg');
-            eggLink.addEventListener('click', () => showModal('dialog2'));
-            modal.addEventListener('click', closeModal);
-            settingsModal.addEventListener('click', closeModal);
-
             const toggleSwitch = document.getElementById("toggle");
             const slider = document.querySelector('.slider');
 
@@ -178,7 +173,6 @@
              let fileName = document.getElementById('fileName').value;
              console.log(fileName)
             fileName = (fileName  === "example.json") ?  "/chat/"+fileName : "/user/"+fileName;
-""
             if (fileName) {
           //  const response = await fetch(fileName);
                 const response = await fetch(fileName, {
@@ -299,8 +293,8 @@
         textField.addEventListener('keydown', (event) => {
             if (event.key === 'Enter') {
                 event.preventDefault(); // Prevent default form submission if in a form
-                let example = getActiveButtonText() || null
-                handleSend(example);  // Call the common handler function
+                //let example = getActiveButtonText() || null
+                handleSend();  // Call the common handler function
             }
         });
 
@@ -438,7 +432,7 @@
                 "phone": "(626) 555-1122",
                 "doctors": [
                     {"name": "Dr. Emily Carter", "specialty": "Oncologist"},
-                    {"name": "Dr. Daniel Kim", "specialty": "Hematologist-Oncologist"},
+                    {"name": "Dr. Daniel Kim", "specialty": "Hematologist"},
                     {"name": "Dr. Freda Oncol", "specialty": "Oncologist"},
                     {"name": "Dr. Valentina Adami", "specialty": "Oncologist"},
 
