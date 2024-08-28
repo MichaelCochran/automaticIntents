@@ -82,7 +82,7 @@ async function runConversation(userInput, optionData, model) {
         some.push(createOption(opt.nextSlideId, opt.option, opt.slot)); //,paramater))
 
     });
-    console.log("9=9==", some);
+    console.log("---", some);
     //
     const tools = some;
 
@@ -93,7 +93,9 @@ async function runConversation(userInput, optionData, model) {
     const messages = [
         {
             role: "system",
-            content: `You are a conversation engine.Matching of the user prompt to the details variable in the functions. Look for the best match.  Even if there isn't an exact match, select the function with the highest degree of  similarity or sentiment. Consider both the sentiment first, then literal words used and  synoyms and partial matches. Examples: A:'I like coffee' B:I am going to the cafe. 'I like coffee with cream' ,'java','latte' all match A. 'place to eat', 'I\'m going to lunch' match B.`
+            //content: `You are a classifier with concepts.Matching of the user prompt to the details variable in the functions. Look for the best match.  Select the function with the highest degree of  similarity or sentiment. Consider both the sentiment first, then literal words used and  synoyms and partial matches.If there are no matches and there is a function called fallback, use that. Examples: A:'I like coffee' B:I am going to the cafe. 'I like coffee with cream' ,'java','latte' all match A. 'place to eat', 'I\'m going to lunch' match B.`
+
+           content: `You are a conversation engine.Matching of the user prompt to the details variable in the functions. Look for the best match.  Even if there isn't an exact match, select the function with the highest degree of  similarity or sentiment. Consider both the sentiment first, then literal words used and  synoyms and partial matches. Examples: A:'I like coffee' B:I am going to the cafe. 'I like coffee with cream' ,'java','latte' all match A. 'place to eat', 'I\'m going to lunch' match B.`
         },
         {role: "user", content: `"${userInput}"`},
     ];
