@@ -3,38 +3,10 @@
     {
       "id": "page1",
       "type": "story",
-      "text": "Welcome to a thrilling adventure!  You find yourself walking in when the path breaks into two",
+      "text": "You are in a forest and stumble across a monster.",
       "timer": 5
     },
-    {
-      "id": "page3",
-      "type": "options",
-      "text": "You now must choose. Which path do you take?",
-      "options": [
-        {
-          "option": "Left path toward the the ocean",
-          "nextSlideId": "page4"
-        },
-        {
-          "option": "Right path into the jungle",
-          "nextSlideId": "page5"
-        }
-      ]
-    },
-    {
-      "id": "page4",
-      "type": "story",
-      "text": "Theres a storm brewing over the ocean. Go home and be safe",
-      "nextSlideId": "page20",
-      "timer": 4
-    },
-    {
-      "id": "page5",
-      "type": "story",
-      "text": "You enter a jungle and see a mysterious monster!",
-      "nextSlideId": "page6",
-      "timer": 3
-    },
+
     {
       "id": "page6",
       "type": "options",
@@ -49,15 +21,13 @@
           "option": "I hug him",
           "nextSlideId": "page8"
         }
-      ]
-    },
+    ]},
     {
       "id": "page7",
       "type": "story",
       "text": "Well. The monster wins the fight and now you limp",
       "nextSlideId": "page20",
       "timer": 4
-
     },
     {
       "id": "page8",

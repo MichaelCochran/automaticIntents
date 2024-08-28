@@ -1,0 +1,167 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+</head>
+<body class="nolisten">
+<div id="main" >
+
+    <header>
+        <span class="header-text"><a id='egg' style="text-decoration: none;text-decoration:none" href="#">Demo</a>: Automatic Intents</span>
+        <div class="button-group">
+            <button class="example" id="option1">Interactive Story</button>
+            <button class="example" id="option2">Chat Bot</button>
+            <div id="info-button" title="info" alt="info" class="circle-button">
+                <span class="symbol">i</span>
+            </div>
+            <div id="settings-button" title="settings" alt="settings" class="circle-button">
+                <span class="symbol">⚙</span>
+            </div>
+            <div id="listen-button" title="listen" alt="listen" class="circle-button">
+                <span class="symbol">🎤</span>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <h2 class="demo-intro">Let me tell you a story..</h2>
+
+    <div class="section">
+        <div class="left-bubble" model="gpt3.5-turbo">
+            <div id="content">
+            </div>
+        </div>
+        <div></div>
+        <div>
+            <div class="right-bubble" model="Gemma">
+                <textarea id="input-text" class="output" placeholder="" ></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Demo: Automatic Intents </h2>
+        <p>Making lessons and bots dead simple. Create a JSON template file. Contact lesliedpound@gmail.com</p>
+    </div>
+</div>
+
+    <div id="dialog2" class="modal">
+    </div>
+
+    <div id="dialog1" class="modal">
+    </div>
+
+    <div id="sent">
+    </div>
+    <div id="log">
+
+    </div>
+
+
+    <script>
+
+        function addModelName(modelID, terms) {
+            const element = document.getElementById(modelID);
+            const dynamicContent = terms;
+            element.style.setProperty("--content", `"${dynamicContent}"`);
+        }
+
+        // **Event Listeners and Handlers**
+        function attachEventListeners() {
+            document.getElementById('info-button').addEventListener('click', () => showModal('dialog2'));
+            document.getElementById('settings-button').addEventListener('click', () => showModal('dialog1'));
+            document.getElementById('fetch-button').addEventListener('click', getFile);
+            document.getElementById('egg').addEventListener('click', () => showModal('dialog2'));
+            document.querySelectorAll('.close-button').forEach(button => button.addEventListener('click', closeModal));
+            document.getElementById("model").addEventListener("change", handleModelChange);
+            document.getElementById("toggle").addEventListener('change', handleToggleChange);
+            document.getElementById('input-text').addEventListener('keydown', handleInputKeyDown);
+
+            // ... other event listeners (if any)
+
+            // Existing button event listeners
+            const interactiveStoryButton = document.getElementById('option1');
+            const chatBotButton = document.getElementById('option2');
+
+            interactiveStoryButton.addEventListener('click', () => {
+                loadDeck('/stories/monsterExample/story.json');
+                document.getElementById('option2').classList.remove("active");
+                document.getElementById('option1').classList.add("active");
+            });
+
+            chatBotButton.addEventListener('click', () => {
+                loadDeck('/stories/medicalExample/story.json');
+                document.getElementById('option1').classList.remove("active");
+                document.getElementById('option2').classList.add("active");
+            });
+        }
+
+        function handleModelChange(event) {
+            const terms = `${event.target.value}`
+            const label = terms.slice(0, 10);
+            addModelName("content", label)
+            addModelName("input-text", label)
+        }
+
+        function handleToggleChange() {
+            if (this.checked) {
+                document.getElementById('toggle').classList.add("on")
+                document.getElementById('log').style.display = "block"
+                document.getElementById('sent').style.display = "block"
+            } else {
+                document.getElementById('toggle').classList.remove("on")
+                document.getElementById('log').style.display = "none"
+                document.getElementById('sent').style.display = "none"
+            }
+        }
+
+        function handleInputKeyDown(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                handleSend();
+            }
+        }
+
+        // **Modal Functions**
+        function showModal(modalId) {
+            document.getElementById(modalId).style.display = 'block';
+        }
+
+        function closeModal(event) {
+            if (event.target.classList.contains('close-button') || event.target.classList.contains('modal')) {
+                event.target.closest('.modal').style.display = 'none';
+            }
+        }
+
+        // ... (rest of the script - getFile, loadDeck, etc.)
+
+        // **Initialization**
+        document.addEventListener("DOMContentLoaded", function () {
+            // ... (your existing DOMContentLoaded logic)
+
+            attachEventListeners(); // Attach event listeners after the DOM is fully loaded
+
+            document.getElementById("model").value = "gpt-3.5-turbo-1106";
+            document.getElementById('log').style.display = "none"
+            document.getElementById('sent').style.display = "none"
+
+            const interactiveStoryButton = document.getElementById('option1');
+            const chatBotButton = document.getElementById('option2');
+            interactiveStoryButton.classList.remove("active");
+            chatBotButton.classList.remove("active");
+        });
+    </script>
+    <script src="/js/voice.js"></script>
+</div>
+</body>
+
+</html>
