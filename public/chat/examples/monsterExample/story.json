@@ -1,0 +1,140 @@
+{
+  "pages": [
+    {
+      "id": "startPage",
+      "type": "story",
+      "text": "You are in a forest and stumble across a monster.",
+      "timer": 3
+    },
+    {
+      "id": "nowWhatPage",
+      "type": "options",
+      "text": "What do you do now?",
+      "options": [
+        {
+          "option": "I fight him",
+          "extra": "We wrestle",
+          "nextSlideId": "fightPage"
+        },
+        {
+          "option": "I hug him",
+          "extra": "We dance",
+          "nextSlideId": "lovePage"
+        }
+      ]
+    },
+    {
+      "id": "fightPage",
+      "type": "story",
+      "text": "Well. The monster wins the fight and now you limp",
+      "nextSlideId": "ending",
+      "timer": 4
+    },
+    {
+      "id": "lovePage",
+      "type": "story",
+      "text": "The monster likes affection and now follows you everywhere",
+      "nextSlideId": "ohNoPage",
+      "background": "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlubzA3emg3N3NhdmhyeTl0dXpxaGxrZjF2eXJ5eXI1dnMyMWR5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5hJ9A93k6F4fG2YQBJ/giphy.gif",
+      "timer": 4
+    },
+    {
+      "id": "ohNoPage",
+      "text": "This monster even cries when you are not around. How can you solve this predicament? ",
+      "type": "options",
+      "background": "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2c5aWJiZ3V5emkyeTUyMWdrN3FkOXF1dXlzMGplNm02YnZiejh2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/eqAKSVaWCActQPlRlU/giphy.gif",
+      "options": [
+        {
+          "option": "Send him to school",
+          "slot": "school",
+          "nextSlideId": "schoolPage"
+        },
+        {
+          "option": "Predicament? nah. We go to disneyland",
+          "nextSlideId": "amusementPage"
+        },
+        {
+          "option": "I take him to see Dr. Phil",
+          "nextSlideId": "mentalIssues"
+        },
+        {
+          "option": "I make a dating profile for Fred. That's my monster.",
+          "nextSlideId": "romancePage"
+        },
+        {
+          "option": "I call ghost busters",
+          "nextSlideId": "Buster"
+        }
+      ]
+    },
+    {
+      "id": "Buster",
+      "type": "story",
+      "text": "The Ghostbusters are able to monsters as well as ghosts. They make your monster sleep and you escape",
+      "nextSlideId": "ending",
+      "timer": 6
+    },
+    {
+      "id": "amusementPage",
+      "text": "We met Mickey Mouse. Now Fred the monster follows   Mickey everywhere",
+      "type": "end"
+    },
+    {
+      "id": "fallbackPage",
+      "text": "That doesn't seem to fit the options.",
+      "type": "end"
+    },
+    {
+      "id": "schoolPage",
+      "type": "story",
+      "text": "The monster gets a degree and finds someone smarter than you",
+      "nextSlideId": "ending",
+      "slot": "school",
+      "timer": 7
+    },
+    {
+      "id": "mentalIssues",
+      "type": "story",
+      "text": "Dr. Phil confronts the monster and helps him build monster esteem",
+      "nextSlideId": "ending",
+      "timer": 7
+    },
+    {
+      "id": "romancePage",
+      "type": "options",
+      "text": "Fred, the monster, finds love and moves away. Where should the new couple live?",
+      "options": [
+        {
+          "option": "Another Planet",
+          "slot": "planet",
+          "nextSlideId": "planetPage"
+        },
+        {
+          "option": "Europe",
+          "slot": "location",
+          "nextSlideId": "locationPage"
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "text": "the end",
+      "type": "end"
+    },
+    {
+      "id": "planetPage",
+      "text": "Cosmos has Billions and Billions",
+      "type": "end"
+    },
+    {
+      "id": "locationPage",
+      "text": "Go to the nations",
+      "type": "end"
+    },
+    {
+      "id": "page21",
+      "text": "He got a degree and found somebody smarter",
+      "type": "end"
+    }
+  ]
+}

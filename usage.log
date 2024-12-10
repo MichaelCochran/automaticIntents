@@ -1,0 +1,1300 @@
+[2024-12-05T19:37:45.647Z] Prompt:I hug him
+[2024-12-05T19:37:45.647Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T19:37:45.647Z] Options:[object Object],[object Object]
+[2024-12-05T19:37:45.660Z] Result:undefined
+[2024-12-05T19:40:15.045Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T19:40:15.046Z] Prompt:I hug him
+[2024-12-05T19:40:15.046Z] Options:[object Object],[object Object]
+[2024-12-05T19:40:15.054Z] Result:undefined
+[2024-12-05T19:50:56.786Z] Prompt:I embrace him
+[2024-12-05T19:50:56.786Z] Options:[object Object],[object Object]
+[2024-12-05T19:50:56.785Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T19:50:57.723Z] Result:{"id":"call_96ftIulkfvpjmNRy71UXCqC1","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"I embrace him\"}"}}
+[2024-12-05T19:51:16.532Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T19:51:16.532Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-05T19:51:16.532Z] Prompt:We go on eharmony
+[2024-12-05T19:51:17.258Z] Result:{"id":"call_fDFvNRNNwJqkOYe4m5Dgfqs5","type":"function","function":{"name":"romancePage","arguments":"{\"details\":\"We go on eharmony\"}"}}
+[2024-12-05T19:57:14.110Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T19:57:14.113Z] Prompt:milky way
+[2024-12-05T19:57:14.114Z] Options:[object Object],[object Object]
+[2024-12-05T19:57:15.254Z] Result:{"id":"call_cQaqd0VQQgju3nX2wJoDCMRE","type":"function","function":{"name":"planetPage","arguments":"{\"details\": \"milky way\", \"slot\": \"planet\"}"}}
+[2024-12-05T19:57:35.187Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T19:57:35.188Z] Prompt:tell me about olivia
+[2024-12-05T19:57:35.188Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-05T19:57:36.132Z] Result:{"id":"call_hVgJpFJF9unwsN5iaKix6fuk","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"Tell me about Olivia\", \"slot\": \"Olivia\"}"}}
+[2024-12-05T19:57:46.022Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T19:57:46.022Z] Prompt:what is daniel phone number
+[2024-12-05T19:57:46.022Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-05T19:57:46.844Z] Result:{"id":"call_kMcDjvG4GXc9qtrJsqCJGt5y","type":"function","function":{"name":"phonePage","arguments":"{\"details\": \"phone number\", \"slot\": \"daniel\"}"}}
+[2024-12-05T20:09:52.354Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T20:09:52.355Z] Prompt:klj
+[2024-12-05T20:09:52.355Z] Options:
+[2024-12-05T20:09:52.713Z] Result:undefined
+[2024-12-05T20:11:00.584Z] Prompt:I dance with the monster
+[2024-12-05T20:11:00.584Z] Options:[object Object],[object Object]
+[2024-12-05T20:11:00.583Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T20:11:01.435Z] Result:{"id":"call_Fzw5klq3DLGAueGCObgauKfK","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"I dance with the monster\"}"}}
+[2024-12-05T20:11:12.453Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T20:11:12.453Z] Prompt:embrace monster
+[2024-12-05T20:11:12.453Z] Options:[object Object],[object Object]
+[2024-12-05T20:11:13.739Z] Result:{"id":"call_RrRfMDDvpezAhO8bsAdfhLYc","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"embrace monster\"}"}}
+[2024-12-05T20:11:28.626Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T20:11:28.626Z] Prompt:I take him to therapy
+[2024-12-05T20:11:28.626Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-05T20:11:29.517Z] Result:{"id":"call_cpNdzmxGvlI0KAjUL6KQjXT1","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\": \"I take him to therapy\"}"}}
+[2024-12-05T21:05:45.112Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T21:05:45.113Z] Prompt:I tackle him
+[2024-12-05T21:05:45.114Z] Options:[object Object],[object Object]
+[2024-12-05T21:05:45.978Z] Result:{"id":"call_N9Y5XJfYSOlcaYCJ4HJUeWzO","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"I tackle him\"}"}}
+[2024-12-05T21:33:03.101Z] Model:gpt-3.5-turbo-1106
+[2024-12-05T21:33:03.102Z] Prompt:pink
+[2024-12-05T21:33:03.102Z] Options:[object Object],[object Object]
+[2024-12-05T21:33:04.057Z] Result:{"id":"call_oRVK2LxOGJN7P7h4m2yIW6R4","type":"function","function":{"name":"pinkPage","arguments":"{\"details\": \"pink\"}"}}
+[2024-12-06T01:44:11.530Z] Prompt:I hug him
+[2024-12-06T01:44:11.529Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T01:44:11.531Z] Options:[object Object],[object Object]
+[2024-12-06T01:44:12.785Z] Result:{"id":"call_QGyBV5MMop32MpTlfej4gSR5","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"I hug him\"}"}}
+[2024-12-06T01:44:40.744Z] Prompt:I hug him
+[2024-12-06T01:44:40.744Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T01:44:40.744Z] Options:[object Object],[object Object]
+[2024-12-06T01:44:41.516Z] Result:{"id":"call_7Q89r82kjrbYh0dO7tKLtjal","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"I hug him\"}"}}
+[2024-12-06T01:44:53.397Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T01:44:53.397Z] Prompt:
+[2024-12-06T01:44:53.397Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T01:44:54.083Z] Result:undefined
+[2024-12-06T01:46:18.622Z] Prompt:I embrace him
+[2024-12-06T01:46:18.622Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T01:46:18.622Z] Options:[object Object],[object Object]
+[2024-12-06T01:46:19.719Z] Result:{"id":"call_qMe4B62Sl3a4GiMhrEH6T3Od","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"I embrace him\"}"}}
+[2024-12-06T01:46:31.561Z] Options:[object Object],[object Object]
+[2024-12-06T01:46:31.561Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T01:46:31.561Z] Prompt:I hug him
+[2024-12-06T01:46:32.333Z] Result:{"id":"call_CBWwdljjc2veajCjBMp9dlsd","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"I hug him\"}"}}
+[2024-12-06T01:46:42.087Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T01:46:42.088Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T01:46:42.088Z] Prompt:we go to therapy
+[2024-12-06T01:46:42.959Z] Result:{"id":"call_l0W0KnjHRGVZhheNT4eB3VTK","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\": \"we go to therapy\"}"}}
+[2024-12-06T01:47:07.492Z] Prompt:tell me about Dr Olivia
+[2024-12-06T01:47:07.491Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T01:47:07.492Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T01:47:08.367Z] Result:{"id":"call_KYqAyhKIPlOWpQXMqHMkz6xw","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"Dr Olivia\"}"}}
+[2024-12-06T02:52:37.178Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T02:52:37.186Z] Prompt:tell me about doctor olivia
+[2024-12-06T02:52:37.186Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T02:52:38.320Z] Result:{"id":"call_zX4JHmWC0Zy5tpEWpz6RQtyC","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"about doctor olivia\", \"slot\": \"olivia\"}"}}
+[2024-12-06T02:58:59.450Z] Prompt:tell me about olivia
+[2024-12-06T02:58:59.450Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T02:58:59.451Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T02:59:00.312Z] Result:{"id":"call_5EhFuDNPPCn03Mn3vPSKpkU1","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"\", \"slot\": \"Olivia\"}"}}
+[2024-12-06T05:00:15.181Z] Prompt:tell me about olivia
+[2024-12-06T05:00:15.177Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T05:00:15.182Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T05:00:16.206Z] Result:{"id":"call_0BjPPdmRBsEYc9MHS8EJyqzQ","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"Tell me about Olivia\", \"slot\": \"Olivia\"}"}}
+[2024-12-06T05:50:32.659Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T05:50:32.659Z] Prompt:tell me about oncology
+[2024-12-06T05:50:32.660Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T05:50:33.435Z] Result:{"id":"call_UALzXB1nVm47Mf4bLvu6EQUn","type":"function","function":{"name":"locationPage","arguments":"{\"details\":\"oncology\",\"slot\":\"oncology\"}"}}
+[2024-12-06T06:01:00.357Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T06:01:00.358Z] Prompt:who works in oncology
+[2024-12-06T06:01:00.358Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T06:01:01.150Z] Result:{"id":"call_zJ2emFcXgrU55CgPHShhap1Q","type":"function","function":{"name":"departmentPage","arguments":"{\"details\": \"Who works in this medical department\", \"slot\": \"oncology\"}"}}
+[2024-12-06T18:11:33.800Z] Prompt:tell me about olivia
+[2024-12-06T18:11:33.799Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T18:11:33.800Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T18:11:37.441Z] Result:{"id":"call_hJhTRApIQfasrlNg3z1KAgpI","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"Tell me about Olivia\", \"slot\": \"Olivia\"}"}}
+[2024-12-06T18:13:35.230Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T18:13:35.230Z] Prompt:olivia
+[2024-12-06T18:13:35.231Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T18:13:36.947Z] Result:{"id":"call_kOt3vfILiU3kSc8wHCGnqL0K","type":"function","function":{"name":"phonePage","arguments":"{\"details\": \"What is the phone number for this doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-06T18:14:21.206Z] Prompt:olivia
+[2024-12-06T18:14:21.205Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T18:14:21.206Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T18:14:22.179Z] Result:{"id":"call_Tbxec3IJPal7MuF5RhB8ehut","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-06T18:16:36.198Z] Prompt:olivia
+[2024-12-06T18:16:36.197Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T18:16:36.198Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T18:16:37.518Z] Result:{"id":"call_4ybSaRRhPCG2MQxK6mOLuDES","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-06T18:16:46.410Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T18:16:46.411Z] Prompt:phone for daniel
+[2024-12-06T18:16:46.418Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T18:16:47.313Z] Result:{"id":"call_CPzbQCX5CoA9IAZy5cwU9Afj","type":"function","function":{"name":"phonePage","arguments":"{\"details\": \"phone for daniel\", \"slot\": \"daniel\"}"}}
+[2024-12-06T18:16:58.336Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T18:16:58.336Z] Prompt:who is in oncology
+[2024-12-06T18:16:58.336Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T18:16:58.960Z] Result:{"id":"call_JS8NuIYE8JVFUqOR8myy8kGj","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"oncology\",\"slot\":\"oncology\"}"}}
+[2024-12-06T18:24:22.953Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T18:24:22.954Z] Prompt:I embrace him
+[2024-12-06T18:24:22.954Z] Options:[object Object],[object Object]
+[2024-12-06T18:24:23.808Z] Result:{"id":"call_fvmlKpnFl38NWH6Q9YTsDaSK","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"I embrace him\"}"}}
+[2024-12-06T21:53:47.938Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T21:53:47.940Z] Prompt:I hug him
+[2024-12-06T21:53:47.940Z] Options:[object Object],[object Object]
+[2024-12-06T21:53:48.799Z] Result:{"id":"call_JdYUtuh7F9mqmJu3sRsDQExw","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"I hug him\"}"}}
+[2024-12-06T21:53:56.059Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T21:53:56.059Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T21:53:56.059Z] Prompt:we go to Caltech
+[2024-12-06T21:53:57.069Z] Result:{"id":"call_rNvsLQI6SGE8xrDNhVMu6wWS","type":"function","function":{"name":"schoolPage","arguments":"{\"details\": \"we go to Caltech\", \"slot\": \"Caltech\"}"}}
+[2024-12-06T21:54:09.647Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T21:54:09.648Z] Prompt:tell me about Olivia
+[2024-12-06T21:54:09.648Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T21:54:10.562Z] Result:{"id":"call_t0hmC8tfa9ggxvcVhSVL4qzl","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"Olivia\", \"slot\": \"Olivia\"}"}}
+[2024-12-06T21:54:15.964Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T21:54:15.964Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T21:54:15.964Z] Prompt:what's Daniel's phone number
+[2024-12-06T21:54:16.929Z] Result:{"id":"call_V9CtyjOqgg1NP0OWZJjPjtgI","type":"function","function":{"name":"phonePage","arguments":"{\"details\": \"phone number\", \"slot\": \"Daniel\"}"}}
+[2024-12-06T21:54:30.136Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T21:54:30.136Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T21:54:30.136Z] Prompt:
+[2024-12-06T21:54:30.764Z] Result:undefined
+[2024-12-06T21:57:35.789Z] Model:llama3-70b-8192
+[2024-12-06T21:57:35.791Z] Prompt:I danced with him
+[2024-12-06T21:57:35.791Z] Options:[object Object],[object Object]
+[2024-12-06T21:57:36.754Z] Result:{"id":"call_jzp2","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I danced with him\"}"}}
+[2024-12-06T21:57:51.398Z] Model:llama3-70b-8192
+[2024-12-06T21:57:51.398Z] Prompt:I kiss him
+[2024-12-06T21:57:51.398Z] Options:[object Object],[object Object]
+[2024-12-06T21:57:51.880Z] Result:{"id":"call_esqt","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I kiss him\"}"}}
+[2024-12-06T21:58:18.469Z] Model:llama3-70b-8192
+[2024-12-06T21:58:18.469Z] Prompt:
+[2024-12-06T21:58:18.469Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T21:58:19.114Z] Result:{"id":"call_hxnb","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"\",\"slot\":\"\"}"}}
+[2024-12-06T21:58:34.382Z] Model:llama3-70b-8192
+[2024-12-06T21:58:34.383Z] Prompt:show me Olivia
+[2024-12-06T21:58:34.383Z] Options:
+[2024-12-06T21:58:36.217Z] Result:undefined
+[2024-12-06T21:58:41.774Z] Prompt:show me Olivia
+[2024-12-06T21:58:41.774Z] Model:llama3-70b-8192
+[2024-12-06T21:58:41.774Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T21:58:42.589Z] Result:{"id":"call_qmq0","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"show me Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-06T21:58:47.851Z] Model:llama3-70b-8192
+[2024-12-06T21:58:47.851Z] Prompt:tell me about Daniel
+[2024-12-06T21:58:47.851Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T21:58:48.600Z] Result:{"id":"call_zs9h","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-06T21:58:55.963Z] Model:llama3-70b-8192
+[2024-12-06T21:58:55.964Z] Prompt:get me the docs for the oncology department
+[2024-12-06T21:58:55.964Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T21:58:56.488Z] Result:{"id":"call_ds1s","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"oncology department\",\"slot\":\"oncology department\"}"}}
+[2024-12-06T22:03:46.383Z] Model:llama3-70b-8192
+[2024-12-06T22:03:46.386Z] Prompt:tell me about Olivia
+[2024-12-06T22:03:46.387Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:03:47.105Z] Result:{"id":"call_vt6t","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-06T22:06:21.104Z] Model:llama3-70b-8192
+[2024-12-06T22:06:21.107Z] Prompt:tell me about oncology
+[2024-12-06T22:06:21.107Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:06:21.606Z] Result:{"id":"call_cbr6","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"oncology\",\"slot\":\"oncology department\"}"}}
+[2024-12-06T22:20:36.482Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:20:36.484Z] Prompt:phone for daniel
+[2024-12-06T22:20:36.486Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:20:37.665Z] Result:{"id":"call_6O2JGP6JBCT8NhJc7RfoUO4m","type":"function","function":{"name":"phonePage","arguments":"{\"details\": \"phone for daniel\", \"slot\": \"Daniel\"}"}}
+[2024-12-06T22:21:23.842Z] Prompt:daniel phone number
+[2024-12-06T22:21:23.841Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:21:23.842Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:21:24.772Z] Result:{"id":"call_Naljz2ll2fLKdShewokB5QIQ","type":"function","function":{"name":"phonePage","arguments":"{\"details\": \"phone number\", \"slot\": \"daniel\"}"}}
+[2024-12-06T22:21:41.373Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:21:41.374Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:21:41.373Z] Prompt:oncology department
+[2024-12-06T22:21:42.006Z] Result:{"id":"call_nekPIiMiWo3Wr8B0jPRZDZZ6","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"What is the location\",\"slot\":\"oncology department\"}"}}
+[2024-12-06T22:21:59.878Z] Prompt:tell me about oncology
+[2024-12-06T22:21:59.877Z] Model:llama3-70b-8192
+[2024-12-06T22:21:59.878Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:22:00.432Z] Result:{"id":"call_3wnh","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"oncology\",\"slot\":\"department\"}"}}
+[2024-12-06T22:37:08.267Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:37:08.269Z] Prompt:tell me about olivia
+[2024-12-06T22:37:08.269Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:37:10.052Z] Result:{"id":"call_wCOMw40bPe9iuwgSYeG2iE0d","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"Tell me about olivia\", \"slot\": \"olivia\"}"}}
+[2024-12-06T22:37:28.769Z] Prompt:do you have an oncology department
+[2024-12-06T22:37:28.768Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:37:28.769Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:37:29.492Z] Result:{"id":"call_jCtPKTgYX7LcvaVMglwSWMWx","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"oncology department\",\"slot\":\"oncology\"}"}}
+[2024-12-06T22:39:09.603Z] Prompt:tell me about oncolocy
+[2024-12-06T22:39:09.602Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:39:09.603Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:39:10.405Z] Result:{"id":"call_pFr67AKnQvmIXjpvVyoM6NvL","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"about oncolocy\",\"slot\":\"oncology\"}"}}
+[2024-12-06T22:41:12.551Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:41:12.553Z] Prompt:who can help with cancer
+[2024-12-06T22:41:12.554Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:41:14.082Z] Result:{"id":"call_6GyEN2fymjKmpPYaiL2pbwDm","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"cancer\",\"slot\":\"oncologist\"}"}}
+[2024-12-06T22:41:43.981Z] Prompt:who can help with cancer
+[2024-12-06T22:41:43.981Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:41:43.981Z] Model:llama3-70b-8192
+[2024-12-06T22:41:44.753Z] Result:{"id":"call_a40f","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"cancer\",\"slot\":\"oncology\"}"}}
+[2024-12-06T22:42:24.122Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:42:24.122Z] Model:llama3-70b-8192
+[2024-12-06T22:42:24.122Z] Prompt:I have a muscle aches . Which department
+[2024-12-06T22:42:24.596Z] Result:{"id":"call_3n64","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"muscle aches\",\"slot\":\"department\"}"}}
+[2024-12-06T22:42:51.031Z] Model:llama3-70b-8192
+[2024-12-06T22:42:51.031Z] Prompt:I have anemia
+[2024-12-06T22:42:51.032Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:42:51.660Z] Result:{"id":"call_71es","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"I have anemia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-06T22:50:20.105Z] Prompt:I kiss him
+[2024-12-06T22:50:20.103Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:50:20.105Z] Options:[object Object],[object Object]
+[2024-12-06T22:50:20.953Z] Result:{"id":"call_3LMHNkfa8IPCreBdYDWMG0me","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"I kiss him\"}"}}
+[2024-12-06T22:50:45.069Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:50:45.069Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:50:45.069Z] Prompt:tell me about olivia
+[2024-12-06T22:50:46.283Z] Result:{"id":"call_GDWgh0hGZp1weBFLQKISCN31","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"Tell me about olivia\", \"slot\": \"olivia\"}"}}
+[2024-12-06T22:51:00.843Z] Prompt:tell me about daniel
+[2024-12-06T22:51:00.843Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:51:00.843Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:51:01.940Z] Result:{"id":"call_eTLq0p2TvYTbg0aNpBJT4pb6","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"Tell me about daniel\", \"slot\": \"Daniel\"}"}}
+[2024-12-06T22:51:06.453Z] Prompt:tell me about daniel
+[2024-12-06T22:51:06.453Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:51:06.453Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:51:07.684Z] Result:{"id":"call_jtBA5FRjBBXHKopaCeBjpBJ8","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"Tell me about Daniel\", \"slot\": \"Daniel\"}"}}
+[2024-12-06T22:51:17.505Z] Model:gpt-3.5-turbo-1106
+[2024-12-06T22:51:17.505Z] Prompt:tell me about daniel
+[2024-12-06T22:51:17.505Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-06T22:51:18.436Z] Result:{"id":"call_AQYrUV5xHdknDt8yNIJENJTT","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"tell me about daniel\", \"slot\": \"daniel\"}"}}
+[2024-12-07T01:12:22.400Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T01:12:22.403Z] Prompt:I dance with the monster
+[2024-12-07T01:12:22.404Z] Options:[object Object],[object Object]
+[2024-12-07T01:12:23.370Z] Result:{"id":"call_MZMPC85olxRpaUTyOBfqs1au","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"I dance with the monster\"}"}}
+[2024-12-07T16:33:32.497Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T16:33:32.498Z] Prompt:olivia
+[2024-12-07T16:33:32.499Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T16:33:33.779Z] Result:{"id":"call_3Rh3JUWKjQ3n5Y3tCx40ptyc","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-07T16:33:57.000Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T16:33:57.000Z] Options:[object Object],[object Object]
+[2024-12-07T16:33:57.000Z] Prompt:i hug him
+[2024-12-07T16:33:58.188Z] Result:{"id":"call_zbi1kjbfCNA99fcGaKy1LjsQ","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"i hug him\"}"}}
+[2024-12-07T17:12:10.447Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T17:12:10.447Z] Prompt:tell me about Olivia
+[2024-12-07T17:12:10.448Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T17:12:11.624Z] Result:{"id":"call_SrzDYSK8ZGRy2oLrgm1yLq9V","type":"function","function":{"name":"phonePage","arguments":"{\"details\": \"phone number\", \"slot\": \"Olivia\"}"}}
+[2024-12-07T17:12:24.010Z] Prompt:tell me about doctor Olivia
+[2024-12-07T17:12:24.010Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T17:12:24.010Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T17:12:24.733Z] Result:{"id":"call_wjQRT8BhOmfu4yixRKNZwp8S","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about doctor Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-07T17:12:35.420Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T17:12:35.421Z] Prompt:do you have a Daniel
+[2024-12-07T17:12:35.421Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T17:12:36.271Z] Result:{"id":"call_CzEDB9V6cQd037uO25DYLVha","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"Daniel\"}"}}
+[2024-12-07T17:12:45.315Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T17:12:45.316Z] Prompt:tell me about Daniel
+[2024-12-07T17:12:45.316Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T17:12:46.142Z] Result:{"id":"call_N7x01gNCgAkuNMsIJUJIVpEO","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"Tell me about Daniel\", \"slot\": \"Daniel\"}"}}
+[2024-12-07T17:12:59.995Z] Prompt:I need a doctor for cancer
+[2024-12-07T17:12:59.995Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T17:12:59.995Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T17:13:00.881Z] Result:{"id":"call_i5xxkI9818x9tTGVbhfUbkZ5","type":"function","function":{"name":"ConditionPage","arguments":"{\"details\": \"doctor for cancer\", \"slot\": \"cancer\"}"}}
+[2024-12-07T17:33:52.259Z] Prompt:i hug him
+[2024-12-07T17:33:52.255Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T17:33:52.259Z] Options:[object Object],[object Object]
+[2024-12-07T17:33:53.367Z] Result:{"id":"call_nCVPLSOxxbkr9MF1C6PqAr6V","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"i hug him\"}"}}
+[2024-12-07T18:01:04.727Z] Prompt:I hug him
+[2024-12-07T18:01:04.726Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T18:01:04.728Z] Options:[object Object],[object Object]
+[2024-12-07T18:01:05.834Z] Result:{"id":"call_zIBdcSY959HyuTP9Rt7QeK5o","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"I hug him\"}"}}
+[2024-12-07T19:45:46.543Z] Prompt:I embrace him
+[2024-12-07T19:45:46.542Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T19:45:46.543Z] Options:[object Object],[object Object]
+[2024-12-07T19:45:47.413Z] Result:{"id":"call_CjMAGzTMQCi8fMlW0AEydZYo","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"I embrace him\"}"}}
+[2024-12-07T19:47:42.630Z] Prompt:
+[2024-12-07T19:47:42.630Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T19:47:42.630Z] Options:[object Object],[object Object]
+[2024-12-07T19:47:43.478Z] Result:undefined
+[2024-12-07T20:07:42.858Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T20:07:42.860Z] Prompt:i hug him
+[2024-12-07T20:07:42.860Z] Options:[object Object],[object Object]
+[2024-12-07T20:07:43.758Z] Result:{"id":"call_99e7mPOowfZFYsbcztdY9uPr","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"i hug him\"}"}}
+[2024-12-07T20:09:12.186Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T20:09:12.187Z] Prompt:olivia
+[2024-12-07T20:09:12.187Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T20:09:13.464Z] Result:{"id":"call_RSN8cW2oAfCUlNx6BwyZjdpb","type":"function","function":{"name":"departmentPage","arguments":"{\"details\": \"Who works in this medical department\", \"slot\": \"olivia\"}"}}
+[2024-12-07T20:09:21.036Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T20:09:21.036Z] Prompt:olivia
+[2024-12-07T20:09:21.036Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T20:09:22.205Z] Result:{"id":"call_hYdFVV2HO2vdrWic7vC96xoq","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-07T20:13:07.678Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T20:13:07.678Z] Prompt:olivia
+[2024-12-07T20:13:07.679Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T20:13:09.335Z] Result:{"id":"call_m63IEdg06LWmXvbXC9dfgdF9","type":"function","function":{"name":"phonePage","arguments":"{\"details\": \"What is the phone number for this doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-07T20:26:15.918Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T20:26:15.919Z] Prompt:i hug him
+[2024-12-07T20:26:15.919Z] Options:[object Object],[object Object]
+[2024-12-07T20:26:17.104Z] Result:{"id":"call_kI7NErP0R3fMDt7DS8JCaIO4","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"i hug him\"}"}}
+[2024-12-07T20:27:53.609Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T20:27:53.610Z] Prompt:i hug him
+[2024-12-07T20:27:53.610Z] Options:[object Object],[object Object]
+[2024-12-07T20:27:55.436Z] Result:{"id":"call_mDVHuepkEMMzeshVmyMVCgpA","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"i hug him\"}"}}
+[2024-12-07T20:34:49.938Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T20:34:49.939Z] Prompt:i hug him
+[2024-12-07T20:34:49.939Z] Options:[object Object],[object Object]
+[2024-12-07T20:34:50.968Z] Result:{"id":"call_x8HU23djfVZ81soAF01UukGl","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"i hug him\"}"}}
+[2024-12-07T20:35:09.813Z] Prompt:i hug him
+[2024-12-07T20:35:09.812Z] Model:mixtral-8x7b-32768
+[2024-12-07T20:35:09.813Z] Options:[object Object],[object Object]
+[2024-12-07T20:35:10.324Z] Result:{"id":"call_ww4e","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"i hug him\"}"}}
+[2024-12-07T20:35:14.166Z] Model:mixtral-8x7b-32768
+[2024-12-07T20:35:14.167Z] Prompt:i hug him
+[2024-12-07T20:35:14.167Z] Options:[object Object],[object Object]
+[2024-12-07T20:35:14.744Z] Result:{"id":"call_xj9b","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"i hug him\"}"}}
+[2024-12-07T20:45:21.161Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T20:45:21.162Z] Prompt:hug hom
+[2024-12-07T20:45:21.162Z] Options:[object Object],[object Object]
+[2024-12-07T20:45:22.229Z] Result:{"id":"call_vUfvaac7k0BZZZTXbf5gFO68","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"hug hom\"}"}}
+[2024-12-07T20:47:35.694Z] Model:llama3-70b-8192
+[2024-12-07T20:47:35.695Z] Prompt:I hug him
+[2024-12-07T20:47:35.695Z] Options:[object Object],[object Object]
+[2024-12-07T20:47:36.224Z] Result:{"id":"call_9qn0","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-07T20:55:11.887Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T20:55:11.887Z] Prompt:I hug him
+[2024-12-07T20:55:11.888Z] Options:[object Object],[object Object]
+[2024-12-07T20:55:12.933Z] Result:{"id":"call_QChqHEexPqcRDZyqLz3dY6yw","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"I hug him\"}"}}
+[2024-12-07T20:55:22.602Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T20:55:22.603Z] Prompt:
+[2024-12-07T20:55:22.603Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T20:55:23.269Z] Result:undefined
+[2024-12-07T20:57:14.586Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T20:57:14.586Z] Prompt:I hug him
+[2024-12-07T20:57:14.586Z] Options:[object Object],[object Object]
+[2024-12-07T20:57:15.600Z] Result:{"id":"call_moXzzfPqn5t3DPVgnShJAoiH","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"I hug him\"}"}}
+[2024-12-07T21:05:06.768Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T21:05:06.769Z] Prompt:hug him
+[2024-12-07T21:05:06.769Z] Options:[object Object],[object Object]
+[2024-12-07T21:05:07.581Z] Result:{"id":"call_WTxAjlf0BMed1BviGwA7v6tW","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"I hug him\"}"}}
+[2024-12-07T21:07:00.239Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T21:07:00.239Z] Prompt:I hug him
+[2024-12-07T21:07:00.239Z] Options:[object Object],[object Object]
+[2024-12-07T21:07:01.031Z] Result:{"id":"call_n0Av5X0g1QifNRmvRoMIDwVP","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"I hug him\"}"}}
+[2024-12-07T21:07:10.837Z] Prompt:
+[2024-12-07T21:07:10.837Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T21:07:10.837Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T21:07:11.488Z] Result:undefined
+[2024-12-07T21:08:01.284Z] Model:mixtral-8x7b-32768
+[2024-12-07T21:08:01.284Z] Prompt:
+[2024-12-07T21:08:01.284Z] Options:[object Object],[object Object]
+[2024-12-07T21:08:02.044Z] Result:undefined
+[2024-12-07T21:20:50.369Z] Prompt:
+[2024-12-07T21:20:50.368Z] Model:mixtral-8x7b-32768
+[2024-12-07T21:20:50.369Z] Options:[object Object],[object Object]
+[2024-12-07T21:20:51.362Z] Result:{"id":"call_cpn9","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I like him a lot ; extra\"}"}}
+[2024-12-07T23:15:48.447Z] Model:mixtral-8x7b-32768
+[2024-12-07T23:15:48.450Z] Prompt:you fight him
+[2024-12-07T23:15:48.451Z] Options:[object Object],[object Object]
+[2024-12-07T23:15:49.171Z] Result:{"id":"call_xwj0","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"you fight him\"}"}}
+[2024-12-07T23:19:49.100Z] Prompt:olivia
+[2024-12-07T23:19:49.099Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T23:19:49.101Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:19:50.084Z] Result:{"id":"call_atHrvKLp0zGfDpEzynVJ8Mnz","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-07T23:21:02.721Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T23:21:02.722Z] Prompt:olivia
+[2024-12-07T23:21:02.722Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:21:03.901Z] Result:{"id":"call_Khg7CqGUj7SakOCDUxcibnfz","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-07T23:21:18.630Z] Model:llama3-70b-8192
+[2024-12-07T23:21:18.630Z] Prompt:olivia
+[2024-12-07T23:21:18.630Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:21:19.162Z] Result:{"id":"call_e8z7","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-07T23:23:35.793Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T23:23:35.794Z] Prompt:olivia
+[2024-12-07T23:23:35.794Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:23:37.182Z] Result:{"id":"call_yb8jGowJmEylrX0Tuz1kjw4I","type":"function","function":{"name":"phonePage","arguments":"{\"details\": \"What is the phone number for this doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-07T23:28:21.314Z] Prompt:oliva
+[2024-12-07T23:28:21.313Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T23:28:21.314Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:28:22.909Z] Result:{"id":"call_quE8vj9Gdvx6zPNUoxgdlnUP","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"oliva\"}"}}
+[2024-12-07T23:28:36.043Z] Prompt:daniel
+[2024-12-07T23:28:36.043Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:28:36.042Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T23:28:37.319Z] Result:{"id":"call_CHM03uLVoX3r56WqWaD93ZJz","type":"function","function":{"name":"phonePage","arguments":"{\"details\": \"What is the phone number for this doctor\", \"slot\": \"daniel\"}"}}
+[2024-12-07T23:28:42.881Z] Prompt:daniel
+[2024-12-07T23:28:42.881Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:28:42.881Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T23:28:43.962Z] Result:{"id":"call_hWMphc7VdsIrGjAsE2QwTvXC","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"daniel\"}"}}
+[2024-12-07T23:31:49.494Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T23:31:49.495Z] Prompt:olivia
+[2024-12-07T23:31:49.495Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:31:50.777Z] Result:{"id":"call_94wnhigaRreB11m32kuhBP5u","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-07T23:31:59.059Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T23:31:59.060Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:31:59.060Z] Prompt:olivia
+[2024-12-07T23:32:00.098Z] Result:{"id":"call_LgEnNJzkCUPZQVIzDTfHO4oU","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-07T23:32:06.888Z] Prompt:olivia
+[2024-12-07T23:32:06.887Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T23:32:06.888Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:32:08.004Z] Result:{"id":"call_9JyCajhj6XiuoqccvXODEord","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"olivia\"}"}}
+[2024-12-07T23:32:52.477Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T23:32:52.477Z] Prompt:daniel
+[2024-12-07T23:32:52.477Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:32:53.412Z] Result:{"id":"call_rUw6SF3E3kuccExAVZO6O0z1","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"daniel\"}"}}
+[2024-12-07T23:33:00.214Z] Prompt:daniel
+[2024-12-07T23:33:00.214Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-07T23:33:00.214Z] Model:gpt-3.5-turbo-1106
+[2024-12-07T23:33:01.101Z] Result:{"id":"call_T3w55WkGlaveRlnKuP0mYf7S","type":"function","function":{"name":"doctorPage","arguments":"{\"details\": \"How can I get ahold of Doctor\", \"slot\": \"daniel\"}"}}
+[2024-12-08T00:10:07.633Z] Prompt:I hug him
+[2024-12-08T00:10:07.633Z] Model:gpt-3.5-turbo-1106
+[2024-12-08T00:10:07.634Z] Options:[object Object],[object Object]
+[2024-12-08T00:10:08.447Z] Result:{"id":"call_0xZdR8ULuk6QuTrbFFZWIU8C","type":"function","function":{"name":"lovePage","arguments":"{\"details\": \"I hug him\"}"}}
+[2024-12-08T00:10:18.751Z] Model:gpt-3.5-turbo-1106
+[2024-12-08T00:10:18.751Z] Prompt:
+[2024-12-08T00:10:18.751Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T00:10:19.734Z] Result:undefined
+[2024-12-08T00:13:55.911Z] Model:gpt-3.5-turbo-1106
+[2024-12-08T00:13:55.911Z] Prompt:
+[2024-12-08T00:13:55.912Z] Options:[object Object],[object Object]
+[2024-12-08T00:13:56.821Z] Result:undefined
+[2024-12-08T00:14:21.761Z] Prompt:hi hug him
+[2024-12-08T00:14:21.760Z] Model:gpt-3.5-turbo-1106
+[2024-12-08T00:14:21.761Z] Options:[object Object],[object Object]
+[2024-12-08T00:14:22.718Z] Result:{"id":"call_cP60deteWihuz5Ms5vszeSGH","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"hi hug him\"}"}}
+[2024-12-08T00:15:01.332Z] Model:llama3-70b-8192
+[2024-12-08T00:15:01.332Z] Prompt:i hug him
+[2024-12-08T00:15:01.332Z] Options:[object Object],[object Object]
+[2024-12-08T00:15:01.836Z] Result:{"id":"call_atff","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"i hug him\"}"}}
+[2024-12-08T00:15:13.358Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T00:15:13.357Z] Model:llama3-70b-8192
+[2024-12-08T00:15:13.358Z] Prompt:we go to Caltech
+[2024-12-08T00:15:13.776Z] Result:{"id":"call_654c","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"we go to Caltech\",\"slot\":\"school\"}"}}
+[2024-12-08T00:24:56.667Z] Prompt:show Olivia
+[2024-12-08T00:24:56.667Z] Model:gpt-3.5-turbo-1106
+[2024-12-08T00:24:56.668Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T00:24:58.002Z] Result:{"id":"call_v3gfEhUJO5ctONdaMQKVZwY5","type":"function","function":{"name":"locationPage","arguments":"{\"details\": \"location\", \"slot\": \"Olivia\"}"}}
+[2024-12-08T00:25:15.180Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T00:25:15.180Z] Model:llama3-70b-8192
+[2024-12-08T00:25:15.180Z] Prompt:get Daniel
+[2024-12-08T00:25:15.614Z] Result:{"id":"call_4zyy","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"get Daniel\",\"slot\":\"Daniel\"}"}}
+[2024-12-08T00:33:53.959Z] Model:gpt-3.5-turbo-1106
+[2024-12-08T00:33:53.960Z] Prompt:hi hug and kiss him
+[2024-12-08T00:33:53.960Z] Options:[object Object],[object Object]
+[2024-12-08T00:33:54.797Z] Result:{"id":"call_RgO97NEDkRid93TQdIbz2oAU","type":"function","function":{"name":"fightPage","arguments":"{\"details\": \"hi hug and kiss him\"}"}}
+[2024-12-08T00:34:15.083Z] Model:llama3-70b-8192
+[2024-12-08T00:34:15.083Z] Options:[object Object],[object Object]
+[2024-12-08T00:34:15.083Z] Prompt:play hug and kiss him
+[2024-12-08T00:34:15.630Z] Result:{"id":"call_hjk2","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"hug and kiss him\"}"}}
+[2024-12-08T00:34:23.843Z] Model:llama3-70b-8192
+[2024-12-08T00:34:23.843Z] Prompt:I put them up by the eHarmony
+[2024-12-08T00:34:23.844Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T00:34:24.248Z] Result:{"id":"call_hvgj","type":"function","function":{"name":"romancePage","arguments":"{\"details\":\"I make a dating profile for them\"}"}}
+[2024-12-08T00:34:33.117Z] Prompt:Saturn
+[2024-12-08T00:34:33.117Z] Options:[object Object],[object Object]
+[2024-12-08T00:34:33.117Z] Model:llama3-70b-8192
+[2024-12-08T00:34:33.467Z] Result:{"id":"call_hhdm","type":"function","function":{"name":"planetPage","arguments":"{\"details\":\"Saturn\",\"slot\":\"planet\"}"}}
+[2024-12-08T00:46:03.539Z] Prompt:play hug him fuck
+[2024-12-08T00:46:03.539Z] Model:llama3-70b-8192
+[2024-12-08T00:46:03.540Z] Options:[object Object],[object Object]
+[2024-12-08T00:46:04.020Z] Result:{"id":"call_fk2n","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"play hug him fuck\"}"}}
+[2024-12-08T00:46:41.166Z] Model:llama3-70b-8192
+[2024-12-08T00:46:41.166Z] Prompt:
+[2024-12-08T00:46:41.166Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T00:46:41.707Z] Result:{"id":"call_g35v","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"Send him to school ; extra \",\"slot\":\"school\"}"}}
+[2024-12-08T00:48:39.759Z] Model:llama3-groq-70b-8192-tool-use-preview
+[2024-12-08T00:48:39.760Z] Prompt:I embrace him
+[2024-12-08T00:48:39.760Z] Options:[object Object],[object Object]
+[2024-12-08T00:48:40.218Z] Result:undefined
+[2024-12-08T01:13:49.632Z] Model:llama3-groq-70b-8192-tool-use-preview
+[2024-12-08T01:13:49.633Z] Prompt:Olivia
+[2024-12-08T01:13:49.634Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:13:50.172Z] Result:undefined
+[2024-12-08T01:15:08.631Z] Model:llama3-70b-8192
+[2024-12-08T01:15:08.632Z] Prompt:I kiss him
+[2024-12-08T01:15:08.632Z] Options:[object Object],[object Object]
+[2024-12-08T01:15:09.057Z] Result:{"id":"call_wp78","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I kiss him\"}"}}
+[2024-12-08T01:15:14.640Z] Model:llama3-70b-8192
+[2024-12-08T01:15:14.640Z] Prompt:
+[2024-12-08T01:15:14.640Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:15:15.197Z] Result:{"id":"call_ynp7","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"\",\"slot\":\"\"}"}}
+[2024-12-08T01:15:27.047Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:15:27.047Z] Prompt:can you put a profile on eHarmony no that's not going to work tomorrow
+[2024-12-08T01:15:27.047Z] Model:llama3-70b-8192
+[2024-12-08T01:15:27.478Z] Result:{"id":"call_v9r4","type":"function","function":{"name":"romancePage","arguments":"{\"details\":\"put a profile on eHarmony\"}"}}
+[2024-12-08T01:15:45.551Z] Model:llama3-70b-8192
+[2024-12-08T01:15:45.552Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:15:45.552Z] Prompt:tell me about Olivia
+[2024-12-08T01:15:46.267Z] Result:{"id":"call_m82d","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T01:15:59.876Z] Model:llama3-70b-8192
+[2024-12-08T01:15:59.876Z] Prompt:tell me about Olivia
+[2024-12-08T01:15:59.877Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:16:00.406Z] Result:{"id":"call_hm5w","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T01:16:07.456Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:16:07.456Z] Model:llama3-70b-8192
+[2024-12-08T01:16:07.456Z] Prompt:tell me about Daniel
+[2024-12-08T01:16:07.940Z] Result:{"id":"call_dfz0","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T01:16:12.321Z] Prompt:Dr Daniel
+[2024-12-08T01:16:12.321Z] Model:llama3-70b-8192
+[2024-12-08T01:16:12.321Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:16:12.847Z] Result:{"id":"call_4d0s","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Dr Daniel\",\"slot\":\"Dr Daniel\"}"}}
+[2024-12-08T01:16:19.450Z] Model:llama3-70b-8192
+[2024-12-08T01:16:19.450Z] Prompt:Dr Olivia
+[2024-12-08T01:16:19.450Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:16:20.205Z] Result:{"id":"call_vvsb","type":"function","function":{"name":"phonePage","arguments":"{\"details\":\"What is the phone number for Doctor Dr Olivia ; extra \",\"slot\":\"Dr Olivia\"}"}}
+[2024-12-08T01:17:11.621Z] Prompt:Olivia
+[2024-12-08T01:17:11.621Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:17:11.620Z] Model:llama3-70b-8192
+[2024-12-08T01:17:12.049Z] Result:{"id":"call_1jh1","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor\"}"}}
+[2024-12-08T01:17:16.221Z] Model:llama3-70b-8192
+[2024-12-08T01:17:16.221Z] Prompt:talk to Olivia
+[2024-12-08T01:17:16.221Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:17:16.669Z] Result:{"id":"call_2wmw","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor\"}"}}
+[2024-12-08T01:17:28.934Z] Model:llama3-70b-8192
+[2024-12-08T01:17:28.934Z] Prompt:talk to Olivia
+[2024-12-08T01:17:28.935Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:17:29.541Z] Result:{"id":"call_gzed","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"talk to Olivia\",\"slot\":\"doctor\"}"}}
+[2024-12-08T01:17:48.638Z] Prompt:tell me about Dr Olivia
+[2024-12-08T01:17:48.637Z] Model:llama3-70b-8192
+[2024-12-08T01:17:48.638Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:17:49.104Z] Result:{"id":"call_qtsn","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Dr Olivia\",\"slot\":\"doctor\"}"}}
+[2024-12-08T01:19:26.631Z] Model:llama3-70b-8192
+[2024-12-08T01:19:26.632Z] Prompt:
+[2024-12-08T01:19:26.632Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:19:27.114Z] Result:undefined
+[2024-12-08T01:19:33.958Z] Prompt:tell me about Dr Olivia
+[2024-12-08T01:19:33.958Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:19:33.958Z] Model:llama3-70b-8192
+[2024-12-08T01:19:34.568Z] Result:{"id":"call_0cpk","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Dr Olivia\",\"slot\":\"doctor\"}"}}
+[2024-12-08T01:34:56.337Z] Model:llama3-70b-8192
+[2024-12-08T01:34:56.337Z] Prompt:tell me about Dr Olivia
+[2024-12-08T01:34:56.337Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:34:56.865Z] Result:{"id":"call_83wv","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Dr Olivia\",\"slot\":\"doctor\"}"}}
+[2024-12-08T01:35:42.604Z] Model:llama3-70b-8192
+[2024-12-08T01:35:42.605Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:35:42.605Z] Prompt:tell me about Daniel
+[2024-12-08T01:35:43.166Z] Result:{"id":"call_xff8","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor\"}"}}
+[2024-12-08T01:36:44.841Z] Model:llama3-70b-8192
+[2024-12-08T01:36:44.841Z] Prompt:tell me about Daniel
+[2024-12-08T01:36:44.841Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:36:45.299Z] Result:{"id":"call_5q1q","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"about Daniel\",\"slot\":\"Daniel\"}"}}
+[2024-12-08T01:36:52.621Z] Model:llama3-70b-8192
+[2024-12-08T01:36:52.621Z] Prompt:tell me about Dr Olivia
+[2024-12-08T01:36:52.621Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:36:53.301Z] Result:{"id":"call_1x0f","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Dr Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T01:37:03.002Z] Model:llama3-70b-8192
+[2024-12-08T01:37:03.002Z] Prompt:tell me about Dr Olivia
+[2024-12-08T01:37:03.002Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:37:03.426Z] Result:{"id":"call_h68a","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Dr Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T01:37:18.259Z] Prompt:tell me about Olivia
+[2024-12-08T01:37:18.259Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:37:18.259Z] Model:llama3-70b-8192
+[2024-12-08T01:37:18.904Z] Result:{"id":"call_b43t","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Who is Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-08T01:38:47.733Z] Model:llama3-70b-8192
+[2024-12-08T01:38:47.733Z] Prompt:tell me about Dr Olivia
+[2024-12-08T01:38:47.733Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:38:48.176Z] Result:{"id":"call_qfmz","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Who can I get ahold of Doctor Olivia ; extra \",\"slot\":\"Dr Olivia\"}"}}
+[2024-12-08T01:39:53.519Z] Prompt:how can I get ahold of Dr Olivia
+[2024-12-08T01:39:53.519Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:39:53.519Z] Model:llama3-70b-8192
+[2024-12-08T01:39:54.140Z] Result:{"id":"call_yt0b","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"how can I get ahold of Doctor\",\"slot\":\"Dr Olivia\"}"}}
+[2024-12-08T01:41:43.030Z] Model:llama3-70b-8192
+[2024-12-08T01:41:43.030Z] Prompt:
+[2024-12-08T01:41:43.030Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:41:43.421Z] Result:{"id":"call_3v5h","type":"function","function":{"name":"phonePage","arguments":"{\"details\":\"\",\"slot\":\"\"}"}}
+[2024-12-08T01:45:44.036Z] Model:llama3-70b-8192
+[2024-12-08T01:45:44.036Z] Prompt:tell me about Daniel
+[2024-12-08T01:45:44.036Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:45:44.545Z] Result:{"id":"call_wckt","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T01:47:50.062Z] Model:llama3-70b-8192
+[2024-12-08T01:47:50.062Z] Prompt:Olivia
+[2024-12-08T01:47:50.062Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:47:50.605Z] Result:{"id":"call_bxna","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-08T01:55:38.076Z] Prompt:tell me about Daniel
+[2024-12-08T01:55:38.075Z] Model:llama3-70b-8192
+[2024-12-08T01:55:38.076Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:55:38.971Z] Result:{"id":"call_nmnf","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Who is Daniel\",\"slot\":\"Daniel\"}"}}
+[2024-12-08T01:56:46.497Z] Prompt:
+[2024-12-08T01:56:46.497Z] Model:llama3-70b-8192
+[2024-12-08T01:56:46.497Z] Options:
+[2024-12-08T01:56:46.790Z] Result:undefined
+[2024-12-08T01:57:01.997Z] Model:llama3-70b-8192
+[2024-12-08T01:57:01.997Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:57:01.997Z] Prompt:tell me about Daniel
+[2024-12-08T01:57:02.540Z] Result:{"id":"call_nw6z","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T01:57:23.254Z] Model:llama3-70b-8192
+[2024-12-08T01:57:23.257Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:57:23.254Z] Prompt:tell me about Olivia
+[2024-12-08T01:57:23.840Z] Result:{"id":"call_x8zh","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T01:59:18.715Z] Model:llama3-70b-8192
+[2024-12-08T01:59:18.715Z] Prompt:tell me about Olivia
+[2024-12-08T01:59:18.715Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T01:59:19.570Z] Result:{"id":"call_hrem","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-08T02:00:15.337Z] Model:llama3-70b-8192
+[2024-12-08T02:00:15.338Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T02:00:15.337Z] Prompt:tell me about Olivia
+[2024-12-08T02:00:15.794Z] Result:{"id":"call_t2y3","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T02:33:59.990Z] Model:llama3-70b-8192
+[2024-12-08T02:33:59.991Z] Prompt:tell me about Olivia
+[2024-12-08T02:33:59.991Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T02:34:01.173Z] Result:{"id":"call_3ycx","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T02:35:37.594Z] Model:llama3-70b-8192
+[2024-12-08T02:35:37.594Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T02:35:37.594Z] Prompt:tell me about oncology
+[2024-12-08T02:35:38.143Z] Result:{"id":"call_cmde","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"oncology\",\"slot\":\"department\"}"}}
+[2024-12-08T02:46:57.923Z] Model:llama3-70b-8192
+[2024-12-08T02:46:57.923Z] Prompt:tell me about Daniel
+[2024-12-08T02:46:57.924Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T02:46:58.811Z] Result:{"id":"call_jmtf","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T03:16:41.996Z] Model:llama3-70b-8192
+[2024-12-08T03:16:41.998Z] Prompt:tell me about Olivia
+[2024-12-08T03:16:42.000Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T03:16:42.858Z] Result:{"id":"call_j3d0","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T03:16:47.022Z] Prompt:tell me about Olivia
+[2024-12-08T03:16:47.022Z] Model:llama3-70b-8192
+[2024-12-08T03:16:47.022Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T03:16:47.521Z] Result:{"id":"call_h449","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Who can I ask about Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-08T03:17:12.647Z] Model:llama3-70b-8192
+[2024-12-08T03:17:12.647Z] Prompt:Olivia
+[2024-12-08T03:17:12.647Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T03:17:13.070Z] Result:{"id":"call_38d9","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T03:18:27.992Z] Model:llama3-70b-8192
+[2024-12-08T03:18:27.993Z] Prompt:Olivia
+[2024-12-08T03:18:27.993Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T03:18:28.590Z] Result:{"id":"call_v5p9","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Olivia ;   \",\"slot\":\"Olivia\"}"}}
+[2024-12-08T03:27:38.856Z] Model:llama3-70b-8192
+[2024-12-08T03:27:38.858Z] Prompt:in hug him
+[2024-12-08T03:27:38.858Z] Options:[object Object],[object Object]
+[2024-12-08T03:27:39.345Z] Result:{"id":"call_1t3b","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-08T03:27:52.461Z] Prompt:give him a dating site
+[2024-12-08T03:27:52.461Z] Model:llama3-70b-8192
+[2024-12-08T03:27:52.461Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T03:27:52.930Z] Result:{"id":"call_v1y1","type":"function","function":{"name":"romancePage","arguments":"{\"details\":\"give him a dating site\"}"}}
+[2024-12-08T03:28:03.013Z] Prompt:we dance
+[2024-12-08T03:28:03.012Z] Model:llama3-70b-8192
+[2024-12-08T03:28:03.013Z] Options:[object Object],[object Object]
+[2024-12-08T03:28:03.505Z] Result:{"id":"call_yh24","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"we dance\"}"}}
+[2024-12-08T03:28:25.342Z] Model:llama3-70b-8192
+[2024-12-08T03:28:25.342Z] Prompt:we dance
+[2024-12-08T03:28:25.343Z] Options:[object Object],[object Object]
+[2024-12-08T03:28:25.747Z] Result:{"id":"call_bxrn","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"we dance\"}"}}
+[2024-12-08T03:28:50.641Z] Model:llama3-70b-8192
+[2024-12-08T03:28:50.642Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T03:28:50.641Z] Prompt:i take my monster to therapy
+[2024-12-08T03:28:51.055Z] Result:{"id":"call_1m0m","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\":\"I take my monster to therapy\"}"}}
+[2024-12-08T03:29:09.287Z] Prompt:olivia
+[2024-12-08T03:29:09.287Z] Model:llama3-70b-8192
+[2024-12-08T03:29:09.287Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T03:29:09.934Z] Result:{"id":"call_42pn","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Olivia ;\",\"slot\":\"Olivia\"}"}}
+[2024-12-08T03:29:21.389Z] Model:llama3-70b-8192
+[2024-12-08T03:29:21.389Z] Prompt:daniel
+[2024-12-08T03:29:21.389Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T03:29:21.976Z] Result:{"id":"call_mxd5","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Who can I get ahold of Doctor ;   \",\"slot\":\"Daniel\"}"}}
+[2024-12-08T03:41:04.240Z] Model:llama3-70b-8192
+[2024-12-08T03:41:04.241Z] Prompt:
+[2024-12-08T03:41:04.242Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T03:41:04.656Z] Result:undefined
+[2024-12-08T03:41:22.259Z] Prompt:Olivia
+[2024-12-08T03:41:22.259Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T03:41:22.259Z] Model:llama3-70b-8192
+[2024-12-08T03:41:22.701Z] Result:{"id":"call_djhf","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Olivia ;\",\"slot\":\"Olivia\"}"}}
+[2024-12-08T03:42:18.050Z] Model:llama3-70b-8192
+[2024-12-08T03:42:18.051Z] Prompt:Daniel
+[2024-12-08T03:42:18.051Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T03:42:18.690Z] Result:{"id":"call_3pjq","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor\",\"slot\":\"Daniel\"}"}}
+[2024-12-08T04:00:06.767Z] Prompt:Daniel
+[2024-12-08T04:00:06.766Z] Model:llama3-70b-8192
+[2024-12-08T04:00:06.767Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T04:00:07.797Z] Result:{"id":"call_r53e","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor\",\"slot\":\"Daniel\"}"}}
+[2024-12-08T04:03:08.475Z] Model:llama3-70b-8192
+[2024-12-08T04:03:08.476Z] Prompt:phone for Olivia
+[2024-12-08T04:03:08.476Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T04:03:09.126Z] Result:{"id":"call_zv8n","type":"function","function":{"name":"phonePage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T04:27:44.152Z] Prompt:Daniel's phone number
+[2024-12-08T04:27:44.148Z] Model:llama3-70b-8192
+[2024-12-08T04:27:44.152Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T04:27:44.908Z] Result:{"id":"call_a5rf","type":"function","function":{"name":"phonePage","arguments":"{\"details\":\"Daniel's phone number\",\"slot\":\"Daniel\"}"}}
+[2024-12-08T05:43:39.002Z] Model:llama3-70b-8192
+[2024-12-08T05:43:39.005Z] Prompt:
+[2024-12-08T05:43:39.006Z] Options:[object Object],[object Object]
+[2024-12-08T05:43:39.637Z] Result:{"id":"call_km01","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-08T05:53:02.819Z] Model:llama3-70b-8192
+[2024-12-08T05:53:02.820Z] Prompt:
+[2024-12-08T05:53:02.820Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T05:53:03.306Z] Result:{"id":"call_7gy8","type":"function","function":{"name":"phonePage","arguments":"{\"details\":\"What is the phone number for this department ;\",\"slot\":\"department\"}"}}
+[2024-12-08T05:53:30.792Z] Model:llama3-70b-8192
+[2024-12-08T05:53:30.793Z] Prompt:tell me about Daniel
+[2024-12-08T05:53:30.793Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T05:53:31.318Z] Result:{"id":"call_axe1","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T06:47:33.987Z] Model:llama3-70b-8192
+[2024-12-08T06:47:33.994Z] Prompt:tell me about Daniel
+[2024-12-08T06:47:33.996Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T06:47:34.798Z] Result:{"id":"call_5ezp","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T06:49:59.911Z] Prompt:I kiss him
+[2024-12-08T06:49:59.911Z] Options:[object Object],[object Object]
+[2024-12-08T06:49:59.910Z] Model:llama3-70b-8192
+[2024-12-08T06:50:00.299Z] Result:{"id":"call_z378","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I kiss him\"}"}}
+[2024-12-08T06:50:26.024Z] Model:llama3-70b-8192
+[2024-12-08T06:50:26.024Z] Prompt:take him to see counselor
+[2024-12-08T06:50:26.024Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T06:50:26.560Z] Result:{"id":"call_79xr","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\":\"take him to see counselor\"}"}}
+[2024-12-08T06:50:52.925Z] Model:llama3-70b-8192
+[2024-12-08T06:50:52.925Z] Prompt:I want to see doctor daniel
+[2024-12-08T06:50:52.925Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T06:50:53.554Z] Result:{"id":"call_c9a2","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"I want to see doctor daniel\",\"slot\":\"doctor Daniel\"}"}}
+[2024-12-08T06:51:08.442Z] Prompt:I want to see doctor daniel
+[2024-12-08T06:51:08.441Z] Model:llama3-70b-8192
+[2024-12-08T06:51:08.442Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T06:51:08.916Z] Result:{"id":"call_ddpp","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"I want to see doctor daniel\",\"slot\":\"doctor daniel\"}"}}
+[2024-12-08T06:52:28.157Z] Prompt:tell me about daniel
+[2024-12-08T06:52:28.156Z] Model:llama3-70b-8192
+[2024-12-08T06:52:28.157Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T06:52:28.576Z] Result:{"id":"call_qxed","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Who can I see for Doctor Daniel\",\"slot\":\"Daniel\"}"}}
+[2024-12-08T06:52:39.031Z] Prompt:tell me about daniel
+[2024-12-08T06:52:39.030Z] Model:llama3-70b-8192
+[2024-12-08T06:52:39.031Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T06:52:39.468Z] Result:{"id":"call_yhmf","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor \",\"slot\":\"Daniel\"}"}}
+[2024-12-08T06:53:03.207Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T06:53:03.206Z] Model:llama3-70b-8192
+[2024-12-08T06:53:03.207Z] Prompt:what is kim
+[2024-12-08T06:53:03.626Z] Result:{"id":"call_xw35","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"kim\",\"slot\":\"department\"}"}}
+[2024-12-08T06:53:19.129Z] Model:llama3-70b-8192
+[2024-12-08T06:53:19.132Z] Prompt:I need cancer doc
+[2024-12-08T06:53:19.132Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T06:53:19.572Z] Result:{"id":"call_zdhk","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"I need cancer doc\",\"slot\":\"oncologist\"}"}}
+[2024-12-08T06:53:26.916Z] Prompt:I need cancer doctor
+[2024-12-08T06:53:26.916Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T06:53:26.916Z] Model:llama3-70b-8192
+[2024-12-08T06:53:27.413Z] Result:{"id":"call_8swh","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"I need cancer doctor\",\"slot\":\"cancer doctor\"}"}}
+[2024-12-08T06:53:41.158Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T06:53:41.157Z] Model:llama3-70b-8192
+[2024-12-08T06:53:41.158Z] Prompt:I have cancer 
+[2024-12-08T06:53:41.575Z] Result:{"id":"call_5sx1","type":"function","function":{"name":"ConditionPage","arguments":"{\"details\":\"I have cancer\",\"slot\":\"department\"}"}}
+[2024-12-08T06:59:50.079Z] Options:[object Object],[object Object]
+[2024-12-08T06:59:50.079Z] Prompt:i hug him
+[2024-12-08T06:59:50.078Z] Model:llama3-70b-8192
+[2024-12-08T06:59:50.625Z] Result:{"id":"call_3dyg","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"i hug him\"}"}}
+[2024-12-08T22:47:02.362Z] Model:llama3-70b-8192
+[2024-12-08T22:47:02.363Z] Prompt:I hug him
+[2024-12-08T22:47:02.363Z] Options:[object Object],[object Object]
+[2024-12-08T22:47:03.045Z] Result:{"id":"call_k1mf","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-08T22:47:10.261Z] Model:llama3-70b-8192
+[2024-12-08T22:47:10.261Z] Prompt:we go to church
+[2024-12-08T22:47:10.261Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T22:47:10.906Z] Result:{"id":"call_fyap","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"we go to church\",\"slot\":\"school\"}"}}
+[2024-12-08T22:47:37.181Z] Model:llama3-70b-8192
+[2024-12-08T22:47:37.181Z] Prompt:kiss him
+[2024-12-08T22:47:37.181Z] Options:[object Object],[object Object]
+[2024-12-08T22:47:37.532Z] Result:{"id":"call_v1pj","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"kiss him\"}"}}
+[2024-12-08T22:47:45.906Z] Prompt:we go to therapy together
+[2024-12-08T22:47:45.905Z] Model:llama3-70b-8192
+[2024-12-08T22:47:45.906Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T22:47:46.341Z] Result:{"id":"call_w18q","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\":\"I take him to see Dr. Phil ;\"}"}}
+[2024-12-08T22:48:23.542Z] Prompt:tell me about Dr Daniel
+[2024-12-08T22:48:23.543Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T22:48:23.542Z] Model:llama3-70b-8192
+[2024-12-08T22:48:24.019Z] Result:{"id":"call_655y","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Dr Daniel\",\"slot\":\"Dr Daniel\"}"}}
+[2024-12-08T22:58:36.562Z] Model:llama3-70b-8192
+[2024-12-08T22:58:36.563Z] Prompt:find doctor daniel
+[2024-12-08T22:58:36.563Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T22:58:37.142Z] Result:{"id":"call_xwbz","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"find doctor daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T22:59:54.928Z] Model:llama3-70b-8192
+[2024-12-08T22:59:54.928Z] Prompt:tell me about Dr Daniel
+[2024-12-08T22:59:54.929Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T22:59:56.023Z] Result:{"id":"call_zgv3","type":"function","function":{"name":"phonePage","arguments":"{\"details\":\"Dr Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T23:00:29.281Z] Model:llama3-70b-8192
+[2024-12-08T23:00:29.282Z] Prompt:tell me about Dr Daniel
+[2024-12-08T23:00:29.282Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:00:29.698Z] Result:{"id":"call_t727","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about Dr Daniel\",\"slot\":\"Dr Daniel\"}"}}
+[2024-12-08T23:05:16.644Z] Prompt:tell me about Dr Daniel
+[2024-12-08T23:05:16.643Z] Model:llama3-70b-8192
+[2024-12-08T23:05:16.644Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:05:17.282Z] Result:{"id":"call_4qre","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Dr Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T23:12:05.882Z] Prompt:I embrace the monster
+[2024-12-08T23:12:05.882Z] Model:llama3-70b-8192
+[2024-12-08T23:12:05.883Z] Options:[object Object],[object Object]
+[2024-12-08T23:12:06.405Z] Result:{"id":"call_jhpb","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I embrace the monster\"}"}}
+[2024-12-08T23:12:11.675Z] Prompt:
+[2024-12-08T23:12:11.675Z] Model:llama3-70b-8192
+[2024-12-08T23:12:11.676Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:12:12.109Z] Result:{"id":"call_ebt4","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"\",\"slot\":\"\"}"}}
+[2024-12-08T23:12:22.830Z] Prompt:tell me about Dr Daniel
+[2024-12-08T23:12:22.830Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:12:22.830Z] Model:llama3-70b-8192
+[2024-12-08T23:12:23.646Z] Result:{"id":"call_z5vs","type":"function","function":{"name":"phonePage","arguments":"{\"details\":\"What is the phone number for this doctor ;\",\"slot\":\"Dr Daniel\"}"}}
+[2024-12-08T23:13:45.371Z] Model:llama3-70b-8192
+[2024-12-08T23:13:45.371Z] Prompt:tell me about Dr Daniel
+[2024-12-08T23:13:45.371Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:13:46.020Z] Result:{"id":"call_m7f0","type":"function","function":{"name":"phonePage","arguments":"{\"details\":\"Dr Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T23:16:13.161Z] Prompt:
+[2024-12-08T23:16:13.160Z] Model:llama3-70b-8192
+[2024-12-08T23:16:13.161Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:16:13.661Z] Result:undefined
+[2024-12-08T23:18:24.516Z] Prompt:
+[2024-12-08T23:18:24.515Z] Model:llama3-70b-8192
+[2024-12-08T23:18:24.516Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:18:25.028Z] Result:undefined
+[2024-12-08T23:19:47.219Z] Model:llama3-70b-8192
+[2024-12-08T23:19:47.219Z] Prompt:Olivia
+[2024-12-08T23:19:47.220Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:19:47.756Z] Result:{"id":"call_1kjm","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T23:22:01.011Z] Model:llama3-70b-8192
+[2024-12-08T23:22:01.011Z] Prompt:tell me about Olivia
+[2024-12-08T23:22:01.011Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:22:01.606Z] Result:{"id":"call_hypf","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T23:27:17.740Z] Model:llama3-70b-8192
+[2024-12-08T23:27:17.740Z] Prompt:tell me about Olivia
+[2024-12-08T23:27:17.741Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:27:18.367Z] Result:{"id":"call_2fgy","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T23:29:02.269Z] Model:llama3-70b-8192
+[2024-12-08T23:29:02.270Z] Prompt:tell me about Olivia
+[2024-12-08T23:29:02.270Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:29:02.744Z] Result:{"id":"call_g046","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T23:29:17.087Z] Prompt:tell me about Daniel
+[2024-12-08T23:29:17.087Z] Model:llama3-70b-8192
+[2024-12-08T23:29:17.087Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:29:17.712Z] Result:{"id":"call_ynbd","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"about Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-08T23:29:30.118Z] Prompt:Daniel
+[2024-12-08T23:29:30.117Z] Model:llama3-70b-8192
+[2024-12-08T23:29:30.118Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:29:30.620Z] Result:{"id":"call_5v5y","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor\",\"slot\":\"Daniel\"}"}}
+[2024-12-08T23:29:38.095Z] Model:llama3-70b-8192
+[2024-12-08T23:29:38.095Z] Prompt:Olivia
+[2024-12-08T23:29:38.095Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:29:38.658Z] Result:{"id":"call_25m5","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Olivia ; \",\"slot\":\"Olivia\"}"}}
+[2024-12-08T23:35:28.210Z] Model:llama3-70b-8192
+[2024-12-08T23:35:28.210Z] Prompt:Olivia
+[2024-12-08T23:35:28.211Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:35:28.652Z] Result:{"id":"call_xx2g","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-08T23:35:34.009Z] Model:llama3-70b-8192
+[2024-12-08T23:35:34.009Z] Prompt:Daniel
+[2024-12-08T23:35:34.009Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:35:34.639Z] Result:{"id":"call_bf1v","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Daniel ;\",\"slot\":\"Daniel\"}"}}
+[2024-12-08T23:43:27.291Z] Model:llama3-70b-8192
+[2024-12-08T23:43:27.296Z] Prompt:Daniel
+[2024-12-08T23:43:27.296Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-08T23:43:27.886Z] Result:{"id":"call_xf2z","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Daniel\",\"slot\":\"Daniel\"}"}}
+[2024-12-09T00:37:37.918Z] Model:llama3-70b-8192
+[2024-12-09T00:37:37.920Z] Prompt:tell me about Daniel
+[2024-12-09T00:37:37.921Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T00:37:38.615Z] Result:{"id":"call_rz86","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T00:38:07.817Z] Prompt:tell me about Olivia
+[2024-12-09T00:38:07.816Z] Model:llama3-70b-8192
+[2024-12-09T00:38:07.817Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T00:38:08.503Z] Result:{"id":"call_8mfp","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor\"}"}}
+[2024-12-09T00:38:15.037Z] Model:llama3-70b-8192
+[2024-12-09T00:38:15.038Z] Prompt:tell me about Olivia
+[2024-12-09T00:38:15.038Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T00:38:15.684Z] Result:{"id":"call_2pj7","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T00:38:24.104Z] Prompt:Daniel
+[2024-12-09T00:38:24.104Z] Model:llama3-70b-8192
+[2024-12-09T00:38:24.104Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T00:38:24.862Z] Result:{"id":"call_jepq","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Daniel ;\",\"slot\":\"Daniel\"}"}}
+[2024-12-09T00:38:30.555Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T00:38:30.555Z] Model:llama3-70b-8192
+[2024-12-09T00:38:30.555Z] Prompt:Dr Olivia
+[2024-12-09T00:38:31.050Z] Result:{"id":"call_ghy4","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Dr Olivia ;\",\"slot\":\"Dr Olivia\"}"}}
+[2024-12-09T00:38:48.939Z] Model:llama3-70b-8192
+[2024-12-09T00:38:48.939Z] Prompt:Daniel
+[2024-12-09T00:38:48.939Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T00:38:49.570Z] Result:{"id":"call_m8zg","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor ;   \",\"slot\":\"Daniel\"}"}}
+[2024-12-09T00:38:52.652Z] Prompt:tell me about Olivia
+[2024-12-09T00:38:52.652Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T00:38:52.652Z] Model:llama3-70b-8192
+[2024-12-09T00:38:52.999Z] Result:{"id":"call_xg25","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T01:01:05.363Z] Model:llama3-70b-8192
+[2024-12-09T01:01:05.363Z] Prompt:Olivia
+[2024-12-09T01:01:05.364Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:01:06.322Z] Result:{"id":"call_cybd","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T01:01:11.972Z] Prompt:Daniel
+[2024-12-09T01:01:11.972Z] Model:llama3-70b-8192
+[2024-12-09T01:01:11.972Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:01:12.464Z] Result:{"id":"call_jbhh","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor\",\"slot\":\"Daniel\"}"}}
+[2024-12-09T01:01:21.522Z] Prompt:Olivia
+[2024-12-09T01:01:21.521Z] Model:llama3-70b-8192
+[2024-12-09T01:01:21.522Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:01:21.945Z] Result:{"id":"call_50jz","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T01:02:56.155Z] Prompt:Olivia
+[2024-12-09T01:02:56.154Z] Model:llama3-70b-8192
+[2024-12-09T01:02:56.155Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:02:56.623Z] Result:{"id":"call_nj94","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T01:03:00.682Z] Model:llama3-70b-8192
+[2024-12-09T01:03:00.682Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:03:00.682Z] Prompt:Daniel
+[2024-12-09T01:03:01.470Z] Result:{"id":"call_xv4a","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T01:10:37.342Z] Prompt:tell me about Daniel
+[2024-12-09T01:10:37.341Z] Model:llama3-70b-8192
+[2024-12-09T01:10:37.343Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:10:37.894Z] Result:{"id":"call_6y93","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T01:10:46.621Z] Model:llama3-70b-8192
+[2024-12-09T01:10:46.621Z] Prompt:tell me about Olivia
+[2024-12-09T01:10:46.621Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:10:47.047Z] Result:{"id":"call_qzar","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T01:10:54.261Z] Model:llama3-70b-8192
+[2024-12-09T01:10:54.261Z] Prompt:
+[2024-12-09T01:10:54.261Z] Options:
+[2024-12-09T01:10:55.345Z] Result:undefined
+[2024-12-09T01:10:59.506Z] Model:llama3-70b-8192
+[2024-12-09T01:10:59.506Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:10:59.506Z] Prompt:tell me about Olivia
+[2024-12-09T01:10:59.980Z] Result:{"id":"call_646q","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T01:11:15.663Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:11:15.663Z] Model:llama3-70b-8192
+[2024-12-09T01:11:15.663Z] Prompt:tell me about Daniel
+[2024-12-09T01:11:16.202Z] Result:{"id":"call_zprs","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"about Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T01:11:25.229Z] Model:llama3-70b-8192
+[2024-12-09T01:11:25.230Z] Prompt:Daniel
+[2024-12-09T01:11:25.230Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:11:26.038Z] Result:{"id":"call_ntgr","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor\",\"slot\":\"Daniel\"}"}}
+[2024-12-09T01:11:32.177Z] Prompt:Daniel
+[2024-12-09T01:11:32.177Z] Model:llama3-70b-8192
+[2024-12-09T01:11:32.177Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:11:32.795Z] Result:{"id":"call_qzmt","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Who do I see for this doctor\",\"slot\":\"Daniel\"}"}}
+[2024-12-09T01:47:56.397Z] Prompt:Daniel
+[2024-12-09T01:47:56.396Z] Model:llama3-70b-8192
+[2024-12-09T01:47:56.397Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:47:57.053Z] Result:{"id":"call_s9bw","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor\",\"slot\":\"Daniel\"}"}}
+[2024-12-09T01:48:00.588Z] Prompt:Olivia
+[2024-12-09T01:48:00.588Z] Model:llama3-70b-8192
+[2024-12-09T01:48:00.588Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:48:00.921Z] Result:{"id":"call_c75z","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Olivia ;\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T01:48:24.864Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T01:48:24.864Z] Prompt:William
+[2024-12-09T01:48:24.864Z] Model:llama3-70b-8192
+[2024-12-09T01:48:25.490Z] Result:{"id":"call_3mk6","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor\",\"slot\":\"William\"}"}}
+[2024-12-09T02:21:03.306Z] Model:llama3-70b-8192
+[2024-12-09T02:21:03.307Z] Prompt:tell me about the medical center
+[2024-12-09T02:21:03.308Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:21:04.193Z] Result:{"id":"call_jban","type":"function","function":{"name":"locationPage","arguments":"{\"details\":\"medical center\",\"slot\":\"location\"}"}}
+[2024-12-09T02:21:09.148Z] Prompt:do you have something to treat cancer
+[2024-12-09T02:21:09.148Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:21:09.147Z] Model:llama3-70b-8192
+[2024-12-09T02:21:09.554Z] Result:{"id":"call_9mfq","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"Who treats cancer\",\"slot\":\"oncology\"}"}}
+[2024-12-09T02:23:27.929Z] Model:llama3-70b-8192
+[2024-12-09T02:23:27.929Z] Prompt:give me the doctor Olivia's phone number
+[2024-12-09T02:23:27.929Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:23:28.544Z] Result:{"id":"call_9zs8","type":"function","function":{"name":"phonePage","arguments":"{\"details\":\"give me the doctor Olivia's phone number\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T02:33:40.811Z] Model:llama3-70b-8192
+[2024-12-09T02:33:40.813Z] Prompt:
+[2024-12-09T02:33:40.813Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:33:41.827Z] Result:undefined
+[2024-12-09T02:33:47.066Z] Prompt:tell me about Olivia
+[2024-12-09T02:33:47.066Z] Model:llama3-70b-8192
+[2024-12-09T02:33:47.066Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:33:47.714Z] Result:{"id":"call_5py8","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T02:34:33.997Z] Model:llama3-70b-8192
+[2024-12-09T02:34:33.998Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:34:33.998Z] Prompt:tell me about William
+[2024-12-09T02:34:34.457Z] Result:undefined
+[2024-12-09T02:34:42.270Z] Prompt:tell me about Olivia
+[2024-12-09T02:34:42.270Z] Model:llama3-70b-8192
+[2024-12-09T02:34:42.270Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:34:42.706Z] Result:{"id":"call_sg70","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Who can tell me about Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T02:34:50.042Z] Prompt:tell me about William
+[2024-12-09T02:34:50.041Z] Model:llama3-70b-8192
+[2024-12-09T02:34:50.042Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:34:50.655Z] Result:{"id":"call_n17w","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"William\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T02:34:55.699Z] Prompt:what about Daniel
+[2024-12-09T02:34:55.699Z] Model:llama3-70b-8192
+[2024-12-09T02:34:55.699Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:34:56.305Z] Result:{"id":"call_fkmh","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor\",\"slot\":\"Daniel\"}"}}
+[2024-12-09T02:35:00.042Z] Prompt:what if I have cancer
+[2024-12-09T02:35:00.042Z] Model:llama3-70b-8192
+[2024-12-09T02:35:00.042Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:35:00.402Z] Result:{"id":"call_qa9y","type":"function","function":{"name":"ConditionPage","arguments":"{\"details\":\"what if I have cancer\",\"slot\":\"department\"}"}}
+[2024-12-09T02:35:10.646Z] Model:llama3-70b-8192
+[2024-12-09T02:35:10.647Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:35:10.647Z] Prompt:who do I see about cancer
+[2024-12-09T02:35:11.257Z] Result:{"id":"call_kq0m","type":"function","function":{"name":"ConditionPage","arguments":"{\"details\":\"cancer\",\"slot\":\"department\"}"}}
+[2024-12-09T02:47:40.770Z] Prompt:
+[2024-12-09T02:47:40.769Z] Model:llama3-70b-8192
+[2024-12-09T02:47:40.770Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:47:41.384Z] Result:undefined
+[2024-12-09T02:47:47.416Z] Prompt:tell me about Olivia
+[2024-12-09T02:47:47.416Z] Model:llama3-70b-8192
+[2024-12-09T02:47:47.416Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:47:48.099Z] Result:{"id":"call_eqnq","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T02:48:08.458Z] Model:llama3-70b-8192
+[2024-12-09T02:48:08.458Z] Prompt:tell me about Daniel
+[2024-12-09T02:48:08.458Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:48:08.917Z] Result:{"id":"call_dn3y","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about Daniel\",\"slot\":\"Daniel\"}"}}
+[2024-12-09T02:48:13.041Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:48:13.040Z] Model:llama3-70b-8192
+[2024-12-09T02:48:13.040Z] Prompt:tell me about Olivia
+[2024-12-09T02:48:13.606Z] Result:{"id":"call_1z1b","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T02:48:21.283Z] Model:llama3-70b-8192
+[2024-12-09T02:48:21.283Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:48:21.283Z] Prompt:Olivia
+[2024-12-09T02:48:21.686Z] Result:{"id":"call_hygk","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T02:48:32.754Z] Model:llama3-70b-8192
+[2024-12-09T02:48:32.755Z] Prompt:William
+[2024-12-09T02:48:32.755Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:48:33.168Z] Result:{"id":"call_41eq","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"How can I get ahold of Doctor\",\"slot\":\"William\"}"}}
+[2024-12-09T02:48:36.179Z] Model:llama3-70b-8192
+[2024-12-09T02:48:36.180Z] Prompt:tell me about Olivia
+[2024-12-09T02:48:36.180Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:48:36.521Z] Result:{"id":"call_52ne","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T02:48:41.469Z] Prompt:tell me about Daniel
+[2024-12-09T02:48:41.469Z] Model:llama3-70b-8192
+[2024-12-09T02:48:41.469Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:48:50.355Z] Result:{"id":"call_vgnn","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T02:49:58.708Z] Model:llama3-70b-8192
+[2024-12-09T02:49:58.708Z] Prompt:tell me about Olivia
+[2024-12-09T02:49:58.709Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:49:59.278Z] Result:{"id":"call_dzcm","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T02:50:21.459Z] Model:llama3-70b-8192
+[2024-12-09T02:50:21.459Z] Prompt:tell me about Dr Olivia
+[2024-12-09T02:50:21.459Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:50:21.920Z] Result:{"id":"call_a8z3","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Dr Olivia\",\"slot\":\"Dr Olivia\"}"}}
+[2024-12-09T02:52:07.502Z] Model:llama3-70b-8192
+[2024-12-09T02:52:07.503Z] Prompt:tell me about Olivia
+[2024-12-09T02:52:07.503Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:52:08.442Z] Result:undefined
+[2024-12-09T02:52:14.027Z] Model:llama3-70b-8192
+[2024-12-09T02:52:14.028Z] Prompt:tell me about Olivia
+[2024-12-09T02:52:14.028Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:52:14.859Z] Result:{"id":"call_mwfb","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T02:52:30.214Z] Model:llama3-70b-8192
+[2024-12-09T02:52:30.215Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T02:52:30.215Z] Prompt:tell me about doctor Olivia
+[2024-12-09T02:52:30.956Z] Result:{"id":"call_xaqy","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about doctor Olivia\",\"slot\":\"doctor Olivia\"}"}}
+[2024-12-09T03:00:11.272Z] Model:llama3-70b-8192
+[2024-12-09T03:00:11.273Z] Prompt:tell me about Olivia
+[2024-12-09T03:00:11.274Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:00:11.947Z] Result:{"id":"call_qspy","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T03:00:15.845Z] Model:llama3-70b-8192
+[2024-12-09T03:00:15.845Z] Prompt:tell me about Daniel
+[2024-12-09T03:00:15.845Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:00:16.451Z] Result:{"id":"call_kmj1","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T03:00:23.733Z] Prompt:show me Daniel
+[2024-12-09T03:00:23.733Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:00:23.732Z] Model:llama3-70b-8192
+[2024-12-09T03:00:24.337Z] Result:{"id":"call_fxat","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"show me Daniel\",\"slot\":\"Daniel\"}"}}
+[2024-12-09T03:00:27.437Z] Prompt:show me Daniel
+[2024-12-09T03:00:27.437Z] Model:llama3-70b-8192
+[2024-12-09T03:00:27.438Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:00:27.993Z] Result:{"id":"call_c6ha","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T03:00:35.168Z] Model:llama3-70b-8192
+[2024-12-09T03:00:35.169Z] Prompt:show me Olivia
+[2024-12-09T03:00:35.169Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:00:36.166Z] Result:{"id":"call_5qcq","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T03:00:40.735Z] Model:llama3-70b-8192
+[2024-12-09T03:00:40.735Z] Prompt:show me Dr Olivia
+[2024-12-09T03:00:40.735Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:00:44.372Z] Result:{"id":"call_fgtb","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"show me Dr Olivia\",\"slot\":\"Dr Olivia\"}"}}
+[2024-12-09T03:00:47.860Z] Model:llama3-70b-8192
+[2024-12-09T03:00:47.860Z] Prompt:show me Dr Olivia
+[2024-12-09T03:00:47.860Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:00:59.886Z] Model:llama3-70b-8192
+[2024-12-09T03:00:59.887Z] Prompt:show me Dr Daniel
+[2024-12-09T03:00:59.887Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:01:03.398Z] Result:{"id":"call_xja8","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"show me Dr Olivia\",\"slot\":\"Dr Olivia\"}"}}
+[2024-12-09T03:01:03.638Z] Result:{"id":"call_jk32","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"show me Dr Daniel\",\"slot\":\"Dr Daniel\"}"}}
+[2024-12-09T03:01:10.001Z] Prompt:show me Dr Daniel
+[2024-12-09T03:01:10.001Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:01:10.001Z] Model:llama3-70b-8192
+[2024-12-09T03:01:31.830Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:01:31.830Z] Prompt:tell me about Daniel
+[2024-12-09T03:01:31.830Z] Model:llama3-70b-8192
+[2024-12-09T03:01:39.540Z] Result:{"id":"call_qjd0","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Who is Doctor Daniel ;\",\"slot\":\"Daniel\"}"}}
+[2024-12-09T03:01:39.798Z] Result:{"id":"call_m5qh","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"show me Dr Daniel\",\"slot\":\"Dr Daniel\"}"}}
+[2024-12-09T03:02:06.611Z] Model:llama3-70b-8192
+[2024-12-09T03:02:06.611Z] Prompt:tell me about Olivia
+[2024-12-09T03:02:06.611Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:02:16.868Z] Result:{"id":"call_6e9s","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Who can see Dr. Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T03:02:37.659Z] Prompt:show me Daniel
+[2024-12-09T03:02:37.659Z] Model:mixtral-8x7b-32768
+[2024-12-09T03:02:37.659Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:02:38.171Z] Result:{"id":"call_g72s","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"show me Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T03:02:44.091Z] Prompt:show me Olivia
+[2024-12-09T03:02:44.091Z] Model:mixtral-8x7b-32768
+[2024-12-09T03:02:44.091Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:02:44.589Z] Result:{"id":"call_1res","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"show me Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T03:02:48.402Z] Prompt:tell me about Olivia
+[2024-12-09T03:02:48.402Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:02:48.402Z] Model:mixtral-8x7b-32768
+[2024-12-09T03:02:48.853Z] Result:{"id":"call_drwn","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T03:02:55.826Z] Prompt:find Daniel
+[2024-12-09T03:02:55.825Z] Model:mixtral-8x7b-32768
+[2024-12-09T03:02:55.826Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:03:11.414Z] Model:mixtral-8x7b-32768
+[2024-12-09T03:03:11.415Z] Prompt:find Daniel
+[2024-12-09T03:03:11.415Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:03:13.624Z] Result:{"id":"call_jebm","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"find Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T03:03:44.423Z] Result:{"id":"call_ts1n","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"find Daniel\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T03:06:32.108Z] Model:llama3-70b-8192
+[2024-12-09T03:06:32.109Z] Prompt:tell me about Dr Olivia
+[2024-12-09T03:06:32.109Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:06:32.744Z] Result:{"id":"call_w03k","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Dr Olivia\",\"slot\":\"Dr Olivia\"}"}}
+[2024-12-09T03:06:36.541Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:06:36.541Z] Prompt:tell me about Dr Rodriguez
+[2024-12-09T03:06:36.541Z] Model:llama3-70b-8192
+[2024-12-09T03:06:37.095Z] Result:{"id":"call_0arz","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Dr Rodriguez\",\"slot\":\"Dr Rodriguez\"}"}}
+[2024-12-09T03:06:57.296Z] Model:llama3-70b-8192
+[2024-12-09T03:06:57.296Z] Prompt:tell me about Dr Rodriguez
+[2024-12-09T03:06:57.296Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:06:59.921Z] Result:{"id":"call_9m90","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Doctor\",\"slot\":\"Dr Rodriguez\"}"}}
+[2024-12-09T03:09:52.016Z] Model:llama3-70b-8192
+[2024-12-09T03:09:52.016Z] Prompt:tell me about Dr Rodriguez
+[2024-12-09T03:09:52.017Z] Options:
+[2024-12-09T03:09:52.697Z] Result:undefined
+[2024-12-09T03:09:56.885Z] Model:llama3-70b-8192
+[2024-12-09T03:09:56.886Z] Prompt:who is Olivia
+[2024-12-09T03:09:56.893Z] Options:
+[2024-12-09T03:09:57.879Z] Result:undefined
+[2024-12-09T03:10:14.228Z] Options:
+[2024-12-09T03:10:14.227Z] Model:llama3-70b-8192
+[2024-12-09T03:10:14.228Z] Prompt:who is Olivia
+[2024-12-09T03:10:14.937Z] Result:undefined
+[2024-12-09T03:10:18.745Z] Prompt:tell me about Daniel
+[2024-12-09T03:10:18.744Z] Model:llama3-70b-8192
+[2024-12-09T03:10:18.745Z] Options:
+[2024-12-09T03:10:19.484Z] Result:undefined
+[2024-12-09T03:14:58.232Z] Prompt:tell me about Dr Daniel
+[2024-12-09T03:14:58.231Z] Model:llama3-70b-8192
+[2024-12-09T03:14:58.233Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:14:58.832Z] Result:{"id":"call_kfcf","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Dr Daniel\",\"slot\":\"Dr Daniel\"}"}}
+[2024-12-09T03:15:10.306Z] Model:llama3-70b-8192
+[2024-12-09T03:15:10.307Z] Prompt:tell me about Olivia
+[2024-12-09T03:15:10.307Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:15:11.029Z] Result:{"id":"call_p877","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T03:15:18.631Z] Model:llama3-70b-8192
+[2024-12-09T03:15:18.632Z] Prompt:tell me about Dr William
+[2024-12-09T03:15:18.632Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:15:19.050Z] Result:{"id":"call_rdas","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Dr William\",\"slot\":\"Dr William\"}"}}
+[2024-12-09T03:20:06.414Z] Prompt:show me Olivia
+[2024-12-09T03:20:06.414Z] Model:llama3-70b-8192
+[2024-12-09T03:20:06.414Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:20:06.900Z] Result:{"id":"call_425t","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"show me Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T03:20:10.959Z] Model:llama3-70b-8192
+[2024-12-09T03:20:10.959Z] Prompt:show me Olivia
+[2024-12-09T03:20:10.959Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:20:11.393Z] Result:{"id":"call_1jrt","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Doctor Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T03:20:15.213Z] Prompt:tell me about Daniel
+[2024-12-09T03:20:15.212Z] Model:llama3-70b-8192
+[2024-12-09T03:20:15.213Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:20:15.688Z] Result:{"id":"call_fz7p","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about\",\"slot\":\"Daniel\"}"}}
+[2024-12-09T03:20:19.707Z] Prompt:what's the location of the medical center
+[2024-12-09T03:20:19.707Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:20:19.707Z] Model:llama3-70b-8192
+[2024-12-09T03:20:20.217Z] Result:{"id":"call_sxap","type":"function","function":{"name":"locationPage","arguments":"{\"details\":\"what's the location of the medical center\",\"slot\":\"medical center\"}"}}
+[2024-12-09T03:20:25.363Z] Prompt:who works in oncology
+[2024-12-09T03:20:25.362Z] Model:llama3-70b-8192
+[2024-12-09T03:20:25.363Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:20:26.933Z] Result:{"id":"call_6aa0","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"Who works in this medical department ;   \",\"slot\":\"oncology\"}"}}
+[2024-12-09T03:20:45.556Z] Prompt:I kiss him
+[2024-12-09T03:20:45.556Z] Options:[object Object],[object Object]
+[2024-12-09T03:20:45.555Z] Model:llama3-70b-8192
+[2024-12-09T03:20:47.102Z] Result:{"id":"call_mygm","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I kiss him\"}"}}
+[2024-12-09T03:20:54.200Z] Model:llama3-70b-8192
+[2024-12-09T03:20:54.201Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:20:54.201Z] Prompt:I take him to Caltech
+[2024-12-09T03:20:59.086Z] Result:{"id":"call_jb6k","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"I take him to Caltech\",\"slot\":\"school\"}"}}
+[2024-12-09T03:30:17.746Z] Model:llama3-70b-8192
+[2024-12-09T03:30:17.747Z] Prompt:I hug him
+[2024-12-09T03:30:17.747Z] Options:[object Object],[object Object]
+[2024-12-09T03:30:18.350Z] Result:{"id":"call_v8vz","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-09T03:44:41.196Z] Model:llama3-70b-8192
+[2024-12-09T03:44:41.197Z] Options:[object Object],[object Object]
+[2024-12-09T03:44:41.197Z] Prompt:I hug him
+[2024-12-09T03:44:41.897Z] Result:{"id":"call_wgjg","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-09T03:56:03.777Z] Prompt:I embrace the monster
+[2024-12-09T03:56:03.779Z] Options:[object Object],[object Object]
+[2024-12-09T03:56:03.776Z] Model:llama3-70b-8192
+[2024-12-09T03:56:04.373Z] Result:{"id":"call_p6hn","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I embrace the monster\"}"}}
+[2024-12-09T03:56:22.177Z] Prompt:I love the monster
+[2024-12-09T03:56:22.177Z] Model:mixtral-8x7b-32768
+[2024-12-09T03:56:22.178Z] Options:[object Object],[object Object]
+[2024-12-09T03:56:22.652Z] Result:{"id":"call_574k","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I love the monster\"}"}}
+[2024-12-09T03:58:22.252Z] Model:mixtral-8x7b-32768
+[2024-12-09T03:58:22.253Z] Prompt:tell me about Olivia
+[2024-12-09T03:58:22.253Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T03:58:22.942Z] Result:{"id":"call_x1py","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T03:59:50.615Z] Options:[object Object],[object Object]
+[2024-12-09T03:59:50.615Z] Model:mixtral-8x7b-32768
+[2024-12-09T03:59:50.615Z] Prompt:kiss and embrace my monster
+[2024-12-09T03:59:51.103Z] Result:{"id":"call_nexw","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"kiss and embrace my monster\"}"}}
+[2024-12-09T04:04:11.420Z] Model:llama3-70b-8192
+[2024-12-09T04:04:11.421Z] Prompt:
+[2024-12-09T04:04:11.421Z] Options:[object Object],[object Object]
+[2024-12-09T04:04:11.883Z] Result:{"id":"call_rv58","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I fight him ;   \"}"}}
+[2024-12-09T04:04:18.841Z] Model:llama3-70b-8192
+[2024-12-09T04:04:18.841Z] Prompt:
+[2024-12-09T04:04:18.841Z] Options:[object Object],[object Object]
+[2024-12-09T04:04:19.363Z] Result:{"id":"call_g0vk","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-09T04:04:32.930Z] Model:llama3-70b-8192
+[2024-12-09T04:04:32.930Z] Prompt:I hug him
+[2024-12-09T04:04:32.930Z] Options:[object Object],[object Object]
+[2024-12-09T04:04:33.620Z] Result:{"id":"call_fse3","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-09T04:04:57.598Z] Model:llama3-70b-8192
+[2024-12-09T04:04:57.598Z] Options:[object Object],[object Object]
+[2024-12-09T04:04:57.598Z] Prompt:
+[2024-12-09T04:04:57.960Z] Result:{"id":"call_n2zz","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-09T04:05:18.370Z] Model:mixtral-8x7b-32768
+[2024-12-09T04:05:18.371Z] Prompt:I embrace him
+[2024-12-09T04:05:18.371Z] Options:[object Object],[object Object]
+[2024-12-09T04:05:18.552Z] Result:undefined
+[2024-12-09T04:05:30.408Z] Model:llama3-70b-8192
+[2024-12-09T04:05:30.408Z] Prompt:I embrace him
+[2024-12-09T04:05:30.408Z] Options:[object Object],[object Object]
+[2024-12-09T04:05:30.784Z] Result:{"id":"call_h6vj","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I embrace him\"}"}}
+[2024-12-09T04:07:16.760Z] Prompt:I hug him
+[2024-12-09T04:07:16.760Z] Model:mixtral-8x7b-32768
+[2024-12-09T04:07:16.761Z] Options:[object Object],[object Object]
+[2024-12-09T04:07:17.472Z] Result:{"id":"call_rfwn","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-09T04:07:35.248Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T04:07:35.248Z] Model:mixtral-8x7b-32768
+[2024-12-09T04:07:35.248Z] Prompt:tell me about Dr Daniel
+[2024-12-09T04:07:35.925Z] Result:{"id":"call_dec6","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about Dr Daniel\",\"slot\":\"Dr Daniel\"}"}}
+[2024-12-09T04:07:40.035Z] Prompt:tell me about Olivia
+[2024-12-09T04:07:40.035Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T04:07:40.035Z] Model:mixtral-8x7b-32768
+[2024-12-09T04:07:40.771Z] Result:{"id":"call_xdsv","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T04:38:12.310Z] Prompt:Olivia Olivia
+[2024-12-09T04:38:12.309Z] Model:llama3-70b-8192
+[2024-12-09T04:38:12.310Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T04:38:13.148Z] Result:{"id":"call_7zp6","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-09T07:47:36.487Z] Prompt:tell me about Olivia
+[2024-12-09T07:47:36.485Z] Model:llama3-70b-8192
+[2024-12-09T07:47:36.487Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:47:37.306Z] Result:{"id":"call_6xgk","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T07:47:41.922Z] Model:llama3-70b-8192
+[2024-12-09T07:47:41.922Z] Prompt:tell me about Dr Daniel
+[2024-12-09T07:47:41.922Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:47:42.419Z] Result:{"id":"call_13qn","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Dr Daniel\",\"slot\":\"Dr Daniel\"}"}}
+[2024-12-09T07:49:29.495Z] Model:llama3-70b-8192
+[2024-12-09T07:49:29.496Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:49:29.496Z] Prompt:tell me about Olivia
+[2024-12-09T07:49:30.041Z] Result:{"id":"call_1ecd","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Doctor Olivia ;\",\"slot\":\"Olivia\"}"}}
+[2024-12-09T07:49:33.687Z] Model:llama3-70b-8192
+[2024-12-09T07:49:33.687Z] Prompt:tell me about Dr Daniels
+[2024-12-09T07:49:33.687Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:49:34.117Z] Result:{"id":"call_qbg9","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Dr Daniels\",\"slot\":\"Dr Daniels\"}"}}
+[2024-12-09T07:52:03.294Z] Model:llama3-70b-8192
+[2024-12-09T07:52:03.295Z] Prompt:tell me about Rodriguez
+[2024-12-09T07:52:03.295Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:52:03.935Z] Result:{"id":"call_6ek7","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Rodriguez\",\"slot\":\"Rodriguez\"}"}}
+[2024-12-09T07:52:07.577Z] Model:llama3-70b-8192
+[2024-12-09T07:52:07.577Z] Prompt:tell me about Dr Daniel
+[2024-12-09T07:52:07.577Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:52:08.151Z] Result:{"id":"call_sdcj","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Doctor\",\"slot\":\"Dr Daniel\"}"}}
+[2024-12-09T07:52:12.436Z] Prompt:tell me about Williams
+[2024-12-09T07:52:12.435Z] Model:llama3-70b-8192
+[2024-12-09T07:52:12.436Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:52:12.852Z] Result:{"id":"call_9vpf","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Doctor\",\"slot\":\"Williams\"}"}}
+[2024-12-09T07:52:15.809Z] Model:llama3-70b-8192
+[2024-12-09T07:52:15.809Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:52:15.809Z] Prompt:tell me about Dr Williams
+[2024-12-09T07:52:16.236Z] Result:{"id":"call_rjgn","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about Dr Williams\",\"slot\":\"Dr Williams\"}"}}
+[2024-12-09T07:52:19.198Z] Prompt:tell me about Dr William
+[2024-12-09T07:52:19.198Z] Model:llama3-70b-8192
+[2024-12-09T07:52:19.198Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:52:23.192Z] Model:llama3-70b-8192
+[2024-12-09T07:52:23.192Z] Prompt:tell me about William
+[2024-12-09T07:52:23.192Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:52:24.759Z] Result:{"id":"call_pnet","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about William\",\"slot\":\"William\"}"}}
+[2024-12-09T07:52:24.975Z] Result:{"id":"call_4gdz","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Dr William\",\"slot\":\"Dr William\"}"}}
+[2024-12-09T07:53:20.859Z] Model:llama3-70b-8192
+[2024-12-09T07:53:20.860Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:53:20.860Z] Prompt:tell me about William
+[2024-12-09T07:53:21.363Z] Result:{"id":"call_j78c","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about William\",\"slot\":\"William\"}"}}
+[2024-12-09T07:53:25.009Z] Model:llama3-70b-8192
+[2024-12-09T07:53:25.009Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:53:25.009Z] Prompt:who treats cancer
+[2024-12-09T07:53:25.642Z] Result:{"id":"call_h0cd","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"Who treats cancer\",\"slot\":\"oncology\"}"}}
+[2024-12-09T07:53:31.362Z] Model:llama3-70b-8192
+[2024-12-09T07:53:31.362Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T07:53:31.362Z] Prompt:who treats a virus
+[2024-12-09T07:53:43.177Z] Result:{"id":"call_nyyz","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"Who treats a virus\",\"slot\":\"infectious disease\"}"}}
+[2024-12-09T07:54:17.488Z] Prompt:
+[2024-12-09T07:54:17.487Z] Model:llama3-70b-8192
+[2024-12-09T07:54:17.488Z] Options:[object Object],[object Object]
+[2024-12-09T07:54:18.131Z] Result:{"id":"call_bhb5","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-09T07:54:24.067Z] Model:llama3-70b-8192
+[2024-12-09T07:54:24.067Z] Prompt:I kiss him
+[2024-12-09T07:54:24.068Z] Options:[object Object],[object Object]
+[2024-12-09T07:54:24.427Z] Result:{"id":"call_74fd","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I kiss him\"}"}}
+[2024-12-09T17:08:11.442Z] Prompt:hug him
+[2024-12-09T17:08:11.439Z] Model:llama3-70b-8192
+[2024-12-09T17:08:11.442Z] Options:[object Object],[object Object]
+[2024-12-09T17:08:12.014Z] Result:{"id":"call_ct9n","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"hug him\"}"}}
+[2024-12-09T17:08:55.445Z] Prompt:call Rick Moranis
+[2024-12-09T17:08:55.445Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-09T17:08:55.445Z] Model:llama3-70b-8192
+[2024-12-09T17:08:56.134Z] Result:{"id":"call_f1bt","type":"function","function":{"name":"Buster","arguments":"{\"details\":\"call Rick Moranis\"}"}}

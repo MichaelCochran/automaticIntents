@@ -26,7 +26,7 @@ app.post('/create-file', (req, res) => {
     fs.access(fileName, fs.constants.F_OK, (err) => {
         if (err) {
             // File doesn't exist, create it
-            fs.writeFile('public/user/'+fileName, fileContents, (err) => {
+            fs.writeFile('public/chat/examples/'+fileName, fileContents, (err) => {
                 if (err) {
                     console.error('Error creating file:', err);
                     res.status(500).send('Error creating file');
@@ -50,11 +50,12 @@ app.post('/create-file', (req, res) => {
     });
 });
 
+
 //Reads files from /user/<fileName>
 app.get('/file', (req, res) => {
     const fileName = req.query.fileName;
-    const filePath = path.join('/user', fileName);
-
+    const filePath = path.join('/chat/examples/', fileName);
+console.log(filePath)
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
             if (err.code === 'ENOENT') { // Check for "File not found" error
@@ -63,11 +64,14 @@ app.get('/file', (req, res) => {
                 console.error(`Error reading file: ${err}`);
                 res.status(500).send('Internal Server Error');
             }
-            return;
+
         }
+        else {
 
         res.send(data);
-    });
+        //logToFile('Data:'+ data);
+            }
+    })
 });
 
 
@@ -77,21 +81,36 @@ app.get('/file', (req, res) => {
 app.post('/middleware', async (req, res) => {
     try {
         const { prompt, model, options } = req.body;
-        console.log('---->', model);
+
+        logThis('Model:'+ model);
+        logThis('Prompt:'+ prompt);
+        logThis('Options:'+ options);
         // Await the result of runConversation
         const result = await runConversation(prompt, options, model);
 
-        // Now log the result
-        console.log('---->', result);
-
+        // Now log the result JSON.stringify(result)
+        logThis('Result:'+ JSON.stringify(result));
         // Send the response
         res.json(result);
     } catch (error) {
         console.error("Error processing request:", error);
+        logThis("Error:",error)
         res.status(500).json({ error: "Internal Server Error" });
     }
 });
 
+
+function logThis(message) {
+
+    const logFilePath = 'usage.log'; // Specify your log file path
+    const logEntry = `[${new Date().toISOString()}] ${message}\n`; // Format the log entry
+
+    fs.appendFile(logFilePath, logEntry, (err) => {
+        if (err) {
+            console.error('Error appending to log file:', err);
+        }
+    });
+}
 
 
 //Starting your http server

@@ -1,6 +1,5 @@
 <html>
 <head>
-
     <link rel="stylesheet" href="/style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +10,13 @@
           rel="stylesheet">
 </head>
 <body class="nolisten">
-<div id="main" >
-
+<div id="main">
     <header>
-        <span class="header-text"><a id='egg' style="text-decoration: none;text-decoration:none" href="#">Demo</a>: Automatic Intents</span>
+        <span class="header-text"> Automatic Intents</span>
         <div class="button-group">
-            <button class="example" id="option1">Interactive Story</button>
-            <button class="example" id="option2">Chat Bot</button>
+            <!-- filenames correspond with folders in chat folder -->
+            <button class="example" filename="monsterExample" id="option1">Story</button>
+            <button class="example" filename="medicalExample" id="option2">Chat Bot</button>
             <div id="info-button" title="info" alt="info" class="circle-button">
                 <span class="symbol">i</span>
             </div>
@@ -30,134 +29,123 @@
         </div>
     </header>
 
-
-    <h2 class="demo-intro">Let me tell you a story..</h2>
-
+    <h2 class="demo-intro">Chat Examples<span id="focalChat" class="chatLabel"></span>
+        <span id="edit-button" class="pen-icon"> &#9998;</span>
+    </h2>
     <div class="section">
-        <div class="left-bubble" model="gpt3.5-turbo">
-            <div id="content">
-            </div>
+        <span id="optional-left-stack">
+            <!-- default model -->
+        <div class="left-bubble" model="llama3-70b-8192">
+            <div id="content" class="current-message"></div>
         </div>
+        </span>
         <div></div>
         <div>
-            <div class="right-bubble" model="Gemma">
-                <textarea id="input-text" class="output" placeholder="" ></textarea>
+            <div class="right-bubble">
+                <textarea id="input-text" class="output" placeholder=""></textarea>
             </div>
-            <!--<button id="send-button">Send</button> -->
         </div>
     </div>
-
+    <!-- all the pop-up dialogs -->
     <div id="dialog" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <h2>Demo: Automatic Intents </h2>
-            <p>Making lessons and bots dead simple. Create a JSON template file. Contact lesliedpound@gmail.com</p>
+            <h2>Automatic Intents </h2>
+            <p>AI-driven chat etc. Demo. Requires AI API model passwords. Free. See Readme. Contact
+                lesliedpound@gmail.com</p>
         </div>
     </div>
-
     <div id="dialog2" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <h2>Try It: Build a Chat</h2>
-            <p>Create/Edit JSON</p>
-            <form id="fileForm" style="max-width: 500px">
-                <label for="fileName">File Name:</label>
-                <input type="text" id="fileName" name="fileName" value="example.json" required>
-                <button id="fetch-button" class="optional-button">fetch</button><br><br>
-
-      <label for="fileContents">Contents:</label>  <br>
-                <br>
-                <textarea id="fileContents" name="fileContents" rows="4" cols="50" required></textarea><br><br>
-<div id="note"></div>
-                <button type="button" onclick="createFile()">Create File</button>
-            </form>
+            <h2>Try It: Edit a Chat</h2>
+            <section>
+                <form id="fileForm" style="max-width: 500px">
+                    <label for="fileName">File Name:</label>
+                    <input type="text" id="fileName" name="fileName" value="story.json" required>
+                    <button id="fetch-button" class="optional-button">fetch</button>
+                    <br>
+                    <label for="fileContents">Contents:</label>
+                    <div>
+                        <textarea id="fileContents" name="fileContents" rows="4" cols="50" required></textarea><br><br>
+                        <button type="button" onclick="editFile()">Save File</button>
+                    </div>
+                </form>
+            </section>
         </div>
     </div>
-
     <div id="dialog1" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
             <h2>Settings</h2>
-            <p>
-                Model
+            <h3>Choose a Model</h3>
             <div class="dropdown">
                 <select id="model">
                     <option value="mixtral-8x7b-32768">mixtral-8x7b</option>
                     <option value="gemma-7b-it">gemma-7b-it</option>
                     <option value="gpt-4-turbo">gpt-4-turbo</option>
-                    <option value="gpt-3.5-turbo-1106" selected>gpt-3.5-turbo-1106</option>
-                    <option value="llama3-70b-8192">llama3-70b</option>
+                    <option value="gpt-3.5-turbo-1106">gpt-3.5-turbo-1106</option>
+                    <option value="llama3-70b-8192" selected>llama3-70b</option>
+                    <option value="llama3-groq-70b-8192-tool-use-preview">llama3-groq</option>
                 </select>
             </div>
-            </p>
-
             <label class="switch" for="toggle">
                 <input type="checkbox" id="toggle">
                 <span class="slider round"></span>
             </label>
-            <div style="vertical-align: bottom; display:inline-block">Show Model (API) response</div>
-
+            <div style="vertical-align: bottom; display:inline-block">Show API Traffic</div>
+            <div style="vertical-align: bottom; display:inline-block">Running Chat</div>
         </div>
-
     </div>
 
-    <div id="sent">
-        </div>
-    <div id="log">
-
+    <div id="request" class="api"><span class="help" placeholder="PROMPT SENT TO MODEL"></span></div>
+    <div id="modelResponse" class="api"><span class="help" placeholder="MODEL RESPONSE"></span>
     </div>
-
 
     <script>
 
         function addModelName(modelID, terms) {
-            const element = document.querySelector("modelID");
-            const dynamicContent = terms;
-            element.style.setProperty("--content", `"${dynamicContent}"`);
+            const element = document.querySelector('#' + modelID);
+            element.style.setProperty("--content", `"${terms}"`);
         }
 
-        // Setup : listeners for buttons & dialogs
+
+        //Setup listeners for buttons & dialogs
         function setListeners() {
-            //function attachEventListeners() {
+            const elements = {
+                'edit-button': editDialog,
+                'settings-button': () => showModal('dialog1'),
+                'info-button': () => showModal('dialog'),
+                'fetch-button': getFile,
+                'model': handleModelChange,
+                'toggle': showHideAPI,
+                'input-text': handleInputKeyDown,
+            };
 
-
-                document.getElementById('info-button').addEventListener('click', () => showModal('dialog2'));
-                document.getElementById('settings-button').addEventListener('click', () => showModal('dialog1'));
-                document.getElementById('fetch-button').addEventListener('click', getFile);
-                document.getElementById('egg').addEventListener('click', () => showModal('dialog2'));
-                document.querySelectorAll('.close-button').forEach(button => button.addEventListener('click', closeModal));
-                document.getElementById("model").addEventListener("change", handleModelChange);
-                document.getElementById("toggle").addEventListener('change', handleToggleChange);
-                document.getElementById('input-text').addEventListener('keydown', handleInputKeyDown);
-
-          //  fetchButton.addEventListener('click', () => getFile());
-
-
-            const modal = document.getElementById('dialog');
-
-            document.getElementById("model").value = "gpt-3.5-turbo-1106";
-            document.getElementById('log').style.display = "none"
-            document.getElementById('sent').style.display = "none"
-            const toggleSwitch = document.getElementById("toggle");
-            const slider = document.querySelector('.slider');
-
-// Add event listener for changes (clicks)
-            toggleSwitch.addEventListener('change', function () {
-                if (toggleSwitch.checked) {
-                    // Checkbox is checked (ON)
-                    //let isListening = true;
-                    document.getElementById('toggle').classList.add("on")
-                    console.log("Switch is ON");
-                    document.getElementById('log').style.display = "block"
-                    document.getElementById('sent').style.display = "block"
-                } else {
-                    document.getElementById('toggle').classList.remove("on")
-                    document.getElementById('log').style.display = "none"
-                    document.getElementById('sent').style.display = "none"
-                    console.log("Switch is OFF");
-                }
+            Object.entries(elements).forEach(([id, handler]) => {
+                document.getElementById(id).addEventListener('click', handler);
             });
 
+            document.querySelectorAll('.close-button').forEach(button => {
+                button.addEventListener('click', closeModal);
+
+            });
+
+            document.getElementById("toggle").addEventListener('change', (event) => {
+                const isOn = event.target.checked;
+                event.target.classList.toggle("on", isOn);
+                document.querySelectorAll('.api').forEach(el => el.style.display = isOn ? "block" : "none");
+            });
+        }
+
+        //Dialog Pop-ups
+
+        function editDialog() {
+            const activeButton = document.querySelector("button.active");
+            const filename = activeButton.getAttribute("filename");
+            document.getElementById('focalChat').innerHTML = " " + filename;
+            document.getElementById('fileName').value = filename + "/story.json";
+            showModal('dialog2');
         }
 
         function showModal(modalId) {
@@ -169,444 +157,278 @@
                 event.target.closest('.modal').style.display = 'none';
             }
         }
+
+        function handleModelChange(event) {
+            const terms = `${event.target.value}`
+            const label = terms.slice(0, 11);
+            addModelName("request", label)
+            addModelName("input-text", label)
+        }
+
+        function showHideAPI() {
+            if (this.checked) {
+                document.getElementById('toggle').classList.add("on")
+                document.getElementById('modelResponse').style.display = "block"
+                document.getElementById('request').style.display = "block"
+            } else {
+                document.getElementById('toggle').classList.remove("on")
+                document.getElementById('modelResponse').style.display = "none"
+                document.getElementById('request').style.display = "none"
+            }
+        }
+
+        //const textField = document.getElementById('input-text');
+
+        // Send prompt to server
+        // textField.addEventListener('keydown', (event) => {
+        //     if (event.key === 'Enter') {
+        //         event.preventDefault();
+        //         handleSend();  // Call function
+        //     }
+        // });
+        // textField.addEventListener('keydown', (event) => {
+        //     if (event.key === 'Enter') {
+        //         event.preventDefault();
+        //         handleSend();  // Call function
+        //     }
+        // });
+        // Send prompt to server
+        function handleInputKeyDown(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                handleSend();
+            }
+        }
+
         async function getFile(event) {
-             let fileName = document.getElementById('fileName').value;
-             console.log(fileName)
-            fileName = (fileName  === "example.json") ?  "/chat/"+fileName : "/user/"+fileName;
-            if (fileName) {
-          //  const response = await fetch(fileName);
-                const response = await fetch(fileName, {
+            let fileName = document.getElementById('fileName').value;
+            fileName = "/" + fileName
+            const urlName = "/chat/examples/" + fileName
+            if (urlName) {
+                const response = await fetch(urlName, {
                     method: 'GET',
                     headers: {'Content-Type': 'application/json'}// Stringify for sending
                 });
-
-            const fileData = await response.json();
+                const fileData = await response.json();
                 const formattedJson = JSON.stringify(fileData, null, 2); // 2 spaces for indentation
                 document.getElementById("fileContents").value = formattedJson;
             }
         }
-     //   const closeModalEvent = new CustomEvent('closeModal');
 
-       function runUserDemo(fileName) {
-
-          document.getElementById('dialog2').style.display = 'none';
-          loadDeck(fileName);
-
-       }
-
-        let currentSlideIndex = 0;
+        //Gloabls
+        let currentPageIndex = 0;
         let deckData = null;
         let optionData = [];
 
-        //If this page has a  nextSlide attribute listed, change that new next and update the index pointer
-        function getForNextSlide(thisIndex) {
-            // if it has a nextSlideId  (first level)
+
+        //If a page in the story.json has nexySlideId, use that; otherwise get the next id
+        function getForNextIndex(thisIndex) {
             if (deckData.pages[thisIndex].hasOwnProperty("nextSlideId")) {
-                let thisID = deckData.pages[thisIndex].nextSlideId;
-                let revisedIndex = deckData.pages.findIndex(page => page.id === thisID);
-                return revisedIndex;
+                nextIndex = findPageIndex(deckData.pages[thisIndex].nextSlideId)
+                return nextIndex
             }
-            return null;
+            return thisIndex + 1;
         }
 
-        function findPageIndex(deckData, targetPageName) {
-            const matchingIndex = deckData.pages.findIndex(page => page.id === targetPageName);
-            return matchingIndex;
+        function findPageIndex(targetPageName) {
+            return deckData.pages.findIndex(page => page.id === targetPageName);
         }
 
-        async function loadDeck(storyLink) {
-            //remove all time outs
-            currentSlideIndex = 0;
+        async function loadChat(chatLink) {
+            currentPageIndex = 0;
             deckData = null;
             optionData = [];
-
-            const response = await fetch(storyLink); clearDebug();
+            clearApiLogs();
+            const response = await fetch(chatLink);
             deckData = await response.json();
             document.getElementById("content").innerHTML = "<div>" + JSON.stringify(deckData) + "</div>"
-            displayPage(currentSlideIndex); // Use index directly
+            clearBubble('input-text')
+            displayPage(currentPageIndex); // Use index directly
         }
 
-        function clearBubble(el) {
-            el.innerHTML = '';
-            el.value = "";
-        }
-        function clearDebug() {
-            const contentDiv = document.getElementById('sent').innerHTML = '';
-            const log = document.getElementById('log').innerHTML = '';
 
+        function clearBubble(id) {
+            document.getElementById(id).innerHTML = '';
+            document.getElementById(id).value = '';
         }
 
-        //Setting up chat script, story or lesson from JSON
-        function displayPage(index) {
-            //Reset index not on order of slides, but where it restarted
-            const slide = deckData.pages[index];
+        function clearApiLogs() {
+            document.getElementById('request').innerHTML = "<span class='help'>SENT FROM SERVER</span>";
+            document.getElementById('modelResponse').innerHTML = "<span class='help'>SENT TO SERVER</span>";
+        }
 
+       // let inputText = document.getElementById('input-text').value;
+
+
+        function displayPage(index, content) {
             const contentDiv = document.getElementById('content');
-            clearBubble(contentDiv)  // Clear previous content
-            const inputDiv = document.getElementById('input-text');
-            clearBubble(inputDiv)
-            const slideTextDiv = document.createElement('div');
-            slideTextDiv.className = 'slide';
-            slideTextDiv.textContent = slide.text;
+            clearBubble('content');
 
-            if (slide.type === 'end') {
-                contentDiv.appendChild(slideTextDiv);
-                return
+            const page = deckData.pages[index];
+            if (page.type === "story")
+                document.getElementById('input-text').value = ''; // Clear input field
+
+            const pageTextDiv = document.createElement('div');
+            pageTextDiv.className = 'slide';
+            pageTextDiv.textContent = (content) ? content : page.text;
+            contentDiv.appendChild(pageTextDiv);
+
+            // optional background
+            if (page.background) {
+                document.querySelector('.left-bubble').style.background = `white url(${page.background}) no-repeat right / contain`;
             }
 
-            if (slide.type === 'story') {
-                contentDiv.appendChild(slideTextDiv);
-                setTimeout(() => {
-                    //  If theres a nextSlideId on timed sldie, go there
-                    let revisedIndex = getForNextSlide(index)
-                    if (revisedIndex)
-                        currentSlideIndex = revisedIndex
-                    else currentSlideIndex++
-                    console.log(index, 'next is', currentSlideIndex)
-
-                    displayPage(currentSlideIndex);
-                }, slide.timer * 1000);
-            } else if (slide.type === 'options') {
-                if (slide.options) {
-                    slide.options.forEach((optionObj, idx) => {
-                        console.log(optionObj.nextSlideId)
-                        const optionSpan = document.createElement('div');
-                        optionSpan.className = `option delay-${idx}`;
-                        optionSpan.textContent = optionObj.option;
-                        if (!slide.hasOwnProperty("display"))
-                            slideTextDiv.appendChild(optionSpan);
-                        optionData.push({
-                            option: optionObj.option,
-                            slot: optionObj.slot,
-                            nextSlideId: optionObj.nextSlideId
-                        });
-                    });
-                }
-                contentDiv.appendChild(slideTextDiv);
-                currentSlideIndex++;
+            if (page.type === 'end') return;
+            if (page.type === 'story') {
+                setTimeout(() => displayPage(getForNextIndex(index)), page.timer * 800);
+                document.getElementById("input-text").disabled = true;
+            } else if (page.type === 'options') {
+                const textarea = document.getElementById("input-text").disabled = false;
+                optionData = page.options.map((optionObj, idx) => {
+                    const optionDiv = document.createElement('div');
+                    optionDiv.className = `option delay-${idx}`;
+                    optionDiv.textContent = optionObj.option;
+                    if (!page.display) {
+                        pageTextDiv.appendChild(optionDiv);
+                    }
+                    return {
+                        option: optionObj.option,
+                        slot: optionObj.slot,
+                        nextSlideId: optionObj.nextSlideId,
+                    };
+                });
             }
-        }
-        let inputText = document.getElementById('input-text').value;
-        const textField = document.getElementById('input-text');
-
-        // Send prompt to server
-        textField.addEventListener('keydown', (event) => {
-            if (event.key === 'Enter') {
-                event.preventDefault(); // Prevent default form submission if in a form
-                //let example = getActiveButtonText() || null
-                handleSend();  // Call the common handler function
-            }
-        });
-
-        function getActiveButtonText() {
-            const activeButton = document.querySelector('.active');
-            return activeButton.textContent; // Return the text content of the button
+            currentPageIndex++;
         }
 
 
-
+        //Write voice to input bubble
         function matchIt(res) {
-            //listenOff();
             document.getElementById('input-text').value = res
-            inputText = res;
         }
-
 
         async function handleSend() {
-            const contentDiv = document.getElementById('content');
+            const prompt = document.getElementById('input-text').value;
+            const model = getDropdownValue();
+            clearBubble('content');
 
-            let prompt = document.getElementById('input-text').value;
-            let model = getDropdownValue()
-            clearBubble(contentDiv)
             try {
-                const dataToSend = {
-                    prompt,
-                    model,
-                    options: optionData,
-                };
-                console.log('data to send', dataToSend) // Log the object, not the stringified version
+                // updateApiDivs(prompt, null); // Show prompt, modelResponse placeholder
 
                 const response = await fetch('/middleware', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify(dataToSend), // Stringify for sending
+                    body: JSON.stringify({prompt, model, options: optionData}),
                 });
+
                 const result = await response.json();
+
                 if (showLog()) {
-                    document.getElementById('log').innerHTML = JSON.stringify(result)
-                    //document.getElementById('sent').innerHTML = JSON.stringify(result)
-                    document.getElementById('sent').innerHTML = JSON.stringify(dataToSend)
-
+                    document.getElementById('modelResponse').innerHTML = JSON.stringify(result);
+                    document.getElementById('request').innerHTML = JSON.stringify({prompt, model, options: optionData});
                 }
 
-                console.log('result', result);
                 const parsedArguments = JSON.parse(result.function.arguments);
-                console.log('result', parsedArguments);
-                console.log('name', result.function.name);
+                console.log('---', parsedArguments.slot)
+                const thisSlot = await Promise.resolve((parsedArguments.slot || ''))
+                    .then(slot => slot.replace(/^\s?(Dr\.?|Doctor)\s+/i, ''))
+                console.log('slot:', thisSlot)
 
-                let indexOfPage = findPageIndex(deckData, result.function.name)
+                const pageName = result.function.name;
+                let content;
 
-                //  parsedArguments + result.function.name
-                  //using slots  in medical example
-                let thisSlot = null;
-                if (parsedArguments.slot) {
-                    thisSlot = (parsedArguments.slot) ? parsedArguments.slot : null
-                    thisSlot = thisSlot.replace("Dr", "")
-                    console.log("thisSlot:", thisSlot);
+                // this could be dynamically generated
+                // Using template literals and slots to fill
+                // to allow control of chats
+
+                switch (pageName) {
+                    case 'doctorPage':
+                        content = getMedicalInfo(thisSlot, 'doctor');
+                        console.log(content)
+                        break;
+                    case 'phonePage':
+                        content = getMedicalInfo(thisSlot, 'doctor');
+                        console.log(content)
+                        break;
+                    case 'departmentPage':
+                        content = getMedicalInfo(thisSlot, 'department');
+                        console.log(content)
+                        break;
                 }
-                if (result.function.name === "doctorPage") {
-                    content = getDocData(thisSlot.replace("Dr.", ""))
-                    deckData.pages[indexOfPage].text = formatObjectString(content);
-                    displayPage(indexOfPage);
-                    return;
-                }
-                else if (result.function.name === "phonePage") {
-                    content = getDocData(thisSlot, "phone")
-                    deckData.pages[indexOfPage].text = formatObjectString(content);
-                    displayPage(indexOfPage);
+                const indexOfPage = findPageIndex(pageName);
+
+                if (content) {
+                    const template = deckData.pages[indexOfPage].text;
+                    content = fillTemplate(template, content)
                 }
 
-                displayPage(indexOfPage)
+                displayPage(indexOfPage, content);
 
             } catch (error) {
-                // ... (error handling)
+                console.error('Error:', error);
+                document.getElementById('content').innerHTML = "Error: Oops. Check JSON file" + error;
+                return null;
             }
-        };
+        }
 
-        function formatObjectString(obj) {
-            const jsonString = JSON.stringify(obj);
-            const withoutBraces = jsonString.slice(1, -1); // Remove the first and last characters (curly braces)
-            const linefeedSeparated = withoutBraces.replace(/,/g, "\n"); // Replace commas with line feeds
-            return linefeedSeparated;
+
+        //Matching a response line in JSON to supply variables for user
+        function fillTemplate(templateString, data) {
+            let transferTemplate;
+            transferTemplate = templateString;
+            return transferTemplate.replace(/\${(.*?)}/g, (match, key) => {
+                return data[key] || match; // Return the value from the object or the original match if not found
+            });
+        }
+
+        function clearButtons() {
+            document.querySelectorAll('.active').forEach(el => el.classList.remove("active"))
         }
 
         document.addEventListener("DOMContentLoaded", function () {
-            const interactiveStoryButton = document.getElementById('option1');
-            const chatBotButton = document.getElementById('option2');
-            interactiveStoryButton.classList.remove("active"); // List all classes to remove
-            chatBotButton.classList.remove("active"); // List all classes to remove
 
-            //Links to chats
-            interactiveStoryButton.addEventListener('click', () => {
-                loadDeck('/stories/monsterExample/story.json');
-                document.getElementById('option2').classList.remove("active");
-                document.getElementById('option1').classList.add("active");
+            const exampleButtons = document.querySelectorAll('.example');
+            exampleButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    clearButtons();
+                    button.classList.add("active");
+                    const fileName = button.getAttribute('filename');
+                    document.getElementById('focalChat').textContent = " " + fileName;
+                    document.getElementById('edit-button').style.display = 'block';
+                    document.getElementById('fileName').value = fileName + "/story.json";
+                    // Load the chat using the file name
+                    loadChat(`/chat/examples/${fileName}/story.json`);
+                });
             });
-            chatBotButton.addEventListener('click', () => {
-                loadDeck('/stories/medicalExample/story.json');
-                document.getElementById('option1').classList.remove("active");
-                document.getElementById('option2').classList.add("active");
-            });
-        });
+            setListeners()
 
-        setListeners()
-
-        function setDropdownValue(choice) {
             const dropdown = document.getElementById("model");
-            for (let i = 0; i < dropdown.options.length; i++) {
-                if (dropdown.options[i].value === choice) {
-                    dropdown.selectedIndex = i;
-                    break;
-                }
-            }
-        }
+            const MAX_LABEL_LENGTH = 10;
+
+            dropdown.addEventListener("change", (event) => {
+                const label = event.target.value.slice(0, MAX_LABEL_LENGTH);
+                setModelLabel(label);
+            });
+        })
 
         function getDropdownValue() {
             const dropdown = document.getElementById("model");
             return dropdown.value;
         }
 
-        const dropdown = document.getElementById("model");
-        dropdown.addEventListener("change", (event) => {
-            const terms = `${event.target.value}`
-            const label = terms.slice(0, 10);
+        function setModelLabel(label) {
             document.querySelector(".left-bubble").setAttribute("model", label)
             document.querySelector(".right-bubble").setAttribute("model", label)
-        });
-
-
-        //This is a small example; data can be loaded from a JSON file or queried via a database
-        const medicalData = [
-            {
-                "department": "Oncology",
-                "phone": "(626) 555-1122",
-                "doctors": [
-                    {"name": "Dr. Emily Carter", "specialty": "Oncologist"},
-                    {"name": "Dr. Daniel Kim", "specialty": "Hematologist"},
-                    {"name": "Dr. Freda Oncol", "specialty": "Oncologist"},
-                    {"name": "Dr. Valentina Adami", "specialty": "Oncologist"},
-
-                ],
-                "appointments": [
-                    {"date": "2024-07-18", "doctor": "Dr. Emily Carter", "time": "11:00 AM"},
-                    {"date": "2024-08-05", "doctor": "Dr. Jay Gupta", "time": "3:15 PM"}
-                ]
-            },
-            {
-                "department": "Internal Medicine",
-                "phone": "(626) 555-3344",
-                "doctors": [
-                    {"name": "Dr. Olivia Rodriguez", "specialty": "Internist"},
-                    {"name": "Dr. William Nguyen", "specialty": "Infectious Disease Specialist"},
-                    {"name": "Dr. Marlinda Thomas", "specialty": "Infectious Disease Specialist"}
-                ],
-                "appointments": [
-                    {"date": "2024-07-22", "doctor": "Dr. Olivia Rodriguez", "time": "9:45 AM"},
-                    {"date": "2024-08-12", "doctor": "Dr. William Nguyen", "time": "2:00 PM"}
-                ]
-            }
-        ]
-
-        // const jsonString = `[ /* paste the corrected JSON here */ ]`;
-        //const hospitalData = JSON.parse(medicialData);
-        //
-
-
-        function getDataByPropertyOrValue(data, searchTerm, parentData = null) {
-            const normalizedSearchTerm = searchTerm.toLowerCase();
-
-            const department = parentData?.department; // Get department from parent, if available
-            const phone = parentData?.phone; // Get phone from parent, if available
-            console.log(parentData)
-            if (Array.isArray(data)) {
-                for (const entry of data) {
-
-                    const result = getDataByPropertyOrValue(entry, searchTerm, {department, phone}); // Pass department and phone to child call
-                    if (result) {
-                        return result; // Return the result if found
-                    }
-                }
-            } else if (typeof data === "object") {
-                for (const [key, value] of Object.entries(data)) {
-                    if (typeof value === "string" && value.toLowerCase().includes(normalizedSearchTerm)) {
-                        return {
-                            department,
-                            phone,
-                            ...data
-                        };
-                    } else {
-                        const result = getDataByPropertyOrValue(value, searchTerm, {department, phone}); // Pass department and phone to child call
-                        if (result) {
-                            return result; // Return the result if found
-                        }
-                    }
-                }
-            }
-            return null;
         }
 
 
-        function getDataByPartialProperty(medicalData, propertyName, partialValue) {
-            // Convert both propertyValue and entry[propertyName] to lowercase for case-insensitive matching
-            const matchingEntry = medicalData.find(entry => {
-                const entryValue = entry[propertyName]?.toLowerCase(); // Handle missing properties
-                return entryValue && entryValue.includes(partialValue.toLowerCase());
-            });
-
-            if (matchingEntry) {
-                return matchingEntry;
-            } else {
-                console.log("No data found for property:", propertyName, "containing value:", partialValue);
-                return null;
-            }
-        }
-
-
-        function getEntryByProperty(medicalData, propertyName = "department", propertyValue) {
-            // Use the find method to directly get the matching entry
-            const property = propertyName.replace("Page", "");
-            //const matchingEntry = medicalData.find(entry => entry[property] === propertyValue);
-            const matchingEntry = medicalData.find(entry => {
-                const entryValue = entry[propertyName]?.toLowerCase(); // Handle missing properties
-                return entryValue && entryValue.includes(partialValue.toLowerCase());
-            });
-
-            if (matchingEntry) {
-                console("found")
-                return matchingEntry;
-            } else {
-                console.log("No data found for property:", property, "with value:", propertyValue);
-                return null; // Indicate that no matching entry was found
-            }
-        }
-
-
-        const oncologyDepartment = medicalData.find(dept => dept.department === "Oncology");
-
-        console.log("Oncology Department Phone Number:", oncologyDepartment.phone);
-        //medicialData.department.oncology
-
-        // if deptPage send slot
-        function getDepartmentData(departmentName) {
-            const filteredData = medicalData.filter(entry => entry.department === departmentName);
-
-            if (filteredData.length > 0) {
-                console.log(filteredData[0]);  // Log the first matching entry
-            } else {
-                console.log("No data found for department:", departmentName);
-            }
-        }
-
-
-
-        function getDocData(doctor, property = null) {
-            const thisDoc = doctor.toLowerCase();
-
-            for (const department of medicalData) {
-                const matchingDoctor = department.doctors.find(d =>
-                    d.name.toLowerCase().includes(thisDoc)
-                );
-
-                if (matchingDoctor) {
-                    if (property) {
-                        // If a property is specified, return only that property and the doctor's name
-                        return {
-                            doctor: matchingDoctor.name,
-                            [property]: department[property] // Dynamically access the property
-                        };
-                    } else {
-                        // If no property is specified, return all the information
-                        return {
-                            department: department.department,
-                            phone: department.phone,
-                            doctor: matchingDoctor.name,
-                            specialty: matchingDoctor.specialty
-                        };
-                    }
-                }
-            }
-
-            return null;
-        }
-
-
-        // Example Usage:
-        // getDepartmentData("Oncology");
-        // getDepartmentData("Internal Medicine");
-        // console.log(" ---->",getDocData("Rodriguez"));
-
-
+        //This shows the traffic sent back and forth
         function showLog() {
-            const toggleSwitch = document.getElementById("toggle");
-            if (toggleSwitch.checked) {
-                return true;
-            }
-            return false;
+            return document.getElementById('toggle').classList.contains('on');
         }
 
-
-        function makeUrl() {
-            document.getElementById('note').style.display = "block";
-            let fileName = document.getElementById('fileName').value;
-            let url = "/user/" + fileName;
-            const note = document.getElementById("note");
-            //runUserDemo
-            note.innerHTML = `<div><a href="#" onclick="runUserDemo('${url}');">${url}</a></div>`;
-
-            //note.innerHTML = `<div><a href="#" onclick="loadDeck('${url}');">${url}</a></div>`;
-        }
-
-        async function createFile() {
+        //save edits to chat file
+        async function editFile() {
             const fileName = document.getElementById('fileName').value;
             const fileContents = document.getElementById('fileContents').value;
 
@@ -615,49 +437,18 @@
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ fileName, fileContents }),
+                body: JSON.stringify({fileName, fileContents}),
             });
 
             if (response.ok) {
-                alert("File created successfully!");
+                alert("File edited successfully!");
             } else {
-                alert("Error creating file.");
-            }
-            makeUrl();
-        }
-
-        // fooo
-        async function sendNameAndFetchFile() {
-            const nameInput = document.getElementById('fileName'); // Assuming you have an input field with this ID
-            const fileName = nameInput.value;
-console.log(fileName)
-            try {
-                const response = await fetch('/get-file-content', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({ fileName }),
-                });
-
-                if (response.ok) {
-                    const fileContent = await response.text(); // Assuming the file contains text
-                    // Do something with the fileContent (e.g., display it)
-                    console.log(fileContent);
-                } else {
-                    console.error('Error fetching file content:', response.status);
-                    // Handle the error appropriately (e.g., show an error message to the user)
-                }
-            } catch (error) {
-                console.error('Network error:', error);
-                // Handle network errors
+                alert("Error editing file.");
             }
         }
-
-        //foo
     </script>
     <script src="/js/voice.js"></script>
+    <script src="/js/dataExample.js"></script>
 </div>
 </body>
-
 </html>
