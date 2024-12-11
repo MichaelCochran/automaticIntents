@@ -17,13 +17,13 @@
             <!-- filenames correspond with folders in chat folder -->
             <button class="example" filename="monsterExample" id="option1">Story</button>
             <button class="example" filename="medicalExample" id="option2">Chat Bot</button>
-            <div id="info-button" title="info" alt="info" class="circle-button">
+            <div id="info-button" title="info"  class="circle-button">
                 <span class="symbol">i</span>
             </div>
-            <div id="settings-button" title="settings" alt="settings" class="circle-button">
+            <div id="settings-button" title="settings"  class="circle-button">
                 <span class="symbol">⚙</span>
             </div>
-            <div id="listen-button" title="listen" alt="listen" class="circle-button">
+            <div id="listen-button" title="listen" class="circle-button">
                 <span class="symbol">🎤</span>
             </div>
         </div>
@@ -118,8 +118,7 @@
                 'info-button': () => showModal('dialog'),
                 'fetch-button': getFile,
                 'model': handleModelChange,
-                'toggle': showHideAPI,
-                'input-text': handleInputKeyDown,
+                'toggle': showHideAPI
             };
 
             Object.entries(elements).forEach(([id, handler]) => {
@@ -131,6 +130,12 @@
 
             });
 
+            document.querySelector('#input-text').addEventListener('keypress', function (e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    handleSend();
+                }
+            });
             document.getElementById("toggle").addEventListener('change', (event) => {
                 const isOn = event.target.checked;
                 event.target.classList.toggle("on", isOn);
@@ -177,32 +182,9 @@
             }
         }
 
-        //const textField = document.getElementById('input-text');
-
-        // Send prompt to server
-        // textField.addEventListener('keydown', (event) => {
-        //     if (event.key === 'Enter') {
-        //         event.preventDefault();
-        //         handleSend();  // Call function
-        //     }
-        // });
-        // textField.addEventListener('keydown', (event) => {
-        //     if (event.key === 'Enter') {
-        //         event.preventDefault();
-        //         handleSend();  // Call function
-        //     }
-        // });
-        // Send prompt to server
-        function handleInputKeyDown(event) {
-            if (event.key === 'Enter') {
-                event.preventDefault();
-                handleSend();
-            }
-        }
-
         async function getFile(event) {
             let fileName = document.getElementById('fileName').value;
-            fileName = "/" + fileName
+            // fileName = "/" + fileName
             const urlName = "/chat/examples/" + fileName
             if (urlName) {
                 const response = await fetch(urlName, {
@@ -257,8 +239,6 @@
             document.getElementById('modelResponse').innerHTML = "<span class='help'>SENT TO SERVER</span>";
         }
 
-       // let inputText = document.getElementById('input-text').value;
-
 
         function displayPage(index, content) {
             const contentDiv = document.getElementById('content');
@@ -273,10 +253,12 @@
             pageTextDiv.textContent = (content) ? content : page.text;
             contentDiv.appendChild(pageTextDiv);
 
-            // optional background
+            document.querySelector('.left-bubble').style.background = '#cbe0e2';
+
             if (page.background) {
                 document.querySelector('.left-bubble').style.background = `white url(${page.background}) no-repeat right / contain`;
             }
+
 
             if (page.type === 'end') return;
             if (page.type === 'story') {
@@ -313,7 +295,6 @@
             clearBubble('content');
 
             try {
-                // updateApiDivs(prompt, null); // Show prompt, modelResponse placeholder
 
                 const response = await fetch('/middleware', {
                     method: 'POST',
@@ -329,7 +310,6 @@
                 }
 
                 const parsedArguments = JSON.parse(result.function.arguments);
-                console.log('---', parsedArguments.slot)
                 const thisSlot = await Promise.resolve((parsedArguments.slot || ''))
                     .then(slot => slot.replace(/^\s?(Dr\.?|Doctor)\s+/i, ''))
                 console.log('slot:', thisSlot)
@@ -361,12 +341,11 @@
                     const template = deckData.pages[indexOfPage].text;
                     content = fillTemplate(template, content)
                 }
-
                 displayPage(indexOfPage, content);
 
             } catch (error) {
-                console.error('Error:', error);
-                document.getElementById('content').innerHTML = "Error: Oops. Check JSON file" + error;
+                const fallback = (deckData.pages[currentPageIndex - 1].fallback) ? deckData.pages[indexOfPage - 1].fallback : "Error: Oops. Check JSON file" + error;
+                document.getElementById('content').innerHTML = fallback;
                 return null;
             }
         }
@@ -431,7 +410,6 @@
         async function editFile() {
             const fileName = document.getElementById('fileName').value;
             const fileContents = document.getElementById('fileContents').value;
-
             const response = await fetch('/create-file', {
                 method: 'POST',
                 headers: {

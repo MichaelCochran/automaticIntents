@@ -1298,3 +1298,515 @@
 [2024-12-09T17:08:55.445Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
 [2024-12-09T17:08:55.445Z] Model:llama3-70b-8192
 [2024-12-09T17:08:56.134Z] Result:{"id":"call_f1bt","type":"function","function":{"name":"Buster","arguments":"{\"details\":\"call Rick Moranis\"}"}}
+[2024-12-10T06:41:26.791Z] Model:llama3-70b-8192
+[2024-12-10T06:41:26.791Z] Prompt:
+[2024-12-10T06:41:26.791Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T06:41:27.393Z] Result:{"id":"call_ad7d","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"Who works in this medical department ;   \",\"slot\":\"department\"}"}}
+[2024-12-10T06:44:08.496Z] Model:llama3-70b-8192
+[2024-12-10T06:44:08.496Z] Prompt:I hug him and embrace him we make out
+[2024-12-10T06:44:08.497Z] Options:[object Object],[object Object]
+[2024-12-10T06:44:09.185Z] Result:{"id":"call_296f","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him and embrace him we make out\"}"}}
+[2024-12-10T06:44:20.597Z] Model:llama3-70b-8192
+[2024-12-10T06:44:20.597Z] Prompt:let's go to Caltech
+[2024-12-10T06:44:20.597Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T06:44:21.115Z] Result:{"id":"call_j951","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"Let's go to Caltech\",\"slot\":\"school\"}"}}
+[2024-12-10T07:06:26.929Z] Options:[object Object],[object Object]
+[2024-12-10T07:06:26.929Z] Prompt:
+[2024-12-10T07:06:26.928Z] Model:llama3-70b-8192
+[2024-12-10T07:06:27.728Z] Result:{"id":"call_g81j","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T07:06:39.347Z] Prompt:I kiss him
+[2024-12-10T07:06:39.346Z] Model:llama3-70b-8192
+[2024-12-10T07:06:39.347Z] Options:[object Object],[object Object]
+[2024-12-10T07:06:39.743Z] Result:{"id":"call_y1et","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I kiss him\"}"}}
+[2024-12-10T07:06:50.231Z] Model:llama3-70b-8192
+[2024-12-10T07:06:50.231Z] Prompt:we go to Caltech
+[2024-12-10T07:06:50.231Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T07:06:50.696Z] Result:{"id":"call_31nk","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"we go to Caltech\",\"slot\":\"school\"}"}}
+[2024-12-10T17:19:21.493Z] Model:llama3-70b-8192
+[2024-12-10T17:19:21.496Z] Prompt:I hug him
+[2024-12-10T17:19:21.497Z] Options:[object Object],[object Object]
+[2024-12-10T17:19:22.090Z] Result:{"id":"call_d8w4","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-10T17:20:15.052Z] Model:llama3-70b-8192
+[2024-12-10T17:20:15.052Z] Prompt:
+[2024-12-10T17:20:15.052Z] Options:[object Object],[object Object]
+[2024-12-10T17:20:15.687Z] Result:{"id":"call_vqm8","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I fight him\"}"}}
+[2024-12-10T17:20:26.215Z] Options:[object Object],[object Object]
+[2024-12-10T17:20:26.215Z] Prompt:
+[2024-12-10T17:20:26.215Z] Model:llama3-70b-8192
+[2024-12-10T17:20:26.601Z] Result:{"id":"call_mec0","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T17:23:37.431Z] Model:llama3-70b-8192
+[2024-12-10T17:23:37.432Z] Options:[object Object],[object Object]
+[2024-12-10T17:23:37.432Z] Prompt:
+[2024-12-10T17:23:37.889Z] Result:{"id":"call_zqaz","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T17:23:48.583Z] Model:llama3-70b-8192
+[2024-12-10T17:23:48.583Z] Prompt:
+[2024-12-10T17:23:48.583Z] Options:[object Object],[object Object]
+[2024-12-10T17:23:49.298Z] Result:{"id":"call_gkaz","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T17:23:55.102Z] Model:llama3-70b-8192
+[2024-12-10T17:23:55.102Z] Prompt:I hug him
+[2024-12-10T17:23:55.102Z] Options:[object Object],[object Object]
+[2024-12-10T17:23:55.613Z] Result:{"id":"call_yedm","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-10T17:24:14.244Z] Model:llama3-70b-8192
+[2024-12-10T17:24:14.245Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T17:24:14.245Z] Prompt:are we going to Caltech
+[2024-12-10T17:24:14.763Z] Result:{"id":"call_4nbc","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"are we going to Caltech\",\"slot\":\"school\"}"}}
+[2024-12-10T17:26:31.575Z] Prompt:
+[2024-12-10T17:26:31.575Z] Options:[object Object],[object Object]
+[2024-12-10T17:26:31.574Z] Model:llama3-70b-8192
+[2024-12-10T17:26:32.171Z] Result:{"id":"call_ncwn","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I fight him ;\"}"}}
+[2024-12-10T17:31:05.991Z] Model:llama3-70b-8192
+[2024-12-10T17:31:05.992Z] Options:[object Object],[object Object]
+[2024-12-10T17:31:05.991Z] Prompt:I fight him
+[2024-12-10T17:31:06.514Z] Result:{"id":"call_8k55","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I fight him ;   \"}"}}
+[2024-12-10T17:31:16.692Z] Model:llama3-70b-8192
+[2024-12-10T17:31:16.692Z] Prompt:
+[2024-12-10T17:31:16.692Z] Options:[object Object],[object Object]
+[2024-12-10T17:31:17.351Z] Result:{"id":"call_jkdy","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I fight him ;   \"}"}}
+[2024-12-10T17:31:24.899Z] Prompt:I hug him
+[2024-12-10T17:31:24.899Z] Model:llama3-70b-8192
+[2024-12-10T17:31:24.899Z] Options:[object Object],[object Object]
+[2024-12-10T17:31:25.447Z] Result:{"id":"call_wnb6","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-10T18:48:58.129Z] Model:llama3-70b-8192
+[2024-12-10T18:48:58.130Z] Prompt:
+[2024-12-10T18:48:58.130Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T18:48:58.640Z] Result:{"id":"call_k25b","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"\",\"slot\":\"\"}"}}
+[2024-12-10T18:49:28.766Z] Model:llama3-70b-8192
+[2024-12-10T18:49:28.766Z] Prompt:Louie dance
+[2024-12-10T18:49:28.766Z] Options:[object Object],[object Object]
+[2024-12-10T18:49:29.282Z] Result:{"id":"call_v3t0","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"Louie dance\"}"}}
+[2024-12-10T18:49:35.896Z] Options:[object Object],[object Object]
+[2024-12-10T18:49:35.895Z] Model:llama3-70b-8192
+[2024-12-10T18:49:35.896Z] Prompt:
+[2024-12-10T18:49:36.199Z] Result:undefined
+[2024-12-10T18:49:45.210Z] Model:llama3-70b-8192
+[2024-12-10T18:49:45.210Z] Prompt:we hug each other
+[2024-12-10T18:49:45.210Z] Options:[object Object],[object Object]
+[2024-12-10T18:49:45.615Z] Result:{"id":"call_m48j","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"we hug each other\"}"}}
+[2024-12-10T18:50:00.158Z] Model:llama3-70b-8192
+[2024-12-10T18:50:00.158Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T18:50:00.158Z] Prompt:I said I'm up on eHarmony
+[2024-12-10T18:50:00.598Z] Result:{"id":"call_0hpd","type":"function","function":{"name":"romancePage","arguments":"{\"details\":\"I'm up on eHarmony\"}"}}
+[2024-12-10T18:51:12.276Z] Model:llama3-70b-8192
+[2024-12-10T18:51:12.276Z] Prompt:Harmony
+[2024-12-10T18:51:12.276Z] Options:[object Object],[object Object]
+[2024-12-10T18:51:12.661Z] Result:{"id":"call_j8gc","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"Harmony\"}"}}
+[2024-12-10T18:51:27.922Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T18:51:27.922Z] Model:llama3-70b-8192
+[2024-12-10T18:51:27.922Z] Prompt:are we going to counseling
+[2024-12-10T18:51:28.363Z] Result:{"id":"call_dvc1","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\":\"are we going to counseling\"}"}}
+[2024-12-10T18:52:27.473Z] Model:llama3-70b-8192
+[2024-12-10T18:52:27.473Z] Prompt:
+[2024-12-10T18:52:27.473Z] Options:[object Object],[object Object]
+[2024-12-10T18:52:27.977Z] Result:{"id":"call_exbf","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T18:52:37.020Z] Options:[object Object],[object Object]
+[2024-12-10T18:52:37.020Z] Prompt:hug him
+[2024-12-10T18:52:37.020Z] Model:llama3-70b-8192
+[2024-12-10T18:52:37.557Z] Result:{"id":"call_q8t4","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"hug him\"}"}}
+[2024-12-10T18:54:28.033Z] Options:[object Object],[object Object]
+[2024-12-10T18:54:28.032Z] Prompt:can I hug him
+[2024-12-10T18:54:28.032Z] Model:llama3-70b-8192
+[2024-12-10T18:54:28.591Z] Result:{"id":"call_2bd5","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I want to hug him\"}"}}
+[2024-12-10T18:56:19.259Z] Options:[object Object],[object Object]
+[2024-12-10T18:56:19.259Z] Prompt:I said I'm up on eHarmony
+[2024-12-10T18:56:19.258Z] Model:llama3-70b-8192
+[2024-12-10T18:56:19.719Z] Result:{"id":"call_1pcn","type":"function","function":{"name":"locationPage","arguments":"{\"details\":\"eHarmony\",\"slot\":\"location\"}"}}
+[2024-12-10T18:56:27.920Z] Prompt:
+[2024-12-10T18:56:27.920Z] Model:llama3-70b-8192
+[2024-12-10T18:56:27.920Z] Options:[object Object],[object Object]
+[2024-12-10T18:56:28.410Z] Result:{"id":"call_w0s5","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T18:56:40.247Z] Prompt:
+[2024-12-10T18:56:40.247Z] Model:llama3-70b-8192
+[2024-12-10T18:56:40.247Z] Options:[object Object],[object Object]
+[2024-12-10T18:56:40.637Z] Result:{"id":"call_rp2w","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T18:57:06.149Z] Prompt:I hug him
+[2024-12-10T18:57:06.148Z] Model:mixtral-8x7b-32768
+[2024-12-10T18:57:06.149Z] Options:[object Object],[object Object]
+[2024-12-10T18:57:06.595Z] Result:{"id":"call_vnj7","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-10T18:57:19.230Z] Model:mixtral-8x7b-32768
+[2024-12-10T18:57:19.230Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T18:57:19.230Z] Prompt:we go to the movies
+[2024-12-10T18:57:19.749Z] Result:{"id":"call_9veq","type":"function","function":{"name":"romancePage","arguments":"{\"details\":\"I make a dating profile for Fred. That's my monster.\"}"}}
+[2024-12-10T18:59:27.999Z] Options:[object Object],[object Object]
+[2024-12-10T18:59:27.999Z] Model:mixtral-8x7b-32768
+[2024-12-10T18:59:27.999Z] Prompt:I fight him
+[2024-12-10T18:59:28.428Z] Result:{"id":"call_vjtg","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I fight him\"}"}}
+[2024-12-10T18:59:37.642Z] Model:mixtral-8x7b-32768
+[2024-12-10T18:59:37.642Z] Prompt:I hug him
+[2024-12-10T18:59:37.642Z] Options:[object Object],[object Object]
+[2024-12-10T18:59:38.058Z] Result:{"id":"call_3t94","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-10T18:59:49.182Z] Prompt:can we set up a dating profile for him
+[2024-12-10T18:59:49.182Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T18:59:49.182Z] Model:mixtral-8x7b-32768
+[2024-12-10T18:59:49.763Z] Result:{"id":"call_1ad0","type":"function","function":{"name":"romancePage","arguments":"{\"details\":\"can we set up a dating profile for him\"}"}}
+[2024-12-10T19:01:44.237Z] Prompt:tell me about William
+[2024-12-10T19:01:44.231Z] Model:llama3-70b-8192
+[2024-12-10T19:01:44.237Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T19:01:45.050Z] Result:{"id":"call_th3r","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Doctor William\",\"slot\":\"William\"}"}}
+[2024-12-10T19:02:20.049Z] Prompt:what's the location of the medical center
+[2024-12-10T19:02:20.048Z] Model:llama3-70b-8192
+[2024-12-10T19:02:20.049Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T19:02:20.530Z] Result:{"id":"call_hsn8","type":"function","function":{"name":"locationPage","arguments":"{\"details\":\"what's the location of the medical center\",\"slot\":\"medical center\"}"}}
+[2024-12-10T19:02:24.906Z] Prompt:what's the location of the medical center
+[2024-12-10T19:02:24.906Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T19:02:24.906Z] Model:llama3-70b-8192
+[2024-12-10T19:02:25.578Z] Result:{"id":"call_e574","type":"function","function":{"name":"locationPage","arguments":"{\"details\":\"what's the location of the medical center\",\"slot\":\"medical center\"}"}}
+[2024-12-10T19:02:30.925Z] Model:llama3-70b-8192
+[2024-12-10T19:02:30.925Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T19:02:30.925Z] Prompt:give me a cancer doctor
+[2024-12-10T19:02:31.719Z] Result:{"id":"call_hb7a","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"cancer doctor\",\"slot\":\"doctor's name\"}"}}
+[2024-12-10T19:02:46.990Z] Model:llama3-70b-8192
+[2024-12-10T19:02:46.990Z] Prompt:get me a cancer doctor
+[2024-12-10T19:02:46.990Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T19:02:47.493Z] Result:{"id":"call_2zvk","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Get me a cancer doctor\",\"slot\":\"doctor's name\"}"}}
+[2024-12-10T19:03:15.756Z] Model:llama3-70b-8192
+[2024-12-10T19:03:15.756Z] Prompt:I'm bleeding
+[2024-12-10T19:03:15.756Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T19:03:16.471Z] Result:{"id":"call_e0h3","type":"function","function":{"name":"ConditionPage","arguments":"{\"details\":\"I'm bleeding\",\"slot\":\"\"}"}}
+[2024-12-10T21:04:47.955Z] Model:llama3-70b-8192
+[2024-12-10T21:04:47.956Z] Prompt:I take corn
+[2024-12-10T21:04:47.956Z] Options:[object Object],[object Object]
+[2024-12-10T21:04:48.548Z] Result:{"id":"call_3ftp","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I take corn\"}"}}
+[2024-12-10T21:05:00.730Z] Prompt:I have yellow elephants for dinner
+[2024-12-10T21:05:00.730Z] Model:llama3-70b-8192
+[2024-12-10T21:05:00.730Z] Options:[object Object],[object Object]
+[2024-12-10T21:05:01.389Z] Result:{"id":"call_yqwd","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I have yellow elephants for dinner\"}"}}
+[2024-12-10T21:05:13.816Z] Prompt:I hug him
+[2024-12-10T21:05:13.816Z] Options:[object Object],[object Object]
+[2024-12-10T21:05:13.816Z] Model:llama3-70b-8192
+[2024-12-10T21:05:14.259Z] Result:{"id":"call_czbt","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-10T21:05:22.925Z] Model:llama3-70b-8192
+[2024-12-10T21:05:22.925Z] Prompt:I randomly swap presents for alphabet soup
+[2024-12-10T21:05:22.925Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:05:23.404Z] Result:{"id":"call_c3h1","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\":\"I randomly swap presents for alphabet soup\"}"}}
+[2024-12-10T21:05:41.676Z] Prompt:
+[2024-12-10T21:05:41.676Z] Model:llama3-70b-8192
+[2024-12-10T21:05:41.676Z] Options:[object Object],[object Object]
+[2024-12-10T21:05:48.962Z] Result:{"id":"call_d24r","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"waiting for user input\"}"}}
+[2024-12-10T21:07:11.673Z] Model:llama3-70b-8192
+[2024-12-10T21:07:11.674Z] Prompt:
+[2024-12-10T21:07:11.674Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:07:12.223Z] Result:undefined
+[2024-12-10T21:10:29.873Z] Prompt:
+[2024-12-10T21:10:29.873Z] Model:llama3-70b-8192
+[2024-12-10T21:10:29.873Z] Options:[object Object],[object Object]
+[2024-12-10T21:10:30.284Z] Result:{"id":"call_qpca","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T21:10:39.180Z] Options:[object Object],[object Object]
+[2024-12-10T21:10:39.180Z] Model:llama3-70b-8192
+[2024-12-10T21:10:39.180Z] Prompt:we eat ice cream
+[2024-12-10T21:10:39.551Z] Result:{"id":"call_wyj4","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"we eat ice cream\"}"}}
+[2024-12-10T21:10:50.536Z] Prompt:Bermuda in November
+[2024-12-10T21:10:50.536Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:10:50.536Z] Model:llama3-70b-8192
+[2024-12-10T21:10:50.976Z] Result:{"id":"call_wt1z","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\":\"mental issues in Bermuda in November\"}"}}
+[2024-12-10T21:12:12.381Z] Model:llama3-70b-8192
+[2024-12-10T21:12:12.382Z] Prompt:twice on Tuesday
+[2024-12-10T21:12:12.382Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:12:13.010Z] Result:{"id":"call_zc9x","type":"function","function":{"name":"locationPage","arguments":"{\"details\":\"twice on Tuesday\",\"slot\":\"schedule\"}"}}
+[2024-12-10T21:12:22.332Z] Model:mixtral-8x7b-32768
+[2024-12-10T21:12:22.333Z] Prompt:twice on Tuesday
+[2024-12-10T21:12:22.333Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:12:22.842Z] Result:{"id":"call_e72f","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"Who works in the medical department related to twices on Tuesday;\",\"slot\":\"department\"}"}}
+[2024-12-10T21:12:38.131Z] Model:mixtral-8x7b-32768
+[2024-12-10T21:12:38.131Z] Prompt:Bermuda in winter
+[2024-12-10T21:12:38.131Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:12:38.822Z] Result:{"id":"call_5mw9","type":"function","function":{"name":"locationPage","arguments":"{\"details\":\"Bermuda in winter\",\"slot\":\"location\"}"}}
+[2024-12-10T21:12:58.527Z] Model:mixtral-8x7b-32768
+[2024-12-10T21:12:58.528Z] Prompt:Harris
+[2024-12-10T21:12:58.528Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:12:59.097Z] Result:{"id":"call_zwpa","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Harris\",\"slot\":\"Harris\"}"}}
+[2024-12-10T21:13:23.372Z] Prompt:Todd
+[2024-12-10T21:13:23.372Z] Model:mixtral-8x7b-32768
+[2024-12-10T21:13:23.372Z] Options:[object Object],[object Object]
+[2024-12-10T21:13:23.794Z] Result:{"id":"call_v7ht","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"Todd\"}"}}
+[2024-12-10T21:13:29.932Z] Model:mixtral-8x7b-32768
+[2024-12-10T21:13:29.932Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:13:29.932Z] Prompt:Crystal Alice
+[2024-12-10T21:13:30.424Z] Result:{"id":"call_km3f","type":"function","function":{"name":"romancePage","arguments":"{\"details\":\"Crystal Alice\"}"}}
+[2024-12-10T21:13:59.961Z] Prompt:Franklin Roosevelt
+[2024-12-10T21:13:59.961Z] Model:mixtral-8x7b-32768
+[2024-12-10T21:13:59.961Z] Options:[object Object],[object Object]
+[2024-12-10T21:14:00.533Z] Result:{"id":"call_hyye","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"Franklin Roosevelt\"}"}}
+[2024-12-10T21:14:28.902Z] Model:mixtral-8x7b-32768
+[2024-12-10T21:14:28.902Z] Prompt:Bermuda in winter
+[2024-12-10T21:14:28.902Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:14:29.611Z] Result:{"id":"call_ssa7","type":"function","function":{"name":"romancePage","arguments":"{\"details\":\"I want to set up a romantic date for Fred\"}"}}
+[2024-12-10T21:16:22.264Z] Prompt:I go to the beach
+[2024-12-10T21:16:22.264Z] Model:llama3-70b-8192
+[2024-12-10T21:16:22.264Z] Options:[object Object],[object Object]
+[2024-12-10T21:16:22.662Z] Result:{"id":"call_8p1k","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I go to the beach\"}"}}
+[2024-12-10T21:16:33.447Z] Model:llama3-70b-8192
+[2024-12-10T21:16:33.447Z] Prompt:I hug him
+[2024-12-10T21:16:33.447Z] Options:[object Object],[object Object]
+[2024-12-10T21:16:33.830Z] Result:{"id":"call_gvxr","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-10T21:16:55.765Z] Model:llama3-70b-8192
+[2024-12-10T21:16:55.765Z] Prompt:
+[2024-12-10T21:16:55.765Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:16:56.457Z] Result:{"id":"call_s2ag","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"Send him to school ;   \",\"slot\":\"school\"}"}}
+[2024-12-10T21:22:08.133Z] Model:gpt-4-turbo
+[2024-12-10T21:22:08.134Z] Options:[object Object],[object Object]
+[2024-12-10T21:22:08.134Z] Prompt:
+[2024-12-10T21:22:13.477Z] Result:undefined
+[2024-12-10T21:28:53.641Z] Options:[object Object],[object Object]
+[2024-12-10T21:28:53.640Z] Model:llama3-70b-8192
+[2024-12-10T21:28:53.641Z] Prompt:
+[2024-12-10T21:28:54.142Z] Result:{"id":"call_ew6n","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T21:29:10.594Z] Model:mixtral-8x7b-32768
+[2024-12-10T21:29:10.594Z] Prompt:I hug him
+[2024-12-10T21:29:10.594Z] Options:[object Object],[object Object]
+[2024-12-10T21:29:10.802Z] Result:undefined
+[2024-12-10T21:31:12.477Z] Model:llama3-70b-8192
+[2024-12-10T21:31:12.477Z] Prompt:I hug him
+[2024-12-10T21:31:12.477Z] Options:[object Object],[object Object]
+[2024-12-10T21:31:13.139Z] Result:{"id":"call_tznm","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-10T21:31:22.260Z] Model:llama3-70b-8192
+[2024-12-10T21:31:22.260Z] Prompt:media ice cream
+[2024-12-10T21:31:22.261Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:31:24.189Z] Result:{"id":"call_ep3k","type":"function","function":{"name":"amusementPage","arguments":"{\"details\":\"media ice cream\"}"}}
+[2024-12-10T21:31:41.834Z] Model:llama3-70b-8192
+[2024-12-10T21:31:41.834Z] Prompt:we go to Bermuda
+[2024-12-10T21:31:41.834Z] Options:[object Object],[object Object]
+[2024-12-10T21:31:42.987Z] Result:{"id":"call_a4ss","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"we go to Bermuda\"}"}}
+[2024-12-10T21:31:54.737Z] Prompt:
+[2024-12-10T21:31:54.737Z] Model:llama3-70b-8192
+[2024-12-10T21:31:54.738Z] Options:[object Object],[object Object]
+[2024-12-10T21:31:55.549Z] Result:{"id":"call_ww28","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T21:32:07.858Z] Model:llama3-70b-8192
+[2024-12-10T21:32:07.858Z] Prompt:
+[2024-12-10T21:32:07.858Z] Options:[object Object],[object Object]
+[2024-12-10T21:32:08.402Z] Result:undefined
+[2024-12-10T21:42:26.026Z] Model:llama3-70b-8192
+[2024-12-10T21:42:26.027Z] Prompt:
+[2024-12-10T21:42:26.028Z] Options:[object Object],[object Object]
+[2024-12-10T21:42:26.549Z] Result:{"id":"call_5vng","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T21:42:34.440Z] Model:llama3-70b-8192
+[2024-12-10T21:42:34.440Z] Prompt:let's spread kisses
+[2024-12-10T21:42:34.440Z] Options:[object Object],[object Object]
+[2024-12-10T21:42:34.925Z] Result:{"id":"call_21tt","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"let's spread kisses\"}"}}
+[2024-12-10T21:42:45.290Z] Model:llama3-70b-8192
+[2024-12-10T21:42:45.290Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:42:45.290Z] Prompt:Mongolia
+[2024-12-10T21:42:45.782Z] Result:{"id":"call_716x","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"Mongolia\",\"slot\":\"school\"}"}}
+[2024-12-10T21:43:10.516Z] Options:[object Object],[object Object]
+[2024-12-10T21:43:10.516Z] Model:llama3-70b-8192
+[2024-12-10T21:43:10.516Z] Prompt:I embrace him
+[2024-12-10T21:43:10.970Z] Result:{"id":"call_8p2n","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I embrace him\"}"}}
+[2024-12-10T21:43:25.964Z] Prompt:we go to Bermuda
+[2024-12-10T21:43:25.964Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:43:25.964Z] Model:llama3-70b-8192
+[2024-12-10T21:43:26.548Z] Result:{"id":"call_feh1","type":"function","function":{"name":"amusementPage","arguments":"{\"details\":\"Predicament? nah. We go to disneyland ;   \"}"}}
+[2024-12-10T21:43:42.232Z] Prompt:nuclear waste
+[2024-12-10T21:43:42.232Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:43:42.232Z] Model:llama3-70b-8192
+[2024-12-10T21:43:42.716Z] Result:{"id":"call_7dsx","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"Who handles nuclear waste\",\"slot\":\"department\"}"}}
+[2024-12-10T21:43:55.530Z] Prompt:
+[2024-12-10T21:43:55.530Z] Model:llama3-70b-8192
+[2024-12-10T21:43:55.530Z] Options:[object Object],[object Object]
+[2024-12-10T21:43:56.343Z] Result:{"id":"call_tz01","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I fight him ;   \"}"}}
+[2024-12-10T21:54:42.906Z] Prompt:I hug him
+[2024-12-10T21:54:42.906Z] Options:[object Object],[object Object]
+[2024-12-10T21:54:42.906Z] Model:llama3-70b-8192
+[2024-12-10T21:54:43.616Z] Result:{"id":"call_gazv","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-10T21:54:49.305Z] Prompt:we go to therapy
+[2024-12-10T21:54:49.305Z] Model:llama3-70b-8192
+[2024-12-10T21:54:49.305Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:54:49.856Z] Result:{"id":"call_trrg","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\":\"we go to therapy\"}"}}
+[2024-12-10T21:56:41.224Z] Prompt:I don't know
+[2024-12-10T21:56:41.225Z] Options:[object Object],[object Object]
+[2024-12-10T21:56:41.224Z] Model:llama3-70b-8192
+[2024-12-10T21:56:41.684Z] Result:{"id":"call_vbdj","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I don't know\"}"}}
+[2024-12-10T21:56:50.110Z] Prompt:I don't know
+[2024-12-10T21:56:50.110Z] Model:llama3-70b-8192
+[2024-12-10T21:56:50.110Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T21:56:50.791Z] Result:{"id":"call_zh16","type":"function","function":{"name":"departmentPage","arguments":"{\"details\":\"I don't know\",\"slot\":\"\"}"}}
+[2024-12-10T21:57:13.103Z] Model:llama3-70b-8192
+[2024-12-10T21:57:13.103Z] Prompt:
+[2024-12-10T21:57:13.103Z] Options:[object Object],[object Object]
+[2024-12-10T21:57:13.597Z] Result:{"id":"call_1cg9","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I fight him ;   \"}"}}
+[2024-12-10T22:02:04.544Z] Options:[object Object],[object Object]
+[2024-12-10T22:02:04.544Z] Prompt:I am Bryson
+[2024-12-10T22:02:04.543Z] Model:llama3-70b-8192
+[2024-12-10T22:02:05.073Z] Result:undefined
+[2024-12-10T22:08:21.930Z] Options:[object Object],[object Object]
+[2024-12-10T22:08:21.930Z] Prompt:I Byron
+[2024-12-10T22:08:21.930Z] Model:llama3-70b-8192
+[2024-12-10T22:08:22.528Z] Result:{"id":"call_mm7r","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I Byron\"}"}}
+[2024-12-10T22:08:31.108Z] Model:llama3-70b-8192
+[2024-12-10T22:08:31.108Z] Prompt:
+[2024-12-10T22:08:31.108Z] Options:[object Object],[object Object]
+[2024-12-10T22:08:32.561Z] Result:{"id":"call_03kk","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"I am not sure what is going on\"}"}}
+[2024-12-10T22:08:39.312Z] Model:llama3-70b-8192
+[2024-12-10T22:08:39.312Z] Prompt:I hug him
+[2024-12-10T22:08:39.312Z] Options:[object Object],[object Object]
+[2024-12-10T22:08:39.756Z] Result:{"id":"call_vnnc","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-10T22:08:47.048Z] Model:llama3-70b-8192
+[2024-12-10T22:08:47.048Z] Prompt:yeah I don't know
+[2024-12-10T22:08:47.048Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:08:47.524Z] Result:{"id":"call_7s4d","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\":\"I don't know what to do.\"}"}}
+[2024-12-10T22:08:54.777Z] Model:llama3-70b-8192
+[2024-12-10T22:08:54.777Z] Prompt:
+[2024-12-10T22:08:54.777Z] Options:[object Object],[object Object]
+[2024-12-10T22:08:55.189Z] Result:{"id":"call_f5yq","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-10T22:08:59.986Z] Model:llama3-70b-8192
+[2024-12-10T22:08:59.986Z] Options:[object Object],[object Object]
+[2024-12-10T22:08:59.986Z] Prompt:it's love
+[2024-12-10T22:09:00.517Z] Result:{"id":"call_pe91","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"it's love\"}"}}
+[2024-12-10T22:09:06.912Z] Prompt:
+[2024-12-10T22:09:06.912Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:09:06.911Z] Model:llama3-70b-8192
+[2024-12-10T22:09:07.581Z] Result:{"id":"call_rwyq","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"\",\"slot\":\"\"}"}}
+[2024-12-10T22:09:34.205Z] Model:llama3-70b-8192
+[2024-12-10T22:09:34.206Z] Options:[object Object],[object Object]
+[2024-12-10T22:09:34.206Z] Prompt:I love monsters
+[2024-12-10T22:09:34.599Z] Result:{"id":"call_m59t","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I love monsters\"}"}}
+[2024-12-10T22:09:45.311Z] Prompt:
+[2024-12-10T22:09:45.311Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:09:45.311Z] Model:llama3-70b-8192
+[2024-12-10T22:09:45.981Z] Result:{"id":"call_dyt9","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"Send him to school ;   \",\"slot\":\"school\"}"}}
+[2024-12-10T22:10:00.383Z] Model:llama3-70b-8192
+[2024-12-10T22:10:00.383Z] Prompt:
+[2024-12-10T22:10:00.383Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:10:00.944Z] Result:{"id":"call_4k0a","type":"function","function":{"name":"Buster","arguments":"{\"details\":\"I need help\"}"}}
+[2024-12-10T22:10:15.591Z] Model:llama3-70b-8192
+[2024-12-10T22:10:15.591Z] Prompt:I embrace the monster
+[2024-12-10T22:10:15.591Z] Options:[object Object],[object Object]
+[2024-12-10T22:10:16.112Z] Result:{"id":"call_fm9f","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I embrace the monster\"}"}}
+[2024-12-10T22:10:25.809Z] Model:llama3-70b-8192
+[2024-12-10T22:10:25.809Z] Prompt:we go to therapy
+[2024-12-10T22:10:25.809Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:10:26.227Z] Result:{"id":"call_x929","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\":\"we go to therapy\"}"}}
+[2024-12-10T22:10:43.612Z] Prompt:I love my monster
+[2024-12-10T22:10:43.612Z] Model:llama3-70b-8192
+[2024-12-10T22:10:43.612Z] Options:[object Object],[object Object]
+[2024-12-10T22:10:44.246Z] Result:{"id":"call_mhtv","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I love my monster\"}"}}
+[2024-12-10T22:10:53.501Z] Model:llama3-70b-8192
+[2024-12-10T22:10:53.501Z] Prompt:let me take dance classes
+[2024-12-10T22:10:53.501Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:10:53.974Z] Result:{"id":"call_47fe","type":"function","function":{"name":"amusementPage","arguments":"{\"details\":\"let me take dance classes\"}"}}
+[2024-12-10T22:11:06.612Z] Model:llama3-70b-8192
+[2024-12-10T22:11:06.612Z] Prompt:this is going weird
+[2024-12-10T22:11:06.612Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:11:07.186Z] Result:{"id":"call_c5f8","type":"function","function":{"name":"locationPage","arguments":"{\"details\":\"this is going\",\"slot\":\"location\"}"}}
+[2024-12-10T22:11:12.393Z] Prompt:tell me about Dr Olivia
+[2024-12-10T22:11:12.393Z] Model:llama3-70b-8192
+[2024-12-10T22:11:12.393Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:11:12.922Z] Result:{"id":"call_a0ty","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about Dr Olivia\",\"slot\":\"Dr Olivia\"}"}}
+[2024-12-10T22:11:16.682Z] Model:llama3-70b-8192
+[2024-12-10T22:11:16.682Z] Prompt:tell me about Dr Olivia
+[2024-12-10T22:11:16.682Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:11:17.139Z] Result:{"id":"call_ees8","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Dr Olivia\",\"slot\":\"Dr Olivia\"}"}}
+[2024-12-10T22:11:22.178Z] Model:llama3-70b-8192
+[2024-12-10T22:11:22.178Z] Prompt:tell me about
+[2024-12-10T22:11:22.178Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:11:32.754Z] Result:{"id":"call_kcxg","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about\",\"slot\":\"\"}"}}
+[2024-12-10T22:11:34.997Z] Model:llama3-70b-8192
+[2024-12-10T22:11:34.997Z] Prompt:I hug and kiss him
+[2024-12-10T22:11:34.997Z] Options:[object Object],[object Object]
+[2024-12-10T22:11:52.554Z] Result:{"id":"call_tr3b","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him ;  \"}"}}
+[2024-12-10T22:12:03.996Z] Model:llama3-70b-8192
+[2024-12-10T22:12:03.996Z] Prompt:we go to Disneyland
+[2024-12-10T22:12:03.997Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:12:04.939Z] Result:{"id":"call_h10f","type":"function","function":{"name":"amusementPage","arguments":"{\"details\":\"We go to Disneyland ;\"}"}}
+[2024-12-10T22:12:23.734Z] Model:llama3-70b-8192
+[2024-12-10T22:12:23.734Z] Prompt:
+[2024-12-10T22:12:23.734Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-10T22:12:24.087Z] Result:undefined
+[2024-12-11T02:17:31.000Z] Options:[object Object],[object Object]
+[2024-12-11T02:17:30.998Z] Model:llama3-70b-8192
+[2024-12-11T02:17:31.000Z] Prompt:
+[2024-12-11T02:17:32.138Z] Result:{"id":"call_mcwr","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"\"}"}}
+[2024-12-11T02:20:29.329Z] Prompt:I hug him
+[2024-12-11T02:20:29.328Z] Model:mixtral-8x7b-32768
+[2024-12-11T02:20:29.329Z] Options:[object Object],[object Object]
+[2024-12-11T02:20:30.027Z] Result:{"id":"call_hcza","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-11T02:22:13.386Z] Prompt:
+[2024-12-11T02:22:13.386Z] Model:mixtral-8x7b-32768
+[2024-12-11T02:22:13.386Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T02:22:14.591Z] Result:{"id":"call_7eg9","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"user wants to learn about machine learning\",\"slot\":\"machine learning school\"}"}}
+[2024-12-11T02:25:27.279Z] Prompt:fight him
+[2024-12-11T02:25:27.278Z] Model:mixtral-8x7b-32768
+[2024-12-11T02:25:27.279Z] Options:[object Object],[object Object]
+[2024-12-11T02:25:28.006Z] Result:{"id":"call_phq3","type":"function","function":{"name":"fightPage","arguments":"{\"details\":\"fight him\"}"}}
+[2024-12-11T02:28:21.036Z] Prompt:
+[2024-12-11T02:28:21.036Z] Options:[object Object],[object Object]
+[2024-12-11T02:28:21.036Z] Model:mixtral-8x7b-32768
+[2024-12-11T02:28:21.632Z] Result:{"id":"call_53sq","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I appreciate your company\"}"}}
+[2024-12-11T15:54:25.167Z] Options:[object Object],[object Object]
+[2024-12-11T15:54:25.167Z] Prompt:hug
+[2024-12-11T15:54:25.167Z] Model:llama3-70b-8192
+[2024-12-11T15:54:25.897Z] Result:{"id":"call_wsmr","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"hug\"}"}}
+[2024-12-11T17:25:55.433Z] Prompt:
+[2024-12-11T17:25:55.433Z] Options:[object Object],[object Object]
+[2024-12-11T17:25:55.432Z] Model:mixtral-8x7b-32768
+[2024-12-11T17:25:55.978Z] Result:{"id":"call_3rx2","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I appreciate your assistance\"}"}}
+[2024-12-11T17:26:22.444Z] Model:mixtral-8x7b-32768
+[2024-12-11T17:26:22.445Z] Prompt:we go to Caltech
+[2024-12-11T17:26:22.446Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T17:26:23.209Z] Result:undefined
+[2024-12-11T17:26:33.505Z] Model:mixtral-8x7b-32768
+[2024-12-11T17:26:33.506Z] Prompt:
+[2024-12-11T17:26:33.506Z] Options:[object Object],[object Object]
+[2024-12-11T17:26:33.937Z] Result:{"id":"call_d099","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I appreciate your company\"}"}}
+[2024-12-11T17:26:44.034Z] Model:mixtral-8x7b-32768
+[2024-12-11T17:26:44.034Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T17:26:44.034Z] Prompt:
+[2024-12-11T17:26:44.523Z] Result:{"id":"call_ggtr","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"Time for some learning\",\"slot\":\"school\"}"}}
+[2024-12-11T17:26:59.161Z] Model:mixtral-8x7b-32768
+[2024-12-11T17:26:59.162Z] Prompt:I embrace him
+[2024-12-11T17:26:59.162Z] Options:[object Object],[object Object]
+[2024-12-11T17:26:59.545Z] Result:{"id":"call_wkbf","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"embrace\"}"}}
+[2024-12-11T17:27:09.963Z] Prompt:I take my monster to therapy
+[2024-12-11T17:27:09.963Z] Model:mixtral-8x7b-32768
+[2024-12-11T17:27:09.963Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T17:27:10.488Z] Result:{"id":"call_q2mc","type":"function","function":{"name":"mentalIssues","arguments":"{\"details\":\"I take my monster to therapy\"}"}}
+[2024-12-11T17:27:44.812Z] Model:mixtral-8x7b-32768
+[2024-12-11T17:27:44.813Z] Prompt:tell me about Olivia
+[2024-12-11T17:27:44.813Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T17:27:45.660Z] Result:{"id":"call_5kgf","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"tell me about Olivia\",\"slot\":\"Olivia\"}"}}
+[2024-12-11T17:27:59.361Z] Model:mixtral-8x7b-32768
+[2024-12-11T17:27:59.361Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T17:27:59.361Z] Prompt:do you have a Doctor Kim
+[2024-12-11T17:27:59.902Z] Result:{"id":"call_hf9b","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Doctor Kim\",\"slot\":\"doctor's name\"}"}}
+[2024-12-11T17:28:06.667Z] Model:mixtral-8x7b-32768
+[2024-12-11T17:28:06.668Z] Prompt:what's the phone number for Olivia
+[2024-12-11T17:28:06.668Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T17:28:12.478Z] Result:{"id":"call_ztez","type":"function","function":{"name":"phonePage","arguments":"{\"details\":\"what's the phone number for\",\"slot\":\"Olivia\"}"}}
+[2024-12-11T20:38:13.594Z] Options:[object Object],[object Object]
+[2024-12-11T20:38:13.594Z] Prompt:I hug him
+[2024-12-11T20:38:13.593Z] Model:llama3-70b-8192
+[2024-12-11T20:38:14.172Z] Result:{"id":"call_5xeb","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I hug him\"}"}}
+[2024-12-11T20:38:24.116Z] Model:llama3-70b-8192
+[2024-12-11T20:38:24.117Z] Prompt:let's go to the amusement park
+[2024-12-11T20:38:24.117Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T20:38:24.624Z] Result:{"id":"call_frmk","type":"function","function":{"name":"amusementPage","arguments":"{\"details\":\"let's go to the amusement park\"}"}}
+[2024-12-11T20:40:38.385Z] Model:llama3-70b-8192
+[2024-12-11T20:40:38.386Z] Prompt:I kiss and hug the monster
+[2024-12-11T20:40:38.386Z] Options:[object Object],[object Object]
+[2024-12-11T20:40:38.826Z] Result:{"id":"call_b8bn","type":"function","function":{"name":"lovePage","arguments":"{\"details\":\"I kiss and hug the monster\"}"}}
+[2024-12-11T20:41:02.308Z] Model:llama3-70b-8192
+[2024-12-11T20:41:02.308Z] Prompt:we go to Cal Poly San Luis Obispo
+[2024-12-11T20:41:02.308Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T20:41:02.899Z] Result:{"id":"call_cwnp","type":"function","function":{"name":"schoolPage","arguments":"{\"details\":\"we go to Cal Poly San Luis Obispo\",\"slot\":\"school\"}"}}
+[2024-12-11T20:44:22.772Z] Prompt:tell me about Olivia
+[2024-12-11T20:44:22.773Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T20:44:22.771Z] Model:llama3-70b-8192
+[2024-12-11T20:44:23.239Z] Result:{"id":"call_6khf","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Doctor ;\",\"slot\":\"Olivia\"}"}}
+[2024-12-11T20:52:17.320Z] Model:llama3-70b-8192
+[2024-12-11T20:52:17.321Z] Prompt:tell me about Olivia
+[2024-12-11T20:52:17.321Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T20:52:17.894Z] Result:{"id":"call_mhty","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about\",\"slot\":\"Olivia\"}"}}
+[2024-12-11T21:32:34.160Z] Prompt:tell me about Olivia
+[2024-12-11T21:32:34.159Z] Model:llama3-70b-8192
+[2024-12-11T21:32:34.161Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T21:32:34.715Z] Result:{"id":"call_aqkz","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Olivia\",\"slot\":\"doctor's name\"}"}}
+[2024-12-11T21:34:57.275Z] Prompt:doctor's name
+[2024-12-11T21:34:57.275Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T21:34:57.275Z] Model:llama3-70b-8192
+[2024-12-11T21:34:57.843Z] Result:{"id":"call_8r78","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Doctor ;\",\"slot\":\"doctor's name\"}"}}
+[2024-12-11T21:35:00.411Z] Model:llama3-70b-8192
+[2024-12-11T21:35:00.411Z] Prompt:Olivia
+[2024-12-11T21:35:00.411Z] Options:[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[2024-12-11T21:35:00.785Z] Result:{"id":"call_cyet","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Doctor Olivia ;\",\"slot\":\"Olivia\"}"}}
+[2024-12-11T21:38:09.312Z] Prompt:Olivia
+[2024-12-11T21:38:09.311Z] Model:llama3-70b-8192
+[2024-12-11T21:38:09.312Z] Options:[{"option":"What is the phone number for this department","slot":"department","nextSlideId":"phonePage"},{"option":"What is the phone number for this doctor","slot":"doctor's name","nextSlideId":"phonePage"},{"option":"How can I get ahold of Doctor","slot":"doctor's name","nextSlideId":"doctorPage"},{"option":"Who do I see for this condition","slot":"department","nextSlideId":"ConditionPage"},{"option":"What is the location","slot":"location","nextSlideId":"locationPage"},{"option":"Who works in this medical department","slot":"department","nextSlideId":"departmentPage"},{"option":"Tell me about Doctor","slot":"doctor's name","nextSlideId":"doctorPage"}]
+[2024-12-11T21:38:10.051Z] Result:{"id":"call_w9zy","type":"function","function":{"name":"doctorPage","arguments":"{\"details\":\"Tell me about Doctor Olivia ;\",\"slot\":\"Olivia\"}"}}

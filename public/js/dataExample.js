@@ -11,10 +11,6 @@ const medicalData = [
             {"name": "Dr. Freda Oncol", "specialty": "Oncologist"},
             {"name": "Dr. Valentina Adami", "specialty": "Oncologist"}
 
-        ],
-        "appointments": [
-            {"date": "2024-07-18", "doctor": "Dr. Emily Carter", "time": "11:00 AM"},
-            {"date": "2024-08-05", "doctor": "Dr. Jay Gupta", "time": "3:15 PM"}
         ]
     },
     {
@@ -24,19 +20,11 @@ const medicalData = [
             {"name": "Dr. Olivia Rodriguez", "specialty": "Internist"},
             {"name": "Dr. William Nguyen", "specialty": "Infectious Disease Specialist"},
             {"name": "Dr. Marlinda Thomas", "specialty": "Infectious Disease Specialist"}
-        ],
-        "appointments": [
-            {"date": "2024-07-22", "doctor": "Dr. Olivia Rodriguez", "time": "9:45 AM"},
-            {"date": "2024-08-12", "doctor": "Dr. William Nguyen", "time": "2:00 PM"}
         ]
     }
 ]
 
 
-// Example Console commands:
-// const oncologyDepartment = medicalData.find(dept => dept.department === "Oncology");
-// console.log("Oncology Department Phone Number:", oncologyDepartment.phone);
-// console.log("Doctor Data",getDocData("Rodriguez"));
 
 function getMedicalInfo(query, type) {
     const queryLower = query.toLowerCase();

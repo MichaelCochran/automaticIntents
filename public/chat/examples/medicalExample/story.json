@@ -10,6 +10,7 @@
     {
       "id": "startPage",
       "type": "options",
+      "fallback": "Try talking",
       "text": "You can ask about doctors, numbers, and appointments",
       "display": "none",
       "options": [
