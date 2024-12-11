@@ -23,7 +23,7 @@ The medical center example can only respond to data in the example data file.
 
 ## Chat Details
 
-Example:
+Example 1: text element
 ```
  {
       "id": "startPage",
@@ -32,6 +32,21 @@ Example:
       "text": "You are in a forest and stumble across a monster.",
       "timer": 3
     }
+```
+Example 2: options element
+```
+ {
+      "id": "quizPage",
+      "type": "options",
+      "background": "<giphy background>",
+      "text": "Who is Vincent Van Gough",
+    },
+"options": [
+        {
+          "option": "my mother",
+          "slot": "name",
+          "nextSlideId": "motherPage"
+        },...
 ```
 ```
 <story> ::= {
