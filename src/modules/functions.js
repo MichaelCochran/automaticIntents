@@ -10,7 +10,7 @@ const groq = new Groq({
 });
 
 
-//When openAI finds user prompts with greeetings, it calls this.
+//When openAI finds user prompts with greetings, it calls this.
 
 function createFunctionsFromOptions(options) {
 

@@ -2,8 +2,8 @@
 
 ## Overview
 
-This is a repository for building and running AI-driven chats.  __A chat is simply an interactive workflow ( so the basis of surveys, lessons, quizes, etc).__
-You can use AI models from openAI or via Groq. You will need a key, and some are currenlty free. 
+This is a repository for building and running AI-driven chats.  __A chat is simply an interactive workflow ( so the basis of surveys, lessons, quizzes, etc.).__
+You can use AI models from openAI or via Groq. You will need a key, and some are currently free. 
 
 ## Technical Details 
 
