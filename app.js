@@ -2,6 +2,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import fs from 'fs';
+import 'dotenv/config';
 // importing modules for each API example
 import runConversation from "./src/modules/functions.js";
 
