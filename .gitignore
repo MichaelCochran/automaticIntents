@@ -8,3 +8,6 @@ package-lock.json
 
 # Personal Notes
 .private
+
+# .env file
+.env
