@@ -1,7 +1,7 @@
 import OpenAI from "openai";
-const openai = new OpenAI();
 import {Groq} from 'groq-sdk';
 
+const openai = new OpenAI();
 const groq = new Groq();
 
 
