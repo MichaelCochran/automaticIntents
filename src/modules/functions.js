@@ -5,9 +5,7 @@ import {Groq} from 'groq-sdk';
 
 //import { config } from 'config.js';
 
-const groq = new Groq({
-    apiKey: process.env.GROQ_API_KEY
-});
+const groq = new Groq();
 
 
 //When openAI finds user prompts with greetings, it calls this.
