@@ -1,8 +1,8 @@
-import OpenAI from "openai";
-import {Groq} from 'groq-sdk';
+import {BotName, getGroqBot, getOpenAIBot, getUninsatiatedBotError} from "./bots.js";
 
-const openai = new OpenAI();
-const groq = new Groq();
+
+const openai = getOpenAIBot();
+const groq = getGroqBot();
 
 
 //When openAI finds user prompts with greetings, it calls this.
