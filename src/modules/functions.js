@@ -135,6 +135,7 @@ async function runConversation(userInput, optionData, model) {
        // return response.choices[0].message.tool_calls[0];
         //return fallback_function(query);
         console.log(e);
+        return response + "<br /><br />" + allToolsFailedMessage;
     }
 }
 
