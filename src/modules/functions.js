@@ -123,7 +123,6 @@ async function runConversation(userInput, optionData, model) {
             return response.choices[0].message.tool_calls[0];
         } else {
             console.log("No tool calls found.")
-            return
             // Handle the case where there are no tool calls (e.g., return a default value, throw an error, etc.)
         }
 
