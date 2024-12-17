@@ -130,7 +130,8 @@ async function runConversation(userInput, optionData, model) {
        // console.log("->-", response.choices[0].message.tool_calls[0]);
        // return response.choices[0].message.tool_calls[0];
     } catch (e) {
-        console.warn("All tools failed. Using fallback.");
+        const allToolsFailedMessage = "All tools failed. No fallback currently available."
+        console.warn(`${response}\n\n${allToolsFailedMessage}`);
        // return response.choices[0].message.tool_calls[0];
         //return fallback_function(query);
         console.log(e);
