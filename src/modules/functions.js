@@ -95,20 +95,28 @@ async function runConversation(userInput, optionData, model) {
     let response;
     try {
         if (model.includes('gpt')) {
-            response = await openai.chat.completions.create({
-                model: model,
-                messages: messages,
-                tools: tools,
-                tool_choice: "auto",
-            });
+            if(openai) {
+                response = await openai.chat.completions.create({
+                    model: model,
+                    messages: messages,
+                    tools: tools,
+                    tool_choice: "auto",
+                });
+            } else {
+                response = getUninsatiatedBotError(BotName.OPENAI)
+            }
         } else {
-            response = await groq.chat.completions.create({
-                messages: messages,
-                model: model,
-                temperature:0.9,
-                tools: tools,
-                tool_choice: "auto"
-            });
+            if (groq) {
+                response = await groq.chat.completions.create({
+                    messages: messages,
+                    model: model,
+                    temperature: 0.9,
+                    tools: tools,
+                    tool_choice: "auto"
+                });
+            } else {
+                response = getUninsatiatedBotError(BotName.GROQ)
+            }
         }
         if (response.choices[0].message.tool_calls && response.choices[0].message.tool_calls.length > 0) {
             console.log("->-", response.choices[0].message.tool_calls[0]);
