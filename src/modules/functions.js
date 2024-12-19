@@ -1,8 +1,8 @@
-import OpenAI from "openai";
-import {Groq} from 'groq-sdk';
+import {BotName, getGroqBot, getOpenAIBot, getUninsatiatedBotError} from "./bots.js";
 
-const openai = new OpenAI();
-const groq = new Groq();
+
+const openai = getOpenAIBot();
+const groq = getGroqBot();
 
 
 //When openAI finds user prompts with greetings, it calls this.
@@ -95,37 +95,46 @@ async function runConversation(userInput, optionData, model) {
     let response;
     try {
         if (model.includes('gpt')) {
-            response = await openai.chat.completions.create({
-                model: model,
-                messages: messages,
-                tools: tools,
-                tool_choice: "auto",
-            });
+            if(openai) {
+                response = await openai.chat.completions.create({
+                    model: model,
+                    messages: messages,
+                    tools: tools,
+                    tool_choice: "auto",
+                });
+            } else {
+                response = getUninsatiatedBotError(BotName.OPENAI)
+            }
         } else {
-            response = await groq.chat.completions.create({
-                messages: messages,
-                model: model,
-                temperature:0.9,
-                tools: tools,
-                tool_choice: "auto"
-            });
+            if (groq) {
+                response = await groq.chat.completions.create({
+                    messages: messages,
+                    model: model,
+                    temperature: 0.9,
+                    tools: tools,
+                    tool_choice: "auto"
+                });
+            } else {
+                response = getUninsatiatedBotError(BotName.GROQ)
+            }
         }
         if (response.choices[0].message.tool_calls && response.choices[0].message.tool_calls.length > 0) {
             console.log("->-", response.choices[0].message.tool_calls[0]);
             return response.choices[0].message.tool_calls[0];
         } else {
             console.log("No tool calls found.")
-            return
             // Handle the case where there are no tool calls (e.g., return a default value, throw an error, etc.)
         }
 
        // console.log("->-", response.choices[0].message.tool_calls[0]);
        // return response.choices[0].message.tool_calls[0];
     } catch (e) {
-        console.warn("All tools failed. Using fallback.");
+        const allToolsFailedMessage = "All tools failed. No fallback currently available."
+        console.warn(`${response}\n\n${allToolsFailedMessage}`);
        // return response.choices[0].message.tool_calls[0];
         //return fallback_function(query);
         console.log(e);
+        return response + "<br /><br />" + allToolsFailedMessage;
     }
 }
 
