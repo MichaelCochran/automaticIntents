@@ -2,24 +2,27 @@
 
 ## Overview
 
-This is a repository for building and running AI-driven chats.  __A chat is simply an interactive workflow ( so the basis of surveys, lessons, quizzes, etc.).__
-You can use AI models from openAI or via Groq. You will need a key, and some are currently free. 
+This is a repository for building and running AI-driven chats.  __This can be used as an engine for many interactive workflows ( surveys, lessons, quizzes, etc.).__
+This connects to AI models from openAI or Groq (which includes open source options). You will need a key  - some are currently free-  from Groq: https://console.groq.com/docs/quickstart and/or openAI https://platform.openai.com/api-keys
+
+The goal here is 
+1. Separate chat mechanics (what happens when user does XYZ) into an easy-to-understand file 
+2. These chat files also provide the AI model with the information needed to control the chat.
 
 ## Technical Details 
 
-Includes a node server and a web interface that interacts with openAI & Groq APIs for tools support
+- This repo includes: a node server ; web interface that interacts with openAI & Groq APIs for tools APIs.
 
-Chat mechanics are separated (JSON format) and are dynamically navigated by the model at runtime.
+- Chat details are separate files (JSON format) and are dynamically navigated by the model at runtime. What the user says/types, dictates what happens according to the chat file. 
 
-"Intents" map to pages/slides that can have timed or  be “interactive” 
+- Every new response is called a page. Pages can have images. 
 
-Intents use a prompt and "extra" instruction (optional)
+- "Intents" are labels that are learned by a model and connected to a specific functionality in your code.  In this repo, intents point to a "page" and the page contains its configuration.
 
-"Slots" are names and places in a user prompt you may use for processing.  Currently only one per chat message is returned.
+- Intents use a prompt and "extra" instruction (optional)
 
-Tools are built dynamically from the JSON chat template.
+- "Slots" are optional names and places  the model figures out from the user prompt.  You may use them in reponses in chat. Currently only one per chat message is returned.
 
-The medical center example can only respond to data in the example data file.
 
 ## Chat Details
 
