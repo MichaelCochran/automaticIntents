@@ -10,7 +10,9 @@
     "openai": "^4.76.3"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "jest --clearCache && jest",
+    "test-watch": "jest --clearCache && jest --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
