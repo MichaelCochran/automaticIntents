@@ -15,7 +15,7 @@ describe("bots.js unit tests", () => {
     describe("getOpenAIBot", () => {
         describe("when api key is", () => {
             describe('empty string', () => {
-                it("should return an instantiated OpenAIBot", () => {
+                it("should return 'undefined'", () => {
                     process.env.OPENAI_API_KEY = "";
 
                     const openaiBot = getOpenAIBot();
