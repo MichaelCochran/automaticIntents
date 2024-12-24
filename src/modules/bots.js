@@ -39,6 +39,10 @@ function getGroqBot() {
 }
 
 function getUninsatiatedBotError(botName) {
+    if (Object.values(BotName).indexOf(botName) ===-1) {
+        throw new Error("Invalid bot name");
+    }
+
     return `${botName} model was not instantiated. Did you supply an ${errorMap.get(botName)}?`;
 }
 
