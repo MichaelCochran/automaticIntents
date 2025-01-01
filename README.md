@@ -3,11 +3,15 @@
 ## Overview
 
 This is a repository for building and running AI-driven chats.  __This can be used as an engine for many interactive workflows ( surveys, lessons, quizzes, etc.).__
-This connects to AI models from openAI or Groq (which includes open source options). You will need a key  - some are currently free-  from Groq: https://console.groq.com/docs/quickstart and/or openAI https://platform.openai.com/api-keys
+This connects to AI models from openAI or Groq (which includes open source options). 
 
 The goal here is 
 1. Separate chat mechanics (what happens when user does XYZ) into an easy-to-understand file 
 2. These chat files also provide the AI model with the information needed to control the chat.
+
+## Prerequisites
+
+1. You will need a key  - some are currently free-  from Groq: https://console.groq.com/docs/quickstart and/or openAI https://platform.openai.com/api-keys
 
 ## Technical Details 
 
