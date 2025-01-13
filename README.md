@@ -9,9 +9,50 @@ The goal here is
 1. Separate chat mechanics (what happens when user does XYZ) into an easy-to-understand file 
 2. These chat files also provide the AI model with the information needed to control the chat.
 
-## Prerequisites
+# Getting started
 
-1. You will need a key  - some are currently free-  from Groq: https://console.groq.com/docs/quickstart and/or openAI https://platform.openai.com/api-keys
+This project has been developed and tested
+on macOS Monterey (12.5.1) and macOS Sequoia (15.2)
+running node `20.5.1`.
+
+## using `nvm`
+We support `nvm` via `.nvmrc`. Once nvm is installed, run `nvm use`;
+you may need to run `` nvm install `cat .nvmrc` `` first.
+
+We provide a one-stop shop script (`setupProjectWithnvm.sh`)
+that will install the correct version of `node` via `nvm`
+if `node` is NOT already installed. 
+
+
+## installing dependencies
+`npm install`
+
+### API Keys
+
+#### groq
+https://console.groq.com/login
+
+#### OpenAI
+https://platform.openai.com/api-keys
+
+#### API Key Names
+We use the default API key names for both `groq` and `openai`;
+see `.env.example` for more details.
+
+## Running the Project
+To execute the project run `npm run start`
+
+## Testing the Project
+### Unit Tests
+To run the unit test, run `npm run test`
+### Developing Unit Tests
+To run the unit test so that they continuously run
+while developing the project, run `npm run test-watch`
+
+## Updating `node` version
+If you ever need to update the version of `node` the project
+depends on, run `updateNodeVersionsInSupportFiles.sh`. This script
+will update both `.node-version` and `.nvmrc`.
 
 ## Technical Details 
 
