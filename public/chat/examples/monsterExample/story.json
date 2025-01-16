@@ -48,9 +48,9 @@
       "fallback": "Try talking the monster to a university, counselor, get him a date",
       "options": [
         {
-          "option": "Send him to school",
-          "slot": "school",
-          "nextSlideId": "schoolPage"
+          "option": "Send him to college",
+          "slot": "college",
+          "nextSlideId": "toCollege"
         },
         {
           "option": "Predicament? nah. We go to disneyland",
@@ -93,11 +93,11 @@
       "type": "end"
     },
     {
-      "id": "schoolPage",
+      "id": "toCollege",
       "type": "story",
-      "text": "The monster gets a degree at ${school} and finds someone smarter than you",
+      "text": "The monster gets a degree at ${college} and finds someone smarter than you",
       "nextSlideId": "ending",
-      "slot": "school",
+      "slot": "college",
       "timer": 7
     },
     {

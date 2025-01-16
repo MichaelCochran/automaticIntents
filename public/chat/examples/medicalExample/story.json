@@ -10,7 +10,7 @@
     {
       "id": "startPage",
       "type": "options",
-      "fallback": "Try talking",
+      "fallback": "If using a name, be sure to say 'doctor' .   ",
       "text": "You can ask about doctors, numbers, and appointments",
       "display": "none",
       "options": [

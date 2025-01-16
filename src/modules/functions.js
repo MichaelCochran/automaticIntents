@@ -122,9 +122,17 @@ async function runConversation(userInput, optionData, model) {
             console.log("->-", response.choices[0].message.tool_calls[0]);
             return response.choices[0].message.tool_calls[0];
         } else {
-            console.log("No tool calls found.")
-            // Handle the case where there are no tool calls (e.g., return a default value, throw an error, etc.)
+            console.log("No tool calls found. Sending to fallback");
+            return {
+                "id": "call_000",
+                "type": "function",
+                "function": {
+                    "name": "fallback",
+                    "arguments": ""
+                }
+            };
         }
+
 
        // console.log("->-", response.choices[0].message.tool_calls[0]);
        // return response.choices[0].message.tool_calls[0];
